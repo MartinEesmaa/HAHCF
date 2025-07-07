@@ -1,0 +1,17 @@
+# Ren'Py Project Files temp files to be ignored in Git
+
+project.json
+*.rpyc
+*.bak
+*.rpy~
+*.rpyc~
+*.rpymb
+*.rpyb
+game/cache
+*.log
+launcherinfo.py
+[t]mp
+
+# Compressed files of build distributions
+*.zip
+*.tar.bz2
