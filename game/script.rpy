@@ -227,26 +227,24 @@ label start:
      $ Waited = False
      $ imwrong = False
      play music "Jim Lang - Operation Ruthless End.mp3"    
-     h "So, let's just start off by saying Cheese Festivals never, ever worked out in my favor..."
+     h "Let's just start off by saying Cheese Festivals never, ever worked out in my favor..."
      scene CG1
      with dissolve
-     h "I can remember..."
      h "There were two of them when I was nine-years-old and both of them ended up with me..."
      h "Well, how do they put it..."
      scene CG2
      with dissolve
      h "Forever alone." 
      h "And now..."
-     h "It was that time of year again."  
+     h "Once again..."
      scene CG3
      with dissolve
      h "Hillwood was going to have another one."
      h "And I wasn't looking forward to it."
-     h "Because I knew it would be filled with people who were happier than me."
-     h "They would be having a good time, laughing...enjoying their lives."
-     h "Their loves..."
-     h "And the one thing that made me truly happy..."
-     h "Well it made me so miserable every time the Festival came to town."
+     h "Because it would just be people who are way happier than me..."
+     h "Having a good time, laughing... enjoying life."
+     h "And the one thing that made me happy..."
+     h "Made me so miserable every time the Festival came to town."
      h "I hate that."
      stop music fadeout 3.0
      scene start
@@ -255,17 +253,16 @@ label start:
      h "..."
      h "......"
      play music "Jim Lang - Home Wit Jerome.mp3"
-     h "This all began on a morning pretty much exactly like any other."
-     h "It started with me wondering if I should bother to tell my mother I was leaving for school."
+     h "Alright Miriam, I'm leaving...!!"
      scene bg helga house day
      with dissolve
-     hslow "Not that you can hear me passed out on the kitchen table... Criminy!"
+     hslow "Criminy!"
      hslow "Oh, morning Pheebs..."
      show phoebe smile
      with dissolve
-     h "Phoebe's my best friend."
+     h "Phoebe was my best friend..."
      h "And a damn good assistant."
-     h "But of course she's mostly my friend."
+     h "But of course mostly my friend."
      pslow "Good morning Helga, how are you today?"
      hslow "Oh you know, same ol', same ol'..."
      h "I was lying..."
@@ -273,83 +270,53 @@ label start:
      show phoebe grin
      with dissolve
      pslow "That's good to hear!"
-     hslow "Jeez, feeling perky, Phoebe?" 
+     hslow "Well aren't you perky this morning." 
      show phoebe hehe
      with dissolve
      pslow "Of course! Since the Cheese Festival is only a few days away now and..."
-     h "Phoebe's grinning like an idiot, talking about that damn Festival."
-     h "I can't even imagine myself having a good time."
-     h "So I snap at her..."
-     h "I just can't help myself."
+     h "And you and Gerald are going together and are sure to have a wonderful time doing romantic things..."
      hslow "Blah, blah, blah..."
-     hslow "That stupid festival never changes."
-     hslow "It's the same damn carnival every year."
-     hslow "Big freaking deal..."
-     h "I continue to mumble quiet profanities under my breath."
      show phoebe question
      with dissolve
-     h "Ever since a few years back, whenever they started dating, Phoebe and her boyfriend Gerald were like the \"it\" couple."
-     h "He was cool, and she was smart and they just worked out perfectly...I guess..."
+     h "Ever since a few years back, Phoebe and her boyfriend Gerald were like the \"it\" couple."
+     h "He was cool, and she was smart and they just worked."
      h "..."
      h "I'll never, ever tell her I'm {i}slightly{/i} jealous."
      pslow "Why so down Helga? Don't you find the fair fun anymore?"
      hslow "Phoebe, how can you not remember..."
-     h "Then again, why would she? She always ended up not feeling like a miserable failure by the end of it."
+     h "Why would she? She always ended up not being miserable..."
      h "Unlike me..."
-     hslow "Never mind, I'm just being negative...or whatever."
-     h "Negative? Hah. That's a word for it."
+     hslow "Never mind, I'm just being negative or whatever."
      show phoebe sad
      with dissolve
      pslow "If you say so." 
      hslow "I do say so!"
-     hslow "And while we're on the topic of the Festival..."
-     pslow "Yes?"
-     hslow "There's no way I'm going this year."
-     h "Phoebe frowns deeper..."
-     pslow "But why not Helga?"
-     pslow "Even if you've had a bad time before..."
-     show phoebe question
-     with dissolve
-     h "I cut her off before she can go on."
-     hslow "Give it a break Phoebe, criminy..."
-     hslow "Why do you even care?"
-     show phoebe sad
-     with dissolve
-     pslow "It's just..."
-     h "She shakes her head, like she's clearing her thoughts. She seems ready to give me some type of lecture."
-     pslow "It seems to me..."
-     pslow "Maybe if you tried to focus on something other than...uh..."
+     hslow "And I'd also like to add there is no way in hell I'm going this year."
+     pslow "Why not Helga?"
      show phoebe unsure
      with dissolve
+     hslow "Why do you care so much?"
+     hslow "It's just a carnival..."
+     pslow "I know..."
+     pslow "But it seems to me..."
+     pslow "Maybe if you tried to focus on something other than...uh..."
      pslow "...You-know-who..."
-     show phoebe smile
-     with dissolve
-     pslow "You might be able to enjoy yourself more..." 
-     h "I nod my head slowly, taking it all in."
-     h "Just kidding."
-     h "I had heard this all before, multiple times in fact."
+     pslow "You might be able to enjoy yourself more..."
      hslow "..."
      hide phoebe smile
      with dissolve
      scene bg city day
      with dissolve
-     h "Even if I sat her down to explain the insanity of my emotions..."
-     h "She just couldn't understand how hard that was for me, to put him aside."
-     h "She would never understand how most of the time he felt like the only good part in my whole life..."
-     h "The light in my otherwise bleak existence."
-     h "But at the very same time, that damn Football Head could ruin me with a smile..."
-     h "Especially if that smile was aimed at someone other than me."
-     h "And almost always, it was."
-     hslow "You don't get it."
-     pslow "What?"
+     h "She just couldn't understand how hard that was for me..."
+     h "How most of the time he felt like the only good part in my whole life..."
+     h "And at the same time could ruin it with a smile..."
+     h "Especially if that smile was for someone other than me."
+     h "Which it usually was."
      hslow "It's not that easy..."
      show phoebe sad
      with dissolve
      pslow "Helga..."
-     hslow "Ugh, don't pity me Phoebe."
-     show phoebe sad
-     with dissolve
-     h "My warning didn't matter, she gives me a pitiful look anyway."
+     hslow "Don't pity me Phoebe."
      hslow "I'm used to it now."
      hslow "I know..."
      stop music
@@ -363,7 +330,7 @@ label start:
      window show
      aslow "Helga!"
      scene CG6 with dissolve
-     aslow "We've got to stop bumping into each other like this! Haha!"
+     aslow "We've got to stop running into each other like this! Haha!"
      scene CG7 with dissolve
      menu:
         hslow "Uh...well..."
@@ -383,7 +350,6 @@ label GoodGoing:
     $ renpy.block_rollback()
     play music "Jim Lang - Back To School.mp3"
     hslow "Got that right, Football Head, one of these days I might actually hurt you!"
-    h "Whew~"
     scene bg city day with dissolve
     show arnold sad smile
     with dissolve
@@ -399,10 +365,9 @@ label GoodGoing:
     with dissolve 
     pslow "I've no issue with that..."
     pslow "Helga?"
-    h "Remain calm...calm...calm..."
     hslow "Whatever floats your boat."
-    h "Why is my heart pounding like this?"
-    h "Why does he do this to me?!"
+    h "God my heart's beating so fast!"
+    h "Why does he still do this to me?!"
     show arnold simple 
     with dissolve
     aslow "Cool, thanks."
@@ -1433,7 +1398,7 @@ label Home:
         show arnold simple with dissolve
         aslow "Okay Helga, like I said, I won't press your buttons."
         h "He turns away from me, and then causally looks over his shoulder to say..."
-        aslow "I'll see ya later..."
+        aslow "I'll see ya tomorrow, okay?"
         hslow "..."
         menu:
             hslow "Well..."
