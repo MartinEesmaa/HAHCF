@@ -145,7 +145,6 @@ label splashscreen:
    
     show opening pic
     with dissolve
-    play sound "OPENINGSONG.wav"
     $ renpy.pause(5.0, hard=True)
     
     scene black
