@@ -9,8 +9,14 @@ project.json
 *.rpyb
 game/cache
 *.log
+*.mxc2
 launcherinfo.py
+
+
+# Temporary folders
 [t]mp
+game/saves
+game/cache
 
 # Compressed files of build distributions
 *.zip
