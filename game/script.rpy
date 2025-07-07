@@ -64,6 +64,10 @@ image SPLASH:
 image CG1 = "CG1.png"
 image CG2 = "CG2.png"
 image CG3 = "CG3.png"
+image CG4 = "CG4.png"
+image CG5 = "CG5.png"
+image CG6 = "CG6.png"
+image CG7 = "CG7.png"
 
 #Arnold Expressions Go Here
 image arnold simple = "Arnold 1.png"
@@ -179,6 +183,9 @@ label start:
     
      $ GeraldSpills = False
      $ Good = False
+     $ Perfect_1 = False
+     $ Perfect_5 = False
+     $ True_1 = False
      play music "Jim Lang - Operation Ruthless End.mp3"    
      h "So, let's just start off by saying Cheese Festivals never, ever worked out in my favor..."
      scene CG1
@@ -306,27 +313,50 @@ label start:
      hslow "I'm used to it now."
      hslow "I know..."
      stop music
+     scene CG4
      play sound "Right Cross-SoundBible.com-1721311663.wav"
      with hpunch
      h "CRASH!!"
+     play sound "Helga Interrupts.mp3"
+     scene CG5 with dissolve
      hslow "Arnold!"
      window show
      aslow "Helga!"
+     scene CG6 with dissolve
      aslow "We've got to stop bumping into each other like this! Haha!"
-     hslow "Uh...well..."
+     scene CG7 with dissolve
+     menu:
+        hslow "Uh...well..."
+
+        "Got that right!":
+         
+        
+            jump GoodGoing
+            
+        "No, it's fine.":
+         
+        
+            call OuchWrong
+
 label GoodGoing:
-    $ GeraldSpills = True
+    $ Perfect_1 = True
+    $ renpy.block_rollback()
+    play music "Jim Lang - Back To School.mp3"
     hslow "Got that right, Football Head, one of these days I might actually hurt you!"
     h "Whew~"
-    scene bg city day
+    scene bg city day with dissolve
     show arnold sad smile
+    with dissolve
     aslow "Right Helga, whatever you say."
     show arnold turn unsure
+    with dissolve
     aslow "Well anyway..."
     h "He looks around, kind of nervously."
     aslow "Do you mind if I walk with you guys the rest of the way?"
     show arnold turn unsure at left
+    with dissolve 
     show phoebe question at right
+    with dissolve 
     pslow "I've no issue with that..."
     pslow "Helga?"
     h "Remain calm...calm...calm..."
@@ -334,6 +364,7 @@ label GoodGoing:
     h "Why is my heart pounding like this?"
     h "Why does he do this to me?!"
     show arnold simple 
+    with dissolve
     aslow "Cool, thanks."
     h "..."
     h "......"
@@ -369,6 +400,110 @@ label GoodGoing:
     with dissolve
     aslow "You haven't had a good time with the Festivals either?"
     hslow "I didn't say that..."
+    show arnold turn unsure
+    with dissolve
+    aslow "No, you did, you just said..."
+    hslow "It doesn't matter what I said, hey look!"
+    h "I point out the looming, big, brown building."
+    scene school
+    with dissolve
+    hslow "It's the school!"
+    show arnold turn unsure at left
+    with dissolve
+    show phoebe grin at right
+    with dissolve
+    pslow "Anyway the festival..."
+    h "Phoebe tries to pull his attention away from me..."
+    h "I suppose my showing him where the school was...wasn't good enough."
+    pslow "It's on Saturday. Can you believe it?"
+    show arnold turn surprise
+    with dissolve
+    aslow "Wow, only three more days?"
+    hslow "Whoopee~"
+    h "..."
+    h "That they decide to ignore."
+    show arnold turn angry
+    with dissolve
+    h "Suddenly Arnold turns towards the school."
+    aslow "Ugh..."
+    aslow "I gotta rush...my class is all the way on the other side of the building."
+    show arnold simple
+    with dissolve
+    aslow "Well, I'll see you guys later!"
+    hide arnold simple
+    with dissolve
+    show phoebe smile at center
+    with dissolve
+    h "There walks the love of my life..."
+    h "Completely oblivious as always."
+label Ditching:  
+    scene school
+    with dissolve
+    h "..."
+    h "......"
+    h "As we get closer to the entrance of the school, I notice I start to slow down..."
+    hslow "I really don't wanna be here right now..."
+    h "I stop completely, finding a stone on the sidewalk more interesting then moving on."
+    hslow "Phoebe, I think I'm just gonna skip class..."
+    stop music fadeout 3.0
+    show phoebe sad
+    with dissolve
+    pslow "Helga that's not wise..."
+    menu:
+        hslow "I know but..."
+
+        "Okay, you're right...":
+        
+            call OuchWrong2
+            
+        "I'll be back later.":
+        
+            jump GoodGoing2
+
+label GoodGoing2:
+    $ Perfect_5 = True
+    $ renpy.block_rollback()
+    hslow "I promise I'll be back before the afternoon classes start..."
+    play music "Jim Lang - Thinkin' It Over.mp3"
+    hslow "I just gotta..."
+    h "I want to give her a valid excuse, something better than...than..."
+    hslow "Think or something..."
+    h "Better than that."
+    pslow "Well, okay. I'll take notes for you."
+    hslow "Thanks..." 
+    h "It's all I could think to say."
+    pslow "Bye-bye."
+    hide phoebe sad
+    with dissolve
+    h "I turn and leave without a word and, somehow, after a long while of aimlessly walking..."
+    scene festival day
+    with dissolve
+    h "I end up at the festival grounds."
+    h "The whole place looks like some type of horror movie in the making."
+    h "It was completely abandoned...I guess the guys who were suppose to set it up were on break."
+    h "I took a look around anyway..."
+    h "The only thing this place brought up in me was bad memories."
+    h "It was like I could see every unsuccessful scheme flash before my eyes."
+    hslow "Ugh, my plans never go right!"
+    h "I felt like the best thing to do at this point was to fall down, maybe curl up and sleep."
+    h "Was there even a point to evil plans and plots anymore?"
+    h "Even if I ruined Arnold's time, he always ended up kind of, sort of happy in the end."
+    h "That beautiful, damn-it-all, always looking on the bright side attitude."
+    stop music fadeout 3.0
+    h "And that's when it hit me...I should get to him before he even has a chance to ask someone else."
+    play music "Jim Lang - Helga Confession Blowout.mp3"
+    h "I should just get him to bring me!"
+    hslow "That's it!" 
+    h "The real question though, was how..."
+    h "It's obvious that by now, after all these years, Arnold isn't exactly used to a nice, ask-this-girl-out-right-now, type of personality from me..."
+    h "But I could try, couldn't I? To be just a little nicer to him, a little kinder..."
+    h "It wasn't that much of a stretch."
+    h "Could he be swayed?"
+    h "Could I...his one true love...finally win his heart?!"
+    h "This would have to be handled delicately, any wrong choice could completely botch things up."
+    h "Without another thought I turn around and head back towards the school..."
+    h "This time I was going to be successful! I was sure of it..."
+    hslow "Hegla G. Pataki, Saturday night is gonna be your night ol' girl!" 
 label Home:    
     scene start 
     with dissolve
