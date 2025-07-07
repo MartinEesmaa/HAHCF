@@ -181,10 +181,30 @@ label start:
      with dissolve 
     
      $ GeraldSpills = False
+     $ Festival = False
+     $ Class = False
+     $ Sorry = False
      $ Good = False
+     $ PerfectDay = False
      $ Perfect_1 = False
+     $ Perfect_2 = False
+     $ Perfect_3 = False
+     $ Perfect_4 = False
      $ Perfect_5 = False
      $ True_1 = False
+     $ True_2 = False
+     $ True_3 = False
+     $ True_4 = False
+     $ soup = False
+     $ skipped = False
+     $ poem = False
+     $ fight = False
+     $ funny = False
+     $ almost = False
+     $ IMGOING = False
+     $ Maybe = False
+     $ Waited = False
+     $ imwrong = False
      play music "Jim Lang - Operation Ruthless End.mp3"    
      h "So, let's just start off by saying Cheese Festivals never, ever worked out in my favor..."
      scene CG1

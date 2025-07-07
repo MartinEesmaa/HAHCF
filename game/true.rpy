@@ -1,8 +1,30 @@
 label IFTHEN:
     $ GeraldSpills = False
+    $ Festival = False
+    $ Class = False
+    $ Sorry = False
+    $ Good = False
+    $ PerfectDay = False
     $ Perfect_1 = False
+    $ Perfect_2 = False
+    $ Perfect_4 = False
     $ Perfect_5 = False
     $ True_1 = False
+    $ True_2 = False
+    $ True_3 = False
+    $ IMGOING = False
+    $ Maybe = False
+    $ True_4 = False
+    $ persistent.true = False
+    $ persistent.ending_1 = False
+    $ persistent.ending_2 = False
+    $ soup = False
+    $ skipped = False
+    $ poem = False
+    $ fight = False
+    $ funny = False                   
+    $ Waited = False                         
+    $ imwrong = False
 label OuchWrong:
     $ True_1 = True
     window show
