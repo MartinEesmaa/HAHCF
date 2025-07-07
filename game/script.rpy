@@ -118,10 +118,16 @@ image day one3 = "dayone3.png"
 init:
 # Declare characters used by this game.
 # Slow text.
-    $ hslow = Character("Helga", color="#83C3FF", what_slow_cps=30)
-    $ pslow = Character("Phoebe", color="#83C3FF", what_slow_cps=24)                       
-    $ aslow = Character('Arnold', color="#83C3FF", what_slow_cps=24)
-    $ h = Character(None, what_slow_cps=24)
+    $ hslow = Character("Helga",
+                        color="#F9B7FF",
+                        what_slow_cps=30,
+                        font="RONDALO_.TTF")
+                        
+    $ pslow = Character('Phoebe', color="#F9B7FF", what_slow_cps=24, font="RONDALO_.TTF", size= 29)
+    $ aslow = Character('Arnold', color="#F9B7FF", what_slow_cps=24, font="RONDALO_.TTF", size= 29)
+    $ gslow = Character('Gerald', color="#F9B7FF", what_slow_cps=24, font="RONDALO_.TTF", size= 29)
+    $ lslow = Character('Lila', color="#F9B7FF", what_slow_cps=24, font="RONDALO_.TTF", size= 29)
+    $ h = Character(None, what_slow_cps=24, what_italic=True)
 # The game starts here.
 label splashscreen:
     scene black
@@ -344,10 +350,10 @@ label Home:
     h "Passing the Festival grounds once again, almost like an omen or something..."
     scene bg city evening
     with dissolve
-    h "{i}I arrive at City Park and walk towards my tree.{/i}"
-    h "{i}Yes, it was my tree...I took claim of it years ago even if nobody knew it...{/i}"
-    h "{i}I had carved dozen of things in its bark and yet somehow found an excuse to chisel it away afterwards.{/i}"
-    h "{i}I was always, even at this very moment, so terribly frightened of my love for...{/i}"
+    h "I arrive at City Park and walk towards my tree."
+    h "Yes, it was my tree...I took claim of it years ago even if nobody knew it..."
+    h "I had carved dozen of things in its bark and yet somehow found an excuse to chisel it away afterwards."
+    h "I was always, even at this very moment, so terribly frightened of my love for..."
     window show
     show arnold grin
     with dissolve
