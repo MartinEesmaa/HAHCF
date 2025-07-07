@@ -68,6 +68,9 @@ image CG4 = "CG4.png"
 image CG5 = "CG5.png"
 image CG6 = "CG6.png"
 image CG7 = "CG7.png"
+image CG8 = "CG8.png"
+image CG9 = "CG9.png"
+image CG10 = "CG10.png"
 
 #Arnold Expressions Go Here
 image arnold simple = "Arnold 1.png"
@@ -920,52 +923,344 @@ label continueon:
     h "One step at a time or I might die!" 
     hide arnold yeah
     with dissolve
+label afterschool:
+    if True_4:
+        scene start
+        with dissolve
+        h "..."
+        h "......"
+        scene school
+        with dissolve
+        play music "Jim Lang - Home Wit Jerome.mp3"
+        h "Eventually the longest school day in all of history comes to an end."
+        h "Thank God..."
+        show phoebe smile
+        with dissolve
+        pslow "Ready to head out Helga?"
+        h "Phoebe's waiting for me outside the school."
+        hslow "Uh, yeah."
+        show phoebe question
+        with dissolve
+        pslow "Still upset about this afternoon?"
+        hslow "Is it that obvious, Pheebs?"
+        pslow "Probably only to me, but still..."
+        show phoebe smile
+        with dissolve
+        pslow "I take it you've come up with some sort of a plan?"
+        hslow "Phoebe, I always have a plan."
+        pslow "Hmm...I thought as much."
+        hide phoebe smile
+        with dissolve
+        h "I was about to describe my idea in great detail when a chipper voice from Hell interrupts me."
+        show lila glad
+        with dissolve
+        lslow "Hello Helga, Phoebe...heading home?"
+        hslow "Where else would we be going, Lila?"
+        show lila glad at left
+        with dissolve
+        show phoebe surprise at right
+        with dissolve
+        pslow "Oh dear..."
+        show lila grin 
+        with dissolve
+        show phoebe question
+        with dissolve
+        lslow "Well I don't know Helga...you could be off to an assortment of different places!"
+        h "She didn't have to be so God damn literal..."
+        hslow "You're right Lila, but we aren't, we're going home so...bye."
+        lslow "No, no, if you're heading home I'll walk with you!"
+        hslow "You really don't have too."
+        show phoebe mad
+        with dissolve
+        pslow "It would probably be better if you didn't..."
+        lslow "Oh but I'd ever so like to!"
+        hide lila grin with dissolve
+        show phoebe unsure at center
+        with dissolve
+        pslow "Uh, Helga?"
+        h "I look over at Phoebe...signaling that I saw no way of getting out of this..."
+        show phoebe question
+        with dissolve
+        pslow "Right."
+        hide phoebe question 
+        with dissolve
+        h "So off we went...with Lila in tow, going on about who knows what, when suddenly she starts..."
+        scene bg city day
+        with dissolve
+        show lila grin
+        with dissolve
+        lslow "That was until Arnold came up and told me he liked how I did my hair that day..."
+        hslow "You mean your braid?"
+        show lila glad
+        with dissolve
+        lslow "Well yes..."
+        lslow "..."
+        hslow "..."
+        h "There was a moment of thoughtful silence from her..."
+        scene CG40
+        with dissolve
+        lslow "Do you still like him, by the way?"
+        hslow "Huh?!"
+        pslow "Excuse me!?"
+        lslow "Arnold? You had a crush on him when we were kids, I remember you telling me."
+        lslow "You still don't feel that way right?"
+        lslow "It would be ever so silly if you did..."
+        hslow "Wh-why would it be silly?"
+        lslow "Well, pining after someone with no interest in you, even after all this time..."
+        scene bg city day
+        with dissolve
+        show lila sympathy 
+        with dissolve
+        lslow "It's a little sad, just ever so sad."
+        hslow "Shove it Lila, nobody cares what you think."
+        show lila sympathy at right
+        with dissolve
+        show phoebe unsure at left
+        with dissolve
+        pslow "Oh my..."
+        h "I had pretty much answered her question with my retort..."
+        lslow "So you do still like him..."
+        lslow "That's a shame...since he's gotten rather handsome."
+        hslow "What are you talking about?"
+        hslow "He's always been handsome!"
+        h "What the hell was the matter with me?"
+        h "Why couldn't I keep my mouth shut?"
+        hslow "Wait..."
+        h "But why was it a shame?"
+        show phoebe question
+        with dissolve
+        pslow "...Why is Arnold being handsome a shame?"
+        hslow "...Uh yeah?"
+        show lila ticked
+        with dissolve
+        lslow "That's not a shame...you liking him is."
+        hslow "What the...care to repeat that?"
+        show lila glad
+        with dissolve
+        lslow "Well, he and I have always looked good together...haven't we?"
+        hslow "No, you haven't."
+        h "She was smiling, but there's this look in her eyes like she's daring me to prove her wrong."
+        h "It's my life's mission."
+        show lila grin
+        with dissolve
+        lslow "Well, this is where we go our separate ways!"
+        h "She was so cheerful as she completely ignored me."
+        hide lila grin 
+        with dissolve
+        show phoebe question at center
+        with dissolve
+        h "She waves and spins around, her big, beautiful braid bouncing behind her as she walks."
+        hslow "I hate her..."
+        show phoebe mad
+        with dissolve
+        pslow "I know...she isn't exactly as pleasant as she used to be..."
+        hslow "Ugh...Now I have a bad taste in my mouth."
+        h "I casually look down the street and catch sight of my stoop."
+        h "I could use a nap now."
+        hslow "I'll call you later Pheebs, okay?"
+        show phoebe smile
+        with dissolve
+        pslow "Right, okay."
+        pslow "I'll see you later Helga!"
+        stop music fadeout 3.0
+        hide phoebe smile
+        with dissolve
+        h "And off she went..."
+        h "And I run home as fast as my legs can carry me."
+        jump Home
+    else:
+        scene school
+        with fade
+        play music "Jim Lang - Home Wit Jerome.mp3"
+        h "Eventually what felt like the longest school day in history comes to an end..."
+        h "Thank God..."
+        show phoebe smile
+        with dissolve
+        pslow "Ready to head home, Helga?"
+        hslow "Yeah...all ready!"
+        show phoebe grin
+        with dissolve
+        pslow "You seem a lot cheerier than you were this morning."
+        h "Phoebe notes the sound of my rather cheerful voice."
+        hslow "Damn right, and I'll tell ya why Pheebs, so listen close."
+        show phoebe laugh
+        with dissolve
+        pslow "Listening!~"
+        hslow "I had an idea Phoebe, that deals with..."
+        hslow "You-know-who..." 
+        show phoebe question
+        with dissolve
+        pslow "Really? Well to be honest, I'm not all that surprised."
+        pslow "I knew you'd come up with something."
+        hslow "Yes, you see I realized that the only person making my Cheese Festival experiences so bad, was well...me."
+        hslow "So I decided..."
+        show phoebe question at right
+        with dissolve
+        show gerald happy at left
+        with dissolve
+        gslow "Hey Phoebe."
+        show gerald wtf
+        with dissolve
+        gslow "...Helga..."
+        hslow "Geraldo, really, I need her for like another minute and then you can go be cutesy far...faaaar away from me."
+        show gerald unsure 
+        with dissolve
+        gslow "Man, I don't know how you two can put up with her..."
+        pslow "Pardon? Who else are you talking about Gerald?"
+        show gerald pissed
+        with dissolve
+        gslow "Arnold's been talking about Miss Helga G. Pataki all day!"
+        show phoebe surprise
+        with dissolve
+        pslow "Excuse me?"
+        hslow "Arnold?!"
+        show gerald happy
+        with dissolve
+        gslow "Yeah, so what's going on?"
+        hslow "Going on? Nothing's going on...why would you think anything's going on?!"
+        show gerald wtf 
+        with dissolve
+        show phoebe question
+        with dissolve
+        gslow "Damn girl, take a breath...I meant with you two."
+        h "Yeah, I should probably take it easy...wouldn't want to pass out from gossip."
+        show phoebe smile
+        with dissolve
+        pslow "Well we were just heading home and..."
+        h "I stare Phoebe down and pray she can read my mind."
+        h "Ask him about Arnold so I don't have to Phoebe!!"
+        h "Then it wouldn't be gossip, it would be cold, hard facts."
+        h "Kind of...sort of..."
+        show phoebe question
+        with dissolve
+        pslow "No wait, why is Arnold talking about Helga? Is it bad?"
+        h "I knew she was my best friend for a reason."
+        show gerald pissed
+        with dissolve
+        gslow "Are you kidding?"
+        gslow "Non-stop he's been goin' on about you, seriously..."
+        gslow "He thinks you guys had a really great talk at lunch or...something!"
+        show gerald wtf
+        with dissolve
+        gslow "..."
+        gslow "What are you doing to him?"
+        hslow "What the hell's that supposed to mean?" 
+        $ GeraldSpills = True
+        gslow "Nothing, nothing...just wondering what got you on his mind is all..."
+        hslow "How am I supposed to know why the Football Head's thinking about me?"
+        show gerald unsure
+        with dissolve
+        h "I feel like my head's swimming...~"
+        h "Arnold was thinking about me? Talking about me?"
+        h "Maybe this was going to be easier than I thought."
+        show gerald happy
+        with dissolve
+        gslow "Hmm..."
+        pslow "What is it?"
+        gslow "Arnold talking about Helga, and saying good things too?..."
+        h "He was teasing me now, I could hear it in his voice..."
+        gslow "Never thought I'd see the day."
+        h "He said it with a rather earnest smile."
+        show phoebe unsure
+        with dissolve
+        pslow "Gerald, you say that as if you were expecting it to happen, rather than being surprised by it..."
+        show gerald unsure
+        with dissolve
+        gslow "Yeah...I guess I always assumed you two would get together at some point."
+        hslow "What!?"
+        show gerald happy
+        with dissolve
+        gslow "I dunno man..."
+        h "He laughed suddenly..."
+        gslow "You two fight so much though..."
+        gslow "Haha, you'd probably have some seriously hot, angry..."
+        h "Please don't finish that sentence, please don't finish that sentence!"
+        show phoebe surprise
+        with dissolve
+        pslow "Enough!"
+        h "I was sure my head was about to explode."
+        h "Lucky Phoebe came to the rescue..."
+        show phoebe big grin
+        with dissolve
+        pslow "But..."
+        pslow "I always thought so too..."
+        hslow "Phoebe!"
+        pslow "Ehehehe....sorry, Helga."
+        gslow "I knew it!"
+        hslow "Ugh, I can't even..."
+        h "It's amazing how fast one conversation can make you tired..."
+        hslow "You know what Pheebs, text me later...I just remembered I gotta go do something!"
+        h "Like sleep...for a year...and a half."
+        show phoebe question
+        with dissolve
+        pslow "Oh! Well okay Helga..."
+        stop music fadeout 3.0
+        show phoebe question
+        with dissolve
+        pslow "I'll see you later..."
+        hide phoebe question
+        with dissolve
+        hide gerald unsure
+        with dissolve
 label Home:    
     scene start 
     with dissolve
     scene helga room evening
+    with dissolve
     h "After a much needed nap..."
     h "I get up from bed, grab my diary, and begin to write in poems, draw random doodles."
     h "And just as the sun was beginning to set over the city...."
     h "I find myself looking away from my work, out the window."
+    play music "Jim Lang - Wonder What ArnoId's Doing.mp3"
     h "My mind, as always finds Arnold...wondering what my love could be doing right at this moment..."
     h "I look over my mess of notes and drawings, then outside, back and forth..."
+    scene start 
+    with dissolve
     h "Slowly I get up from my bed and leave my room, barely a word to Big Bob and Miriam as I slam the front door behind me."
     h "Passing the Festival grounds once again, almost like an omen or something..."
-    scene bg city evening
+    scene bg city park evening
     with dissolve
+    window show
     h "I arrive at City Park and walk towards my tree."
     h "Yes, it was my tree...I took claim of it years ago even if nobody knew it..."
     h "I had carved dozen of things in its bark and yet somehow found an excuse to chisel it away afterwards."
     h "I was always, even at this very moment, so terribly frightened of my love for..."
-    window show
     show arnold grin
     with dissolve
     aslow "I keep running into you today Helga!"
     show arnold simple
+    with dissolve
     aslow "Granted this time it isn't literal..."
-    hslow "Arnold!..."
+    hslow "Arnold!.."
     hslow "Seriously Football Head...a little warning!" 
     show arnold small blush
+    with dissolve
     aslow "Heh, sorry..."
     hslow "Yeah, sure...sure, whatever." 
+    stop music fadeout 3.0
     if GeraldSpills:
         hslow "...Anyway..."
         hslow "I heard a funny rumor about you today, Arnoldo..."
         show arnold sad smile
+        with dissolve
         aslow "A rumor?"
         hslow "Yeah, some tall-haired birdie said you've been talking about me~"
         h "I let that trail off a little more giddily than necessary."
         show arnold big blush
+        with dissolve
         aslow "Huh?"
         hslow "Yep...so you think we had a nice chat after lunch, huh?"
         aslow "Uh...well..."
         hslow "Come on, spit it out."
         hslow "Use your big boy words."
         show arnold turn shy
+        with dissolve
+        play music "Jim Lang - Helga's True Love.mp3"
         aslow "Well, yeah Helga, I did say that and I meant it too."
         h "The point of me bringing this up was to make him all flustered for once..."
         h "And yet somehow he manages to turn the tables back on me!"
+        scene CG8
+        with dissolve
         aslow "I've always known that you were a nice girl Helga..."
         aslow "I'm just kinda happy you're finally showing me."
         aslow "I like you like that." 
@@ -973,30 +1268,121 @@ label Home:
         hslow "Really?"
         aslow "Yeah..."
         hslow "I sorta don't know what to say..."
+        scene bg city park evening
+        with dissolve
         show arnold surprise
+        with dissolve
         aslow "Well that's different."
         hslow "Hey, watch it!"
-        show arnold grin
+        show arnold sneaky
+        with dissolve
         aslow "I'm sorry, it's not everyday I get to be the one who does the teasing..."
         hslow "Well don't go thinking I'm ever gonna give you a chance to do it again!"
-        show arnold sad smile
+        show arnold calm
+        with dissolve
         aslow "Alright, alright I'll keep that in mind..."
-        show arnold simple
+        show arnold yeah
+        with dissolve
         h "Arnold looks down at the grass and kicks something visible to him."
         aslow "So..."
         hslow "So?"
         aslow "Can I walk ya home or something?"
         hslow "Or something..."
         show arnold sad smile
+        with dissolve
         aslow "What?"
         hslow "Nothing, Arnoldo...just teasing you."
         hslow "Restoring the world to its natural order."
         show arnold sneaky
+        with dissolve
         aslow "I didn't realize joking on you was such a big deal."
         hslow "The world could have ended and it would've been all your fault."
         hslow "That's how serious it was."
         show arnold simple
+        with dissolve
         aslow "Okay Helga, whatever you say."
+        hide arnold simple
+        with dissolve
+        scene start
+        with dissolve
+        h "..........."
+        h "..............."
+        h "I couldn't believe he was walking me home!"
+        h "I mean...yeah, yeah, he's done it before..."
+        h "But for some reason, now it felt special."
+        scene bg helga house evening
+        with dissolve
+        aslow "Uh....before you go inside..."
+        h "Arnold reaches out for my shoulder to hold me back a minute."
+        aslow "About earlier..."
+        hslow "Huh? Earlier when?"
+        show arnold frown
+        with dissolve
+        aslow "..."
+        show arnold turn unsure
+        with dissolve
+        aslow "Is it something good at least?"
+        hslow "What is?"
+        show arnold turn shy
+        with dissolve
+        h "He stares at me shyly for a moment, as if I'm to read his mind."
+        hslow "What is? I'm not a mind reader..."
+        aslow "Why..."
+        aslow "Why I'm...different...right?"
+        aslow "I just wanted to know..."
+        aslow "Is it, that, you can't tell me cause it's good, and you want to surprise me or...?"
+        show arnold turn sad
+        with dissolve
+        aslow "Or... Is it bad? And you're just waiting for the right moment to break the news?"
+        aslow "I'm guessing it's something like that..."
+        h "I bite at my lip nervously."
+        h "I couldn't tell him the answer to that question depended solely on his reaction."
+        hslow "That's a good question."
+        show arnold surprise
+        with dissolve
+        aslow "You don't know?"
+        hslow "Not really..."
+        show arnold sad smile
+        with dissolve
+        hslow "Just..."
+        hslow "Trust me, okay?"
+        show arnold turn okay
+        with dissolve
+        aslow "..."
+        hslow "..."
+        show arnold yeah 
+        with dissolve
+        aslow "Yeah..."
+        aslow "Yeah, I think I can..."  
+        hslow "Good!"
+        hslow "..."
+        aslow "..."
+        hslow "Well...I'm heading in."
+        show arnold calm
+        with dissolve
+        aslow "Okay..."
+        aslow "I'll be seeing ya."
+        hslow "Guess so..."
+        hide arnold calm
+        with dissolve
+        $ Good = True
+        hslow "~~sigh~~ Maybe this won't be so hard after all!"
+        aslow "Did you say something Helga?"
+        hslow "Nothing Football Head, just keep walking..."
+        scene start
+        with dissolve
+        scene helga room night
+        with dissolve
+        h "..."
+        h "......"
+        h "As soon as I make my way back to my room I pull out my little pink book again..."
+        h "And begin to recount my day with Arnold, filling the pages with thoughts and poems for him."
+        stop music fadeout 3.0
+        h "All for my beloved Arnold."
+        h "I write and write and write..."
+        h "Then slowly...I fall asleep."
+        window hide dissolve
+        jump DayTwo
     else:
         hslow "So what brings you out here Arnold?"
         show arnold sad smile
@@ -1009,6 +1395,7 @@ label Home:
         hslow "I know...I'm a barrel of laughs." 
         show arnold turn unsure
         with dissolve
+        play music "Jim Lang - Helga's True Love.mp3"
         aslow "..."
         aslow "You know you've kind of been hot and cold with me all day, any reason?"
         hslow "I'm imbalanced? I don't know..."
@@ -1046,5 +1433,11 @@ label Home:
         show arnold simple with dissolve
         aslow "Okay Helga, like I said, I won't press your buttons."
         h "He turns away from me, and then causally looks over his shoulder to say..."
-        aslow "I'll see ya tomorrow, okay?"
+        aslow "I'll see ya later..."
         hslow "..."
+        menu:
+            hslow "Well..."
+            "I'll be there.":
+                call Nope
+            "I dunno yet.":
+                call Saved

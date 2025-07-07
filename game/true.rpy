@@ -337,4 +337,38 @@ label quickchat:
     pslow "Oh Helga..."
     hide phoebe question
     $ True_4 = True
-    jump Home
+    jump afterschool
+
+label Nope:
+    window show
+    hslow "Well duh, Football Head...where else would I be?"    
+    show arnold grin
+    with dissolve
+    aslow "Haha, yeah okay Helga..."
+    aslow "I'll see ya..."
+    hide arnold grin with dissolve
+    h "I watched him go and tried not to breath out a heavy sigh..."
+    hslow "~~~sigh~~~"
+    h "I guess I would have to try harder tomorrow..."                                   
+    
+label Saved:
+    window show
+    hslow "Maybe you will, maybe you won't..."    
+    show arnold sneaky 
+    with dissolve
+    aslow "What you're just not gonna show up tomorrow?"
+    hslow "Would you be worried?"
+    show arnold  yeah with dissolve
+    aslow "Maybe I will, maybe I won't."
+    hslow "Oh, using my own words against me, huh?"
+    aslow "I learn from the best."               
+    hslow "Obviously."
+    show arnold grin 
+    with dissolve
+    aslow "Haha, okay, okay, enough...I'll see you tomorrow."
+    hslow "If you say so..."
+    hide arnold grin with dissolve
+    h "I watched him go and my heart swelled just a bit..."
+    h "Maybe I can do this after all..."
+    $ Good = True
+    
