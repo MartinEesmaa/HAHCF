@@ -23,11 +23,11 @@ init -1 python hide:
     ## This controls the title of the window, when Ren'Py is
     ## running in a window.
 
-    config.window_title = u"A Ren'Py Game"
+    config.window_title = u"Helga's Cheese Festival"
 
     # These control the name and version of the game, that are reported
     # with tracebacks and other debugging logs.
-    config.name = "A Ren'Py Game"
+    config.name = "Helga's Cheese Festival"
     config.version = "0.0"
 
     #########################################
@@ -50,23 +50,23 @@ init -1 python hide:
         widget_hover = "#cd249b",
 
         ## The color of the text in a widget.
-        widget_text = "#000000",
+        widget_text = "#ffffff",
 
         ## The color of the text in a selected widget. (For
         ## example, the current value of a preference.)
-        widget_selected = "#b6d754",
+        widget_selected = "#FAAFBE",
 
         ## The color of a disabled widget face. 
-        disabled = "#57cdff",
+        disabled = "#6A287E",
 
         ## The color of disabled widget text.
-        disabled_text = "#717be5",
+        disabled_text = "#6c2dc7",
 
         ## The color of informational labels.
-        label = "#000000",
+        label = "#FCDFFF",
 
         ## The color of a frame containing widgets.
-        frame = "#04b4ff",
+        frame = "#7D1B7E",
 
         ## The background of the main menu. This can be a color
         ## beginning with '#', or an image filename. The latter
