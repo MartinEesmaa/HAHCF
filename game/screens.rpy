@@ -1,6 +1,7 @@
 ﻿# This file is in the public domain. Feel free to modify it as a basis
 # for your own screens.
-
+init:
+    image main = "menu.jpg"
 ##############################################################################
 # Say
 #
@@ -173,33 +174,24 @@ screen nvl:
 # http://www.renpy.org/doc/html/screen_special.html#main-menu
 
 screen main_menu:
-
-    # This ensures that any other menu screen is replaced.
     tag menu
-
-    # The background of the main menu.
-    window:
-        style "mm_root"
-
-    # The main menu buttons.
-    frame:
-        style_group "mm"
-        xalign .98
-        yalign .98
-
-        has vbox
-
-        textbutton _("Start Game") action Start()
-        textbutton _("Load Game") action ShowMenu("load")
-        textbutton _("Preferences") action ShowMenu("preferences")
-        textbutton _("Help") action Help()
-        textbutton _("Quit") action Quit(confirm=False)
-
-init -2 python:
-
-    # Make all the main menu buttons be the same size.
-    style.mm_button.size_group = "mm"
-
+    if persistent.ending_1 and persistent.ending_2:
+        $ persistent.true = True
+    if persistent.true:
+        use main_menu2
+    else
+        use main_menu1 
+screen main_menu1:
+    tag menu
+    imagemap:
+        ground 'slideshow'
+        hover 'button.jpg'
+        
+        hotspot (349, 245, 105, 43) action Start()
+        hotspot (355, 293, 91, 39) action ShowMenu('load')
+        hotspot (287, 340, 231, 36) action ShowMenu('preferences')
+        hotspot (325, 385, 152, 38) action ShowMenu("gallery")
+        hotspot (359, 430, 87, 40) action Quit(confirm=False)      
 
 ##############################################################################
 # Navigation
@@ -513,8 +505,8 @@ screen quick_menu:
     hbox:
         style_group "quick"
     
-        xalign 1.0
-        yalign 1.0
+        xalign 0.97
+        yalign 0.98
 
         textbutton _("Q.Save") action QuickSave()
         textbutton _("Q.Load") action QuickLoad()
@@ -529,16 +521,16 @@ init -2 python:
     style.quick_button.xpadding = 5
 
     style.quick_button_text.set_parent('default')
-    style.quick_button_text.size = 12
-    style.quick_button_text.idle_color = "#8888"
-    style.quick_button_text.hover_color = "#ccc"
-    style.quick_button_text.selected_idle_color = "#cc08"
-    style.quick_button_text.selected_hover_color = "#cc0"
-    style.quick_button_text.insensitive_color = "#4448"
+    style.quick_button_text.size = 15
+    style.quick_button_text.idle_color = "#FCDFFF"
+    style.quick_button_text.hover_color = "#9E7BFF"
+    style.quick_button_text.selected_idle_color = "#F9B7FF"
+    style.quick_button_text.selected_hover_color = "#FFFFFF"
+    style.quick_button_text.insensitive_color = "#C12869"
     
     # Set a default value for the auto-forward time, and note that AFM is
     # turned off by default.
     config.default_afm_time = 10
     config.default_afm_enable = False
-    
-    
+  
+

@@ -12,7 +12,7 @@ init -1 python hide:
     ## Should we enable the use of developer tools? This should be
     ## set to False before the game is released, so the user can't
     ## cheat using developer tools.
-
+ 
     config.developer = True
 
     ## These control the width and height of the screen.
@@ -29,6 +29,7 @@ init -1 python hide:
     # with tracebacks and other debugging logs.
     config.name = "Helga's Cheese Festival"
     config.version = "0.0"
+    config.windows_icon = "icon1.png"
 
     #########################################
     # Themes
@@ -76,7 +77,7 @@ init -1 python hide:
         ## The background of the game menu. This can be a color
         ## beginning with '#', or an image filename. The latter
         ## should take up the full height and width of the screen.
-        gm_root = "#cd249b",
+        gm_root = "NAVIGATION.jpg",
 
         ## If this is True, the in-game window is rounded. If False,
         ## the in-game window is square.
@@ -86,7 +87,7 @@ init -1 python hide:
         ## various styles, so if we want to change them, we should
         ## do so below.            
         )
-
+    
 
     #########################################
     ## These settings let you customize the window containing the
@@ -96,8 +97,8 @@ init -1 python hide:
     ## are the size of the left/right and top/bottom borders,
     ## respectively.
 
-    # style.window.background = Frame("frame.png", 12, 12)
-
+    #style.window.background = Frame("textbox.png", 0, 0)
+    style.mm_root.background = "menu.jpg"
     ## Margin is space surrounding the window, where the background
     ## is not drawn.
 
@@ -109,15 +110,15 @@ init -1 python hide:
     ## Padding is space inside the window, where the background is
     ## drawn.
 
-    # style.window.left_padding = 6
-    # style.window.right_padding = 6
-    # style.window.top_padding = 6
-    # style.window.bottom_padding = 6
+    style.window.left_padding = 23
+    style.window.right_padding = 14
+    style.window.top_padding = 26
+    style.window.bottom_padding = 24
 
     ## This is the minimum height of the window, including the margins
     ## and padding.
 
-    # style.window.yminimum = 250
+    style.window.yminimum = 167
 
 
     #########################################
@@ -134,22 +135,23 @@ init -1 python hide:
     ## the number is interpreted as a fraction of the size of the
     ## displayable or screen.
 
-    # style.mm_menu_frame.xpos = 0.5
-    # style.mm_menu_frame.xanchor = 0.5
-    # style.mm_menu_frame.ypos = 0.75
-    # style.mm_menu_frame.yanchor = 0.5
-
+    style.mm_menu_frame.xpos = 0.5
+    style.mm_menu_frame.xanchor = 0.75
+    style.mm_menu_frame.ypos = 0.5
+    style.mm_menu_frame.yanchor = 0.5
 
     #########################################
     ## These let you customize the default font used for text in Ren'Py.
 
     ## The file containing the default font.
 
-    # style.default.font = "DejaVuSans.ttf"
+    #style.default.font = "All Things Pink.ttf"
 
     ## The default size of text.
 
-    # style.default.size = 22
+    style.default.size = 25
+    
+    
 
     ## Note that these only change the size of some of the text. Other
     ## buttons have their own styles.
@@ -173,21 +175,20 @@ init -1 python hide:
 
     ## Sounds that are used when button and imagemaps are clicked.
 
-    # style.button.activate_sound = "click.wav"
-    # style.imagemap.activate_sound = "click.wav"
-
+    style.button.activate_sound = "WORK.wav"
+    style.imagemap.activate_sound = "WORK.wav"
+    style.imagemap_button.activate_sound = "leave.wav"
     ## Sounds that are used when entering and exiting the game menu.
 
-    # config.enter_sound = "click.wav"
-    # config.exit_sound = "click.wav"
+    config.enter_sound = "leave.wav"
+    config.exit_sound = "byebye.wav"
 
     ## A sample sound that can be played to check the sound volume.
 
-    # config.sample_sound = "click.wav"
+    config.sample_sound = "button-29.mp3"
 
     ## Music that is played while the user is at the main menu.
-
-    # config.main_menu_music = "main_menu_theme.ogg"
+    config.main_menu_music = "Jim Lang - Helga's True Love.mp3"
 
 
     #########################################
@@ -204,37 +205,41 @@ init -1 python hide:
 
 
     #########################################
-    ## Transitions.
-
+  ## Transitions.
+    layout.imagemap_main_menu
     ## Used when entering the game menu from the game.
-    config.enter_transition = None
+    config.enter_transition = dissolve
 
     ## Used when exiting the game menu to the game.
-    config.exit_transition = None
+    config.exit_transition = fade
 
     ## Used between screens of the game menu.
-    config.intra_transition = None
+    config.intra_transition = dissolve
 
     ## Used when entering the game menu from the main menu.
-    config.main_game_transition = None
+    config.main_game_transition = dissolve
 
     ## Used when returning to the main menu from the game.
-    config.game_main_transition = None
+    config.game_main_transition = dissolve
 
     ## Used when entering the main menu from the splashscreen.
-    config.end_splash_transition = None
+    config.end_splash_transition = fade
 
     ## Used when entering the main menu after the game has ended.
-    config.end_game_transition = None
+    config.end_game_transition = fade
 
     ## Used when a game is loaded.
-    config.after_load_transition = None
+    config.after_load_transition = fade
 
     ## Used when the window is shown.
-    config.window_show_transition = None
+    config.window_show_transition = dissolve
+    
+    config.main_menu.insert_transition = dissolve
+    
+    fade = Fade (1.5, 1.5, 1.5)
+ 
 
-    ## Used when the window is hidden.
-    config.window_hide_transition = None
+    
 
 
     #########################################
@@ -258,7 +263,7 @@ init -1 python hide:
 
     ## The default text speed in characters per second. 0 is infinite.
 
-    config.default_text_cps = 0
+    store._window_during_transitions
 
     #########################################
     ## More customizations can go here.
