@@ -97,7 +97,7 @@ init -1 python hide:
     ## are the size of the left/right and top/bottom borders,
     ## respectively.
 
-    #style.window.background = Frame("textbox.png", 0, 0)
+    style.window.background = Frame("textbox.png", 0, 0)
     style.mm_root.background = "menu.jpg"
     ## Margin is space surrounding the window, where the background
     ## is not drawn.
