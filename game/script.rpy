@@ -388,6 +388,7 @@ label GoodGoing:
     h "..."
     h "......"
     show phoebe grin
+    with dissolve
     pslow "So Arnold..."
     h "Phoebe's voice breaks through the silence."
     h "Thank God."
@@ -415,6 +416,14 @@ label GoodGoing:
     hslow "I know that feeling..."
     h "...!"
     h "I didn't mean to say that out loud!"
+    hide phoebe question
+    with dissolve
+    show arnold surprise at center
+    with dissolve
+    aslow "Really Helga?"
+    hslow "What?"
+    h "Why did he have the hear me?"
+    h "Why?"
     show arnold frown
     with dissolve
     aslow "You haven't had a good time with the Festivals either?"
@@ -523,6 +532,55 @@ label GoodGoing2:
     h "Without another thought I turn around and head back towards the school..."
     h "This time I was going to be successful! I was sure of it..."
     hslow "Hegla G. Pataki, Saturday night is gonna be your night ol' girl!" 
+label FIRSTDAY:    
+    window hide dissolve
+    stop music fadeout 1.0
+    scene start 
+    with fade
+label FIRSTTITLE:    
+    scene black 
+    $ renpy.pause(0.5, hard=True)
+    with fade
+    
+    show day one
+    with dissolve
+    $ renpy.pause(1.0, hard=True)
+    show day one2
+    with dissolve 
+    $ renpy.pause(3.0, hard=True)
+    
+    scene black 
+    with dissolve
+    $ renpy.pause(0.2, hard=True)
+    scene cafeteria doors
+    with fade
+    window show
+    if Perfect_5:
+        h "I somehow make it back just in time for lunch and catch Arnold standing on line for food..."
+    if True_2:
+        h "Lunch came quicker than I expected it too..."
+        h "And I catch Arnold on the food line."
+    h "Without really thinking on it..."    
+    h "I casually cut the person standing behind him and take his spot."
+    menu:
+        h "But what do I do?..."
+
+        "Say something to him...":
+        
+            jump GoodGoing3
+            
+        "Wait to be greeted...":
+        
+            call OuchWrong3
+            
+label GoodGoing3:
+    $ Perfect_2 = True
+    $ renpy.block_rollback()
+    play music "Jim Lang - Groove Remote (LockJaw).mp3"
+    hslow "Hey Arnoldo, how's it hanging?"
+    show arnold grin
+    with dissolve
+    aslow "Oh, hey Helga..."
 label Home:    
     scene start 
     with dissolve

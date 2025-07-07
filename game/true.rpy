@@ -63,3 +63,75 @@ label OuchWrong:
     pslow "Remembering!"
     hslow "Great."
     call Ditching
+    
+label OuchWrong2:
+    $ True_2 = True
+    window show
+    $ renpy.block_rollback()   
+    play music "04 groove remote (abner).mp3"
+    hslow "Yeah, I guess you're right...It's just so draining sitting in those classes..."
+    show phoebe question
+    with dissolve
+    pslow "Do you feel your creative juices leaving you Helga?"
+    hslow "That's one way of putting it Pheebs..."
+    hslow "But no matter, I'm right behind you." 
+    hide phoebe question
+    with dissolve
+    scene classroom
+    with fade
+    h "..."                                 
+    h "......."
+    h "The class is just as bad as I figured it would be..."
+    h "This is soul sucking boredom I am dealing with."
+    h "I can't help it if all my brain can do is wander and wonder..."
+    h "To Arnold, my love, my muse~" 
+    h "He has no idea how I regularly stare lovingly at his weird little football head..."
+    if Perfect_1: 
+        h "And yet..."
+        h "The walk to school this morning with him was actually kind of okay.."
+        h "And it wasn't even that hard, joking with him..."
+        h "In a nice way, I mean."
+        h "I wouldn't mind spending more mornings like this one."
+        h "Mornings, noons, nights..."
+        h "Even after all this time I was still crazy about him."
+        h "..."
+        scene sky
+        with dissolve
+        h "I try to look away from him and stare out the window..."
+    if True_1:
+        h "And yet..."
+        h "I was my usual cranky self with him this morning..."
+        h "And scared him off him like I always do."
+        h "Could I...actually change myself though?"
+        h "I mean if I really tried to be his friend...maybe more than his friend..."
+        h "Was that even possible?"
+        scene sky
+        with dissolve
+        h "I found myself looking out the window..."
+    h "And then I remembered the Cheese Festival."
+    h "Maybe...if I acted kinder towards Arnold...he might..."
+    h "Ask me to go with him?"
+    h "Hell it was worth a shot!"
+    h "Anything was better than going on like this..."
+    h "Arnold and I...barely even anything..."    
+    stop music fadeout 2.0
+    h "I had to try!"
+    call FIRSTDAY
+label OuchWrong3:
+    window show
+    play music "Jim Lang - Groove Remote (LockJaw).mp3"
+    scene cafeteria doors
+    with dissolve
+    $ True_3 = True
+    h "I queitly wait beside him, waiting for him to say something to me."
+    h "The line slowly moves little by little and the waiting feels like an eternity..."
+    h "Though more likely it was probably only a few minutes."
+    show arnold bored                
+    with dissolve
+    aslow "Helga, can you pass me the tapioca?" 
+    hslow "Huh? What?"
+    h "Great , he finally talks and I'm not even paying attention."
+    show arnold simple
+    with dissolve
+    aslow "Nothing serious, just wondering if you could pass the pudding?"
+    h "I nod my head slowly and hand him over a cup."
