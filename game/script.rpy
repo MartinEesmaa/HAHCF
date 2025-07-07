@@ -157,6 +157,26 @@ label start:
      with fade
      $ renpy.pause(0.5, hard=True)
     
+     show splash one 
+     with dissolve
+     $ renpy.pause(2.0, hard=True)
+    
+     scene black 
+     with fade
+     $ renpy.pause(0.5, hard=True)
+     
+     show splash two
+     with dissolve
+     $ renpy.pause(2.0, hard=True)
+     
+     scene black 
+     with fade
+     $ renpy.pause(0.5, hard=True)
+     scene start
+     with fade
+     window show
+     with dissolve 
+    
      $ GeraldSpills = False
      $ Good = False
      play music "Jim Lang - Operation Ruthless End.mp3"    
