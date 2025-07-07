@@ -120,6 +120,24 @@ image phoebe big grin = "Phoebe 11.png"
 image phoebe unsure = "Phoebe 12.png"
 image phoebe surprise = "Phoebe 13.png"
 
+#Gerald Expressions
+image gerald wtf = "Gerald 1.png"
+image gerald sad = "Gerald 2.png"
+image gerald happy = "Gerald 3.png"
+image gerald pissed = "Gerald 4.png"
+image gerald unsure = "Gerald 5.png"
+image gerald calm = "Gerald 6.png"
+
+#Lila Expressions
+image lila ticked = "Lila 1.png"
+image lila sympathy = "Lila 2.png"
+image lila sad = "Lila 3.png"
+image lila glad = "Lila 4.png"
+image lila grin = "Lila 5.png"
+image lila big blush = "Lila 6.png"
+image lila shy = "Lila 7.png"
+image lila pissed = "Lila 8.png"
+
 #Day Images Go Here
 image day one = "dayone1.png"
 image day one2 = "dayone2.png"
@@ -581,6 +599,327 @@ label GoodGoing3:
     show arnold grin
     with dissolve
     aslow "Oh, hey Helga..."
+    show arnold calm
+    with dissolve
+label WHEREUAT:    
+    if Perfect_5:
+        aslow "I didn't see you in class..."
+        hslow "Nope, I skipped."
+        aslow "Oh yeah? Any reason?"
+        hslow "I just needed some time to think is all..."
+        h "That excuse seems to be working for me today."
+        hslow "Nothing to worry your handsome Football Head about..."
+        show arnold turn okay
+        with dissolve
+        h "...!"
+        h "Did I really say that out loud and the world didn't explode?"
+        aslow "..."
+        aslow "......."
+        h "Why isn't he saying anything!?"
+        aslow "..."
+        show arnold yeah
+        with dissolve
+        aslow "Well that's good, you were missed."
+        h "He must think that I'm trying to tease him."
+        h "I'm not sure if that's a good thing or a bad thing."
+        h "..."
+        hslow "Oh was I now? Did you miss me Arnold?"
+        show arnold sneaky
+        with dissolve
+        aslow "Yeah, I missed you kicking the back of my chair, Helga..."
+        aslow "I've learned I can't live without it..."
+        h "Is this flirting...or is he making fun of me?"
+        h "Or is it both.......?"
+        hslow "Good to know, I'll kick it extra hard tomorrow."
+        hslow "Just for you!"
+        h "Heh. I can do it too!"
+        show arnold yeah
+        with dissolve
+        aslow "Great, hah, it's a date." 
+    if True_2:
+        aslow "How's your day so far?"
+        hslow "You ask me like you weren't there for some of it..."
+        show arnold sad smile
+        with dissolve
+        aslow "Haha, yeah, that's true."
+        aslow "I'm gonna take a wild guess here and say, \"boring\"?"
+        hslow "Ding-ding-ding...you win a prize."
+        h "My voice is rather sarcastic...but he keeps smiling at me."
+        show arnold sneaky
+        with dissolve
+        aslow "Yeah? Anything good?"
+        hslow "Uh..."
+        h "I grab a cookie from the desert tray and pay the lunch lady what I owe her."
+        hslow "Enjoy."
+        show arnold surprise
+        with dissolve
+        aslow "Seriously?"
+        hslow "You should honored by my kindness..."
+        aslow "Oh, trust me I am."        
+    hide arnold surprise
+    with dissolve
+    if True_3:
+        call GROUPLUNCH
+label CORRECT:    
+    scene cafeteria 
+    with dissolve
+    h "We pick up our trays and walk into the cafeteria..."
+    h "On a typical day, this is when we'd walk our separate ways, to sit with our own cliques."
+    h "But..."
+    show arnold turn okay
+    with dissolve
+    h "Is Arnold hesitating?"
+    show arnold turn shy
+    with dissolve
+    aslow "Looks like Gerald and Phoebe are eating together today..."
+    hslow "Yeah looks like it..."
+    h "This wasn't unusual. They ate together often enough..."
+    h "So why was Arnold suddenly making such a big deal of it?"
+    show arnold yeah blush 
+    with dissolve
+    aslow "..."
+    aslow "You wanna grab a table over there or something?" 
+    h "He motions vaguely with his shoulder to a table off in the back."
+    h "For a moment, I'm speechless." 
+    h "How do I respond to this?"
+    h "This is what I wanted, isn't it?"
+    h "I can't screw this up!"
+    hslow "Sure, that sounds..."
+    hslow "..."
+    h "Say something you moron, use your words! You're good at words!!"
+    hslow "Super..."
+    show arnold simple
+    with dissolve
+    h "God, I can't believe I just said that..."
+    hide arnold simple
+    with dissolve
+    h "Luckily, Arnold just nodded at my verbal nonsense...{i}SUPER{/i}... And made his way to a table near the windows."
+    h "..."
+    h "At first I thought things were going to be awkward and quiet between us..."
+    show arnold calm 
+    with dissolve
+    h "But Arnold started talking with me so easily, it felt like we had been alone like this all the time."
+    h "And for a moment I thought that this might really work out for me, just this once..."
+    h "That was until she showed up."
+    show arnold yeah 
+    with dissolve
+    aslow "Oh, hey Lila."
+    show arnold yeah at left
+    with dissolve
+    show lila grin at right
+    with dissolve
+    lslow "Hello Arnold! Oh, and it seems you're eating with Helga today? I think that's ever so sweet!"
+    hslow "Well it was..."
+    h "I couldn't help the pout that made its way to my face."
+    show arnold pissed
+    with dissolve
+    aslow "Come on Helga, don't be rude..."
+    show lila sympathy
+    with dissolve
+    hslow "Who's being rude? You're used to me by now, aren't you Liiiiiila?" 
+    show lila grin
+    with dissolve
+    lslow "Why, of course Helga! We're like old friends!" 
+    hslow "Heh...riiiiiiight."
+    aslow "Anyway..."
+    h "I could hear a slight gruffness in his voice."
+    h "It was a familiar tone, currently, and usually meant for me."
+    show arnold simple
+    with dissolve
+    aslow "Why don't you join us?"
+    show lila big blush
+    with dissolve
+    lslow "That sounds ever so nice Arnold, thank you..."
+    h "I don't even let her finish as I make a move to stand up, picking up my tray as I do so."
+    hslow "You know, I'm not feeling so hungry anymore..."
+    h "I turn towards the garbage and dump the remainders of my lunch in."
+    hide lila sad 
+    with dissolve
+    show arnold frown at center
+    with dissolve
+    hslow "I'll see you in class Arnold."
+    aslow "Huh? Helga wait..."
+    hide arnold frown
+    with dissolve
+    hide lila sad
+    with dissolve
+    aslow "Helga!"
+    h "I hear him call out to me again but I ignore him."
+    h "Even if he didn't have those types of feelings for her anymore..."
+    h "Even if there was the smallest chance he maybe, possibly, could have feelings for me..."
+    h "The fact that he asked her to sit with us..."
+    stop music fadeout 3.0
+    h "Well it made me want to pull my hair out!"
+    scene school hallway
+    with dissolve
+    h "..."
+    h "......"
+    h "Yet the further away I walk from the cafeteria the more I realize being a bitch to Arnold's friends isn't going to get me on his good side..."
+    h "I stop for a minute and lean against the wall."
+    h "What were my choices here?"
+    menu: 
+        h "I could either..."
+           
+        "Go and apologize...":
+        
+            jump Apologize
+            
+        "Find him later...":
+        
+            jump GoodGoing5
+label Apologize:
+    $ renpy.block_rollback()
+    h "As I turn to go back I see Arnold making his way towards me..."
+    play music "Jim Lang - Helga and Arnold Make Up.mp3"
+    hslow "Arnold?"
+    show arnold frown
+    with dissolve
+    aslow "Helga, there you are..."
+    h "He seems slightly out of breath, like he had been running."
+    h "But the trek here from the cafeteria isn't that much..."
+    h "Could he have been worried?"
+    aslow "Why'd you leave? We were having lunch together..."
+    show arnold turn unsure
+    with dissolve
+    aslow "Weren't we?"
+    hslow "Yeah, we were and I was coming back to say..."
+    hslow "...To say..."
+    hslow "I'm sorry...!"
+    h "I let the words fly out, truthful to the core."
+    show arnold surprise
+    with dissolve
+    aslow "Then why did you...?"
+    hslow "It's just you asked Lila to sit with us...a-and we don't get along and..."
+    jump Continue    
+label GoodGoing5:
+    $ renpy.block_rollback()
+    h "It's probably best if I wait to talk to him..."
+    h "Lila might still be there and..."
+    aslow "Helga!"
+    play music "Jim Lang - Helga and Arnold Make Up.mp3"
+    show arnold frown
+    with dissolve
+    hslow "A-Arnold!"
+    h "I felt my heart race up into my throat."
+    hslow "Criminy, Football Head, why you always sneaking up on me?"
+    hslow "Wait, wait..."
+    hslow "What are you doing here?"    
+    show arnold turn unsure
+    with dissolve
+    aslow "We were having lunch together, weren't we?"
+    hslow "Yeah...and then you invited Lila..."
+    aslow "That was bad?"
+    hslow "Well she and I...we don't really get along and..."
+label Continue:
+    show arnold sad smile
+    with dissolve
+    aslow "But Helga...you and I...we don't get along either..."
+    hslow "I know, but you're different Arnold!" 
+    hslow "~gasp~"
+    h "I cover my mouth with my hand as if I could capture my words."
+    h "The motion was a little too late..."
+    h "I let go a little more then I intended."
+    show arnold turn shy
+    with dissolve
+    aslow "Really...I am?"
+    hslow "..."
+    hslow "........"
+    aslow "Helga?"
+    hslow  "Yes..."
+    h "Can I just leave it at that?"
+    aslow "Yes, what?"
+    h "No, apparently not."
+    hslow "Yes, really...for cripes sake..."
+    aslow "..."
+    show arnold turn sad
+    with dissolve
+    aslow "But why?"
+    aslow "..."
+    aslow "Why am I..."
+    h "It was like it was hard for him to finish it."
+    hslow "Ugh..."
+    h "It isn't as if I could just come out and say..."
+    h "{i}Because you are the light of my life, my love, my heart, my soul...the essence of my eternal bliss.{/i}"
+    h "That would be a little much."
+    hslow "I...I can't tell you!"
+    h "Yeah, that works."
+    show arnold surprise
+    with dissolve
+    aslow "But..."
+    hslow "...Yet... I can't tell you yet..."
+    h "There would come a day I would admit my deepest secret to the holder of my heart."
+    scene CG9
+    with dissolve
+    aslow "......."
+    aslow ".........."
+    hslow "What?...!"
+    aslow "I feel..."
+    scene CG10
+    with dissolve
+    aslow "Sorry...It's just a bad case of déjà vu."
+    hslow "Huh? Déjà vu?"
+    aslow "It's-it's nothing, really. I probably just imagined it." 
+    hslow "Well okay...but..."
+    aslow "Hmm?"
+    hslow "Do you get it Football Head?"
+    scene school hallway
+    with dissolve
+    show arnold turn unsure
+    with dissolve
+    aslow "I guess..."
+    aslow "So you will tell me..."
+    aslow "Not now...but?"
+    hslow "One day...just - not - now!"
+    show arnold yeah 
+    with dissolve
+    aslow "Okay, okay I get it!" 
+    play sound "School Bell.wav"
+    h "*RIIIIIIIIIING*"
+    menu:
+        h "Oh damn the bell..."
+        "I'll try to stall him.":
+            jump stall
+        "I'll joke around...":   
+            jump joke
+label stall:
+    $ renpy.block_rollback()
+    hslow "Wow, class just snuck up on us huh?"
+    show arnold sad smile
+    with dissolve
+    aslow "Yeah, too bad...I was kind of..."
+    gslow "Hey Arnold! Let's go man, we're gonna be late!"
+    h "What? Kind of what?"
+    show arnold sneaky
+    with dissolve
+    aslow "Alright I hear you!"
+    h "Arnold turns and looks at me again..."
+    show arnold yeah
+    with dissolve
+    aslow "You going my way Helga?"
+    h "With his shoulder he motions towards the hallway behind him."
+    hslow "Well, looks it looks that way, doesn't it?"
+    aslow "Great, I'll walk ya to class."
+    hslow "Fine with me, Arnoldo..."
+    aslow "Heh..."
+    jump continueon
+label joke:
+    $ renpy.block_rollback()
+    hslow "Great, with all that talking we've run out of time to eat Arnoldo!" 
+    show arnold calm
+    with dissolve
+    aslow "Hah, right Helga, it's all my fault."
+    hslow "Damn straight!"
+    h "I start to move down the hall, grabbing Arnold's shirt sleeve as I do so."
+    hslow "Come on, you can walk me to class as atonement for your crimes, haha!"
+    show arnold yeah
+    with dissolve   
+label continueon:    
+    aslow "Should I carry your books too?"
+    stop music fadeout 3.0
+    hslow "Jeez, don't get too mushy Arnold..."
+    h "One step at a time or I might die!" 
+    hide arnold yeah
+    with dissolve
 label Home:    
     scene start 
     with dissolve

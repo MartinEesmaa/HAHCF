@@ -135,3 +135,206 @@ label OuchWrong3:
     with dissolve
     aslow "Nothing serious, just wondering if you could pass the pudding?"
     h "I nod my head slowly and hand him over a cup."
+    call WHEREUAT
+label GROUPLUNCH:
+    window show
+    scene cafeteria
+    with dissolve
+    h "We pick up our trays and make our way into the cafeteria."
+    h "I spy Gerald and Phoebe eating together so Arnold and I go over to join them."
+    hslow "Hey Pheebs, Geraldo..."
+    show gerald unsure 
+    with dissolve
+    gslow "Helga..."
+    gslow "And Arnold together?"
+    show gerald wtf
+    with dissolve
+    gslow "Now I've seen everything!"
+    show gerald wtf at left
+    with dissolve
+    show arnold pissed at right
+    with dissolve
+    aslow "What's the big deal?"
+    aslow "We just came over from the lunch line is all..."
+    h "I think my heart might have sunk a bit with that."
+    hide gerald wtf
+    with dissolve
+    show phoebe smile at left
+    with dissolve
+    pslow "Well, no matter..."
+    pslow "We're all friends here, aren't we?"
+    hide arnold pissed
+    with dissolve 
+    hide phoebe smile
+    with dissolve
+    h "The collected mumbles from the three of us was actually kind of funny."
+    show gerald happy
+    with dissolve
+    gslow "Anyway Pheebs, what time should I pick you up on Saturday?"
+    h "I tried not to look at Arnold as Gerald brought up the Festival in front of us..."
+    h "Instead I stirred my pudding, hoping this subject wouldn't last very long."
+    show gerald happy at left
+    with dissolve
+    show phoebe smile at right
+    with dissolve
+    pslow "Oh, 6:30ish should be fine...I'm really looking forward to it."
+    h "Phoebe turns to me, and her smile slightly falls."
+    hide gerald happy
+    with dissolve
+    show phoebe sad at center with dissolve
+    pslow "I still think you should go Helga."
+    hide phoebe sad 
+    with dissolve
+    show arnold surprise
+    with dissolve
+    aslow "Huh?"
+    aslow "You're not going this year?"
+    h "Oh yeah, he wasn't there to hear me say that."
+    hslow "Uh, yeah I was thinking about skipping it."
+    h "And I just kept stirring away..."
+    hide arnold surprise
+    with dissolve
+    show phoebe question
+    with dissolve
+    pslow "Honestly..."
+    show phoebe grin
+    with dissolve
+    pslow "We could all have a nice time together."
+    pslow "Maybe as a group?"
+    hslow "I dunno I just..."
+    show phoebe grin at right
+    with dissolve
+    show arnold yeah at left
+    with dissolve
+    aslow "That wouldn't be so bad..."
+    hslow "Huh?"
+    show arnold simple
+    with dissolve
+    aslow "Going as a big group I mean..."
+    aslow "Might be fun."
+    hslow "Heh-heh..."
+    h "That isn't anywhere near where I wanted him to be."
+    h "A group? Like a bunch of people?"
+    h "No, I wanted him to myself."
+    h "But it's not like I can just come out and say that."
+    hide arnold simple with dissolve
+    show gerald happy at left with dissolve
+    gslow "Well as long as me and Phoebe can get {i}some{/i} one on one time, it's fine with me."
+    pslow "So Helga, what do you say?"
+    hslow "I uh..."
+    hide phoebe grin
+    with dissolve
+    hide gerald happy
+    with dissolve
+    h "I couldn't just say no."
+    h "I didn't want him to think I was completely not interested."
+    menu:
+        h "What to do?"
+        "Okay...I'll go.":
+            jump Agree
+        "Maybe?":
+            jump Possibly
+
+label Agree:
+    window show
+    $ IMGOING = True
+    hslow "Uh, yeah sure...sounds like a plan."
+    jump BACKTOSCHOOL
+label Possibly:
+    window show
+    $ Maybe = True    
+    hslow "I'll think about it, I promise."
+    jump BACKTOSCHOOL
+label BACKTOSCHOOL:
+    window show
+    if Maybe:
+        show phoebe question with dissolve
+        pslow "Well, I suppose that's better than a no."
+        hslow "Trust me, you're lucky I'm considering it."
+        h "Oh my god, what was the matter with me?"
+        hide phoebe question with dissolve
+        show arnold yeah with dissolve
+        aslow "Hmm...well I'll go if you go."
+        hslow "What?"
+        h "It didn't make a difference, the bell rang for the next class and off he went."
+        show arnold surprise with dissolve
+        aslow "Sorry, I gotta go...my class is upstairs, I'll see ya guys later!"
+        hide arnold surprise with dissolve
+    else: 
+        show phoebe grin
+        with dissolve
+        pslow "That's great Helga, I'm so glad you changed your mind."
+        hide phoebe grin
+        with dissolve
+        show arnold yeah
+        with dissolve
+        aslow "Yeah me too..."
+        hslow "Really Arnold...?"
+        hslow "Uh, I mean...well yeah, you know it doesn't sound like a complete waste of time this way."
+        hslow "And I've got nothing better to do this Saturday."
+        show arnold turn unsure at left
+        with dissolve
+        aslow "Right...."
+        show gerald wtf at right
+        with dissolve
+        gslow "Yeah..."
+        hide arnold turn unsure with dissolve
+        hide gerald wtf with dissolve
+        show phoebe question with dissolve
+        pslow "Helga?"
+        h "Phoebe whispers to me, trying to be private."
+        hslow "Yeah?"
+        pslow "You're rambling..."
+        hslow "Oh...thanks Pheebs."
+        hide phoebe question with dissolve
+        h "I turn away from the table, trying to hide my red cheeks."
+        show arnold yeah at center
+        with dissolve 
+        aslow "..."
+        aslow "Well...I guess since Helga's going now I might go too..."
+        hslow "What?"
+        h "It didn't make a difference, the bell rang for the next class and off he went."
+        show arnold surprise with dissolve
+        aslow "Sorry, I gotta go...my class is upstairs, I'll see ya guys later!"
+        hide arnold surprise with dissolve
+        jump quickchat
+label quickchat:
+    window show
+    hslow "Wait!"
+    hslow "That's not something you just leave hanging, Hair Boy!"
+    show gerald wtf at left with dissolve
+    show phoebe question at right with dissolve
+    gslow "..."
+    pslow "..."
+    hslow "..."
+    gslow "Helga...are you okay?"
+    pslow "She's perfectly fine."
+    hslow "Yeah, I'm freaking fantastic."
+    gslow "Right...well I'm off."
+    hide gerald wtf
+    with dissolve
+    hide phoebe question with dissolve
+    h "I look away as he gives Phoebe a peck on her cheek."
+    hslow "Ugh..."
+    show phoebe sad at center with dissolve
+    pslow "Helga?"
+    h "I slam my head down on the table..."
+    hslow "I waaaaaaaaant that."
+    show phoebe unsure with dissolve
+    pslow "Oh dear...."
+    hslow "With that stupidly perfect Football Head!"
+    h "By now most of the cafeteria was empty"
+    pslow "I know Helga, I know."
+    hslow "Ugh..."
+    h "I groan again, feeling utterly defeated."
+    hslow "There is no way this is going to end well..."
+    show phoebe question
+    with dissolve
+    pslow "Huh?"
+    hslow "Oh, it's nothing."
+    pslow "...All right Helga. Well let's go, we're going to be late."
+    hslow "Whatever."
+    pslow "Oh Helga..."
+    hide phoebe question
+    $ True_4 = True
+    jump Home
