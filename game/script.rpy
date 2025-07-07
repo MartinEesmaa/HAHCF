@@ -60,6 +60,11 @@ image SPLASH:
     "start.png" with fade
     pause 2.0
 
+#CGs
+image CG1 = "CG1.png"
+image CG2 = "CG2.png"
+image CG3 = "CG3.png"
+
 #Arnold Expressions Go Here
 image arnold simple = "Arnold 1.png"
 image arnold grin = "Arnold 2.png"
@@ -154,14 +159,20 @@ label start:
     
      $ GeraldSpills = False
      $ Good = False
-     play music "Jim Lang - Operation Ruthless End.mp3"
+     play music "Jim Lang - Operation Ruthless End.mp3"    
      h "So, let's just start off by saying Cheese Festivals never, ever worked out in my favor..."
+     scene CG1
+     with dissolve
      h "I can remember..."
      h "There were two of them when I was nine-years-old and both of them ended up with me..."
      h "Well, how do they put it..."
+     scene CG2
+     with dissolve
      h "Forever alone." 
      h "And now..."
      h "It was that time of year again."  
+     scene CG3
+     with dissolve
      h "Hillwood was going to have another one."
      h "And I wasn't looking forward to it."
      h "Because I knew it would be filled with people who were happier than me."
@@ -171,6 +182,8 @@ label start:
      h "Well it made me so miserable every time the Festival came to town."
      h "I hate that."
      stop music fadeout 3.0
+     scene start
+     with dissolve
      h "It really pisses me off..."
      h "..."
      h "......"
