@@ -2595,7 +2595,7 @@ label GOGIRLGO:
     h "This is over."
     h "To be honest I don't know why I ever even tried."
     h "I slip out from my cover and go to my next class, hoping the day will just blur by..."
-    h "And lucky for me, Arnold isn't in my afternoon classes..."
+    h "And Lucky for me, Arnold isn't in my afternoon classes..."
 label FAIRGROUNDS:    
     if Waited:
         stop music fadeout 3.0
@@ -2735,6 +2735,8 @@ label lila:
     hslow "Then why not just {i}ask{/i} me?"
     h "I knew the answer to my own question."
     h "Cause he thought I'd snap at him."
+    scene festival day
+    with dissolve
     show arnold calm
     with dissolve
     aslow "Funny thing is, Lila told me to come to you..."
