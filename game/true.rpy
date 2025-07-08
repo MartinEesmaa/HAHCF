@@ -1648,3 +1648,478 @@ label TRUEASK:
         call HOMEAGAIN
     else:
         call HOMEAGAIN
+label FOUNDYOU:
+    window show
+    h "Why is he here?"      
+    h "How do we always end up finding each other..."
+    h "Always?"
+    h "..."
+    h "Was he...looking for me?"
+    show arnold frown with dissolve
+    h "When I turn and look at him my heart quickens..."
+    hslow "Football Head..."
+    h "And I can't control my mouth."                           
+    hslow "What are you doing following me around all the time?!"
+    hslow "I've already got one stalker, I don't need another one..."
+    hslow "Especially if it's you."
+    hslow "So just go."
+    show arnold turn angry with dissolve
+    aslow "..."                                      
+    aslow "So you're still acting this way, huh?"
+    hslow "Acting like what?"
+    hslow "A completely...what was it again?"
+    show arnold turn sad with dissolve
+    aslow "..."
+    hslow "That's right...a completely {i}horrible{/i} person."
+    hslow "Guess that's just me."
+    aslow "..."
+    hslow "Gonna say something Football Head?"
+    show arnold turn angry with dissolve
+    aslow "It was like you weren't even listening yesterday..."
+    hslow "Oh no, no...I heard every single freaking word!"
+    h "I felt a shudder of pain mix with anger rush through my whole being."
+    h "It was getting hard to stand."
+    show arnold pissed with dissolve
+    aslow "Then can't you understand I'm trying here?"
+    hslow "So am I! And it's like..."
+    with vpunch 
+    hslow "!!!"
+    h "For a minute I got dizzy...I had to grab on to something to keep straight."
+    h "..."
+    h "It was like Arnold completely forgot we were even fighting..."
+    show arnold frown with dissolve
+    aslow "Take it easy..."
+    h "Strong hands grab onto my shoulders and lead me towards a bench."
+    h "The world started to even out again..."
+    show arnold turn sad with dissolve
+    aslow "Are you...okay now?"
+    call NO
+        
+label TRUEPATH:
+    window show
+    $ funny = True
+    hslow "Well, I gotta say...you do look a little funny."
+    h "I tried to stifle a laugh...and Arnold blushed."
+    show arn turn sad with dissolve
+    aslow "Aw, ya see...I knew it!"
+    show arn simple with dissolve
+    aslow "I'm gonna go home and change real quick..."
+    hslow "But wait, Arnold...the rain?"
+    show arn grin with dissolve
+    aslow "Oh right!"
+    h "He stops and smiles."
+    aslow "The rain's already letting up, so they say the Festival's still a go..."
+    aslow "Apparently they covered everything with tarps just in time..."
+    hslow "Seriously?"
+    aslow "Yeah, so I'll go change and you get ready."
+    hslow "Right, okay!"
+    hide arn grin with dissolve
+    h "So it looked like this wasn't a lost hope after all!"
+    call TRUEPATHEND_1
+    
+label TRUEPATHEND:
+    window show
+    scene start
+    with dissolve                        
+    play music "02 groove remote.mp3"
+    h "When I woke up the next morning I was thrilled."
+    h "In just..."
+    h "I glance at my alarm clock..."
+    h "Eight hours my love would come here looking for me..."
+    h "Ready to take me to the Festival!"
+    h "I made a move towards my window and threw open my curtains..."
+    scene helga room day
+    with dissolve
+    h "Nothing was going to ruin my day!"
+    h "Sure, it was a double date...but it was better than nothing!"
+    h "..."
+    h "...."
+    h "The only down side..."
+    h "I had no idea what to do with myself..."
+    if fight:
+        h "I got up out of bed and moved towards my closet, pulling out the outfit I had bought the day before..."
+    else:
+        h "I got up out of bed and walked towards my closet."
+        h "I fanned through my clothes until I found something rather okay to wear tonight..."
+        
+    hslow "Well, that's something done...at least."
+    h "After another minute of lost thought..."
+    h "I sit down at my vanity..."                
+    h "And stare at my face."
+    h "Of course, I just got up so I didn't exactly look my best..."
+    h "But I was more curious as to what I should do with it tonight."
+    h "I opened the drawer and pulled out the various make-up kits I had..."
+    h "And uh, barely ever wore."
+    hslow "Ugh, I used to be better at this..."
+    h "..."
+    h "After a minute of being completely frozen I got up."
+    hslow "Shower first..."
+    h "Other things...later...much later."
+label callonme:    
+    scene start
+    with dissolve
+    h "..."
+    h "......."
+    scene helga room evening
+    with dissolve
+    h "I spent most of the day trying to find things to take off my mind about the evening..."
+    h "Watching TV, trying to write, read..."
+    h "But most of it was in vain and in the end I was still nervous as hell."
+    h "At least the sun had come out sometime during the day..."
+    h "I mean, sure, Phoebe was going to be there...but it still felt like so much more than just a usual hang out."
+    h "And Arnold was going to be here any minute now."
+    h "Only minutes?!"
+    h "Sitting on the edge of my bed I tapped my foot nervously before finally getting up."
+    scene Inside House
+    with dissolve
+    h "Holding on to the railing for dear life, I made my way downstairs and sat on the first step, watching the door."
+    h "Even if he was late I wasn't going to snipe or be rude..."
+    h "Well, at least I was going to try."
+    h "Pulling my phone out of my bag, I watched as 6:59 became 7:00..." 
+    stop music fadeout 3.0
+    h "And my eyes flashed to the door..."
+    h "...Nothing...."
+    h "......Nothing...."
+    h ".........Nothing..."
+    h "And then finally..."
+    play sound "Arnold Knock.wav"
+    h "A knock on the door."
+    h "Moving faster then I thought I could, I throw open the door and smile at him."
+    h "And he smiles right back."
+    show arnold grin with dissolve                        
+    play music "Jim Lang - Helga's True Love.mp3"
+    aslow "You ready to go?"           
+    h "Even though he told me he would be here..."
+    h "I'm still surprised to see him."
+    h "So instead of answering him, I simply nod my head."
+    h "Wanting to do nothing that could break the fantasy."
+    h "..."
+    h "He steps aside and motions for me to walk out first."
+    h "And I do so, hearing him close my front door for me."
+    scene bg helga house evening
+    with dissolve
+    show arnold turn calm with dissolve
+    aslow "Well it's finally here..."
+    h "He mumbles this more to himself than to me..."
+    h "So I give no reply."
+    show arnold calm with dissolve
+    aslow "Gerald to me to meet him and Phoebe by the food tables when we get there..."
+    h "I silently nod my head, again."
+    h "I'm afraid my big mouth is gonna screw this up for me."
+    scene start
+    with dissolve
+    h "..."
+    h "......"
+    scene bg city evening
+    with dissolve
+    h "For a few more minutes we walk in complete silence."
+    h "But then, Arnold suddenly stops me."
+    show arnold sad smile with dissolve              
+    stop music
+    aslow "Is there any reason you're being so quiet?"
+    aslow "It's...not really like you."
+    hslow "Quiet?"
+    h "I don't know what to say without sound like a complete moron."
+    h "So instead...I just deny it."
+    hslow "I'm not being quiet, I'm just like I always am, Arnoldo really!"
+    show arnold calm with dissolve
+    aslow "Yeah?"
+    hslow "Yeah!"
+    show arnold sneaky with dissolve       
+    play music "04 groove remote (abner).mp3"
+    aslow "Cause that was the first thing you've said to me all night."
+    hslow "Ah...um..."
+    h "Damn it, he got me."
+    hslow "Okay...fine...it's just..."
+    show arnold simple with dissolve
+    aslow "..."
+    aslow "Just what?"
+    hslow "I don't wanna say anything that's gonna...ya know...screw this up."
+    aslow "..."
+    show arnold laugh with dissolve
+    aslow "Hahaha~"
+    h "So he laughs at me?"
+    h "Does he want me to punch him in the face or something?"
+    h "So I bite the inside of my cheek to keep from boiling over."
+    hslow "Ya know, I was trying to be honest...thanks for that."
+    show arnold grin with dissolve
+    aslow "That's not why I'm laughing..."
+    hslow "Uh-huh, yeah sure."
+    show arnold calm with dissolve
+    aslow "No really..."
+    h "Finally, he's able to stifle his chuckles..."
+    show arnold yeah with dissolve
+    aslow "I asked, you to come with me didn't I?"
+    aslow "You, as in Helga. Not some quiet pod person who's gonna stand next to me the whole night in silence."
+    aslow "If you're gonna yell at me, I can take it."
+    show arnold turn calm with dissolve
+    aslow "I have all this time, now shouldn't make it any different."
+    h "I look away from him for a moment."
+    hslow "But I..."
+    hslow "Ugh, I want it to be different, okay?"
+    show arnold turn simple with dissolve
+    aslow "..."
+    h "It looks as if Arnold is thinking something over."
+    h "But then he nods his head."
+    show arnold yeah with dissolve
+    aslow "Trust me, Helga."
+    hslow "What?"
+    aslow "It already is different."
+    h "Arnold continues on his way to the Festival...but..."
+    hide arnold yeah with dissolve
+    h "I'm not exactly sure what to make of that."
+    h "But I follow behind him...thinking I guess I could act a bit more..."
+    h "Like me."        
+    stop music fadeout 3.0
+label TRUEPATHEND_1:   
+    window show
+    scene start
+    with dissolve
+    h "..."
+    h "......"
+    scene food court
+    with dissolve
+    h "When we get to the Festival we see Gerald and Phoebe just sitting down to eat."
+    h "We make our way over to them."         
+    play music "Jim Lang - Home Wit Jerome.mp3"
+    if funny:
+        show phoebe grin with dissolve
+        pslow "Oh, Helga!"
+        pslow "We certainly lucked out didn't we?"
+        pslow "Thank goodness they put those tents up!"
+        hslow "Heh, yeah."
+    else:
+        show phoebe grin with dissolve
+        pslow "Oh, Helga!" 
+        pslow "There you are!"
+    show phoebe laugh with dissolve    
+    pslow "Here you go, as promised."
+    h "She hands me a cheese stick which I take eagerly."
+    if almost:
+        h "With all the sleeping...and Arnold's sudden pick up..."
+    else:
+        h "I somehow, with all the busy work..."
+    h "Had forgotten to eat today."
+    hslow "Thanks Pheebs!"
+    hide phoebe laugh with dissolve 
+    show gerald happy at left with dissolve
+    show arnold okay at right with dissolve 
+    gslow "Arnold, man what's up?"
+    aslow "Eh...nothing yet."
+    gslow "I get that." 
+    h "They greeted each other with their classic handshake."
+    h "Some things never change."
+    show gerald calm with dissolve
+    gslow "So what are we doin' tonight?"
+    show arnold grin with dissolve
+    aslow "Haha~ I have no idea."
+    hslow "That's great, I'm really excited now guys."
+    hide gerald calm with dissolve 
+    show arnold turn simple at center with dissolve
+    aslow "Okay, give me a minute, I'll think of something."
+    hslow "Well..."
+    show arnold okay with dissolve
+    aslow "Well what?"
+    hslow "Why don't you go think about it over there..."
+    hslow "And get me some nachos..."
+    show arnold bored with dissolve
+    hslow "..."
+    aslow "..."
+    hslow "Please?"
+    show arnold calm at right with dissolve
+    show gerald happy at left with dissolve
+    aslow "Sure."
+    aslow "Come on, Gerald."
+    gslow "Yeah, you want anything?"
+    h "He was looking to Phoebe."
+    hide arnold calm with dissolve
+    hide gerald happy with dissolve
+    show phoebe smile with dissolve
+    pslow "Nothing, thank you."
+    h "I waited until they were out of listening distance before I turned to face Phoebe."
+    hslow "I can't calm down!"
+    hslow "Agh, I've got butterflies and everything."
+    hslow "This isn't good."
+    show phoebe question with dissolve
+    pslow "..."
+    show phoebe laugh with dissolve
+    h "Phoebe was only quiet a moment before she began to laugh."
+    hslow "That keeps happening to me today..."
+    pslow "I'm sorry Helga, it's just..."
+    show phoebe grin with dissolve
+    pslow "It's normal to feel this way."
+    hslow "I figured as much..."
+    hslow "I just thought I'd be more ready for this when it finally happened."
+    hslow "But I'm kind of pathetic."
+    show phoebe smile with dissolve
+    pslow "Arnold wants to be here with you..."
+    pslow "Just relax."
+    pslow "You'll feel better soon, okay?"
+    hide phoebe smile with dissolve
+    h "I nod my head and take a deep breath in..."
+    h "Hoping the extra air would calm my nervous..."
+    show arnold simple with dissolve
+    aslow "Okay so we talked it over..."
+    h "Arnold suddenly speaks, surprising me."
+    h "Where did he come from?"
+    show arnold yeah with dissolve                                                         
+    stop music fadeout 3.0
+    h "But with a smile he places my food in front of me..."
+    h "And all is forgiven."        
+    play music "Jim Lang - Groove Remote (LockJaw).mp3"  
+    if fight:  
+        h "And then..."
+        hslow "Oh...it's Lila."
+        hslow "I'm gonna go over and say hi."
+        show arnold surprise at left with dissolve
+        show phoebe question at right with dissolve
+        aslow "What?"
+        pslow "Certainly you're joking..."
+        hide arnold surprise with dissolve
+        hide phoebe question with dissolve
+        show gerald wtf with dissolve
+        gslow "Even I know that's not right."
+        hide gerald wtf with dissolve
+        hslow "...Uh, well...she's not so bad..."
+        h "Still all I was getting was blank stares."
+        hslow "I'll be right back."
+        scene festival night
+        with dissolve
+        h "With a small wave I grabbed her attention and made my way over."
+        show lila glad with dissolve
+        lslow "Oh, hello there Helga!"
+        hslow "Hey, so you came too, huh?"
+        lslow "Well of course, I do so enjoy the festival!"
+        hslow "Yeah, it's..."
+        h "I look over my shoulder towards Arnold."
+        hslow "...Not so bad."
+        hslow "Do you wanna come hang with us or...?"
+        show lila grin with dissolve
+        lslow "Oh, as much as I would like to I'm here with someone."
+        hslow "Really?"
+        show lila big blush with dissolve
+        lslow "Yes, eheheh~ It's a boy named George from a school downtown..."
+        lslow "He's quite charming."
+        hslow "Haha~ well have fun."
+        show lila glad with dissolve
+        lslow "You too, Helga."
+        h "And off she went."
+        scene food court
+        with dissolve
+        h "As I sat back down at our table..."
+        h "The blank stares didn't fade."
+        show arnold turn simple with dissolve
+        aslow "Anyway..."
+        h "Apparently no one was even going to ask..."
+        h "It was probably better that way."
+    else:    
+        show arnold simple with dissolve
+        aslow "So we were talking..."                                  
+    aslow "Figured we start over at the game booths first..."
+    if soup:
+        show arnold yeah with dissolve
+        h "He stole a chip from my plate..."
+        h "That was a lot easier to deal with than what happened before..."      
+    show arnold yeah at left with dissolve    
+    show phoebe smile at right with dissolve    
+    pslow "Fine with me."
+    hide phoebe smile at right with dissolve
+    show gerald happy at right with dissolve
+    gslow "Gonna try to go for that top prize?"
+    aslow "Of course, if not...why even try?"
+    gslow "Let's put a little wager on this then..."
+    h "I looked between the two of them..."
+    h "It was like Phoebe and I weren't even here."
+    show arnold turn unsure with dissolve
+    aslow "A bet? I dunno..."
+    gslow "Come on man, don't wimp out."
+    show arnold sneaky with dissolve
+    aslow "Fine, fine what are your terms?"
+    gslow "Winner buys everything for the group for the rest of the night..."
+    aslow "..."
+    hide gerald happy with dissolve
+    show arnold okay at center with dissolve
+    h "He looked over at me as if I was supposed to tell him to do to."
+    h "So I went with my gut..."
+    hslow "I say go for it, Football Head..."
+    show arnold yeah with dissolve
+    h "He smiled and nodded his head."
+    aslow "All right, you're on."
+    scene start
+    with dissolve
+    h "..."
+    h "......"
+    scene festival night
+    with dissolve
+    h "I was starting to regret telling Arnold to go for that stupid bet."
+    h "It was my fifth consecutive loss at the water gun target game when I finally gave up..."
+    h "Some snot nose brat kept winning..."
+    hslow "No more..."
+    h "I walk away from the booth and look over at Arnold a few games down..."
+    h "He and Gerald were immersed in a game of darts..."
+    hslow "I didn't know it was going to be like this..."
+    show phoebe question with dissolve
+    pslow "Be like what?"
+    h "Phoebe walks up beside me and pockets a little doll."
+    h "Instead of answering her, I change the subject."
+    hslow "Where did you get that?"
+    show phoebe hehe with dissolve
+    pslow "Well...I paid the vendor five dollars for it."
+    hslow "...Nice."
+    pslow "I couldn't help it, it's just so cute."
+    hslow "Right, okay, okay."
+    pslow "..."
+    show phoebe question with dissolve
+    pslow "So are you going to answer my question now?"
+    h "I slump forward."
+    hslow "This is just like every other Festival, Phoebe!"
+    hslow "With us over here...and them over there."
+    h "I threw my arms up in defeat and nearly collapsed on a park bench."
+    h "Phoebe sat down beside me, quiet as she thought."
+    show phoebe sad with dissolve
+    pslow "Then we'll just go over, okay?"
+    hslow "No...maybe..."
+    hslow "Maybe I just got my hopes up...and this isn't as important..."
+    hide phoebe sad with dissolve
+    show arnold grin with dissolve     
+    stop music
+    aslow "Helga!" 
+    h "Suddenly Arnold calls my name, running over towards us, completely pulling me from my thoughts."
+    hslow "What's wrong?"
+    aslow "What? Wrong? Nothing's wrong!"
+    h "He laughed."                              
+    play music "Jim Lang - Helga's True Love.mp3"
+    h "It was then I noticed the rather large prize he had in his hands."
+    show arnold sneaky with dissolve
+    aslow "I got him beat by just a few points."
+    show arnold grin with dissolve
+    aslow "So here!"
+    h "He holds it out for me, and I'm not exactly sure what he wants me to do with it."
+    h "Is he...giving this to me?"
+    hslow "Uh...what?"
+    hide arnold grin with dissolve 
+    show gerald happy at left with dissolve
+    show phoebe grin at right with dissolve
+    gslow "What, did you think we were gonna play that game all this time and not get you guys something?"
+    h "He pulls Phoebe beside him and hands her a tiny blue snow globe."
+    pslow "Oh! Thank you!"
+    gslow "No problem."
+    h "She examines the little novelty for a minute before slipping it inside her purse for safe keeping."
+    hide gerald happy with dissolve
+    hide phoebe grin with dissolve
+    h "The prize that I assumed was meant for me...well..."
+    h "It wasn't going to fit in my bag, that was for sure."
+    scene CG46 with dissolve
+    h "He held in his hands a pink rabbit with a rather large bow sitting atop its head."
+    h "I stare at it for another moment before looking back up at him."
+    hslow "Why...this?"
+    h "I couldn't think of anything else to say."
+    aslow "Well it kind of looks like you, doesn't it?"
+    hslow "Uh....what?"
+    h "I stare at him, as if I heard him wrong."
+    h "To my stare he shyly tries to laugh it off..."
+    aslow "What? Don't give me that face it does look like you."
+    aslow "It's got the bow and everything."
+    h "I feel a steady heat rise to my cheeks before I snatch the damn thing away."
+    h "I hold it tightly to my chest and turn away from all the people smiling at me..."
+    h "I couldn't take it."

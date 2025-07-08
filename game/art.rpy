@@ -74,6 +74,11 @@ label gallery:
         # These show images, if they have been unlocked. The image name must
         # have been defined using an image statement.
         
+        g.page("Special Events Two")
+        g.button("thumb_CG16.png")
+        g.unlock_image("CG26")
+        g.button("thumb_CG15.png")
+        g.unlock_image("CG25")
 
 
         # Now, show the gallery.

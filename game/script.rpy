@@ -45,6 +45,8 @@ image splash two = "second image.png"
 image opening pic = "splashscreen.png"
 image main = "menu.jpg"
 image maintwo = "menu2.jpg"
+image last1 = "lastday1.png"
+image last2 = "lastday2.png"
 
 image slideshow:
     "menu.jpg" with dissolve
@@ -83,6 +85,8 @@ image CG19 = "CG19.png"
 image CG20 = "CG20.png"
 image CG23 = "CG23.png"
 image CG24 = "CG24.png"
+image CG25 = "CG25.png"
+image CG26 = "CG26.png"
 image CG39 = "CG39.png"
 image CG40 = "CG40.png"
 image CG41 = "CG41.png"
@@ -90,6 +94,7 @@ image CG42 = "CG42.png"
 image CG43 = "CG43.png"
 image CG44 = "CG44.png"
 image CG45 = "CG45.png"
+image CG46 = "CG46.png"
 
 #Arnold Expressions Go Here
 image arnold simple = "Arnold 1.png"
@@ -126,6 +131,35 @@ image arnold turn shy = "Arnold 28.png"
 image arnold turn fluster = "Arnold 29.png"
 image arnold turn shock = "Arnold 30.png"
 image arnold turn okay = "Arnold 31.png"
+#Arnold Perfect Day
+image arn turn calm = "Arnold 32.png"
+image arn turn unsure = "Arnold 33.png"
+image arn turn pissed = "Arnold 34.png"
+image arn turn sad = "Arnold 35.png"
+image arn turn surprise = "Arnold 36.png"
+image arn turn simple = "Arnold 37.png"
+image arn turn shy = "Arnold 38.png"
+image arn turn fluster = "Arnold 39.png"
+image arn turn shock = "Arnold 40.png"
+image arn turn unsure = "Arnold 41.png"
+image arn sad = "Arnold 42.png"
+image arn sad smile = "Arnold 43.png"
+image arn snark = "Arnold 44.png"
+image arn pissed = "Arnold 45.png"
+image arn surprise = "Arnold 46.png"
+image arn grin = "Arnold 47.png"
+image arn laugh = "Arnold 48.png"
+image arn close eyes = "Arnold 49.png"
+image arn simple = "Arnold 50.png"
+image arn half smile = "Arnold 51.png"
+image arn half grin = "Arnold 52.png"
+image arn grin blush = "Arnold 53.png"
+image arn surprise blush = "Arnold 54.png"
+image arn fluster blush = "Arnold 55.png"
+image arn laugh blush = "Arnold 56.png"
+image arn sad smile blush = "Arnold 57.png"
+image arn simple blush = "Arnold 58.png"
+image arn okay = "Arnold 76.png"
 
 #Phoebe Expressions
 image phoebe grin = "Phoebe 1.png"
@@ -2951,3 +2985,228 @@ label HOMEAGAIN:
     h "I finally find my muse again..."
     hslow "Arnold my love, it may finally be...could you too feel the same for me?"
     h "I write and write, filled with inspiration...until I drift off to sleep."
+
+label THELASTDAY:
+    window hide dissolve
+    stop music fadeout 1.0
+    scene start
+    with fade
+    scene black 
+    $ renpy.pause(0.5, hard=True)
+    with fade
+
+    show last1
+    with dissolve
+    $ renpy.pause(1.0, hard=True)
+    show last2
+    with dissolve 
+    $ renpy.pause(3.0, hard=True)
+    
+    scene black 
+    with dissolve
+    $ renpy.pause(0.2, hard=True)
+    if fight:
+        call TRUEPATHEND
+    elif Waited:
+        call TRUEPATHEND
+    play music "Rain inside.mp3"
+    window show
+    scene start
+    with dissolve
+    h "When I awake the next morning, I'm thrilled."
+    h "In just..."
+    h "I glance at my alarm clock..."
+    h "Eight hours my love would come here looking for me..."
+    h "Ready to take me to..."
+    h "..."
+    h "It is then I hear the sound of tapping on the window, light but tapping none the less..."
+    h "Slowly, I go to throw open the blinds and..."
+    if imwrong:
+        scene helga room day rain
+        with dissolve
+        h "It's raining.  It was just a little bit and I already can see the sun starting to work its way through the clouds."
+        h "Good."
+        h "I'm not going to let anything ruin this day for me."
+        h "Sure, it was a double date...but it's better than nothing!"
+        stop music fadeout 2.0
+        play music "02 groove remote.mp3"
+        h "..."
+        h "...."
+        h "The only down side..."
+        h "I have no idea what to do with myself..."
+        h "I get up out of bed and walk towards my closet."
+        h "I fan through my clothes until I find something rather okay to wear tonight..."
+        hslow "Well, that's something done...at least."
+        h "After another minute of lost thought..."
+        h "I sit down at my vanity..."                
+        h "And stare at my face."
+        h "Of course, I just got up so I didn't exactly look my best..."
+        h "But I was more curious as to what I should do with it tonight."
+        h "I open the drawer and pull out the various make-up kits I have..."
+        h "And uh, barely ever wore."
+        hslow "Ugh, I used to be better at this..."
+        h "..."
+        h "After a minute of being completely frozen, I get up."
+        hslow "Shower first..."
+        h "Other things...later...much later."
+        call callonme
+    else:  
+        scene CG26
+        with dissolve
+        h "And there it was..."
+        h "It seems someone had been listening to me yesterday..."   
+    h "It's raining."
+    h "No, raining isn't the right word for it..."
+    h "It's pouring..."
+    scene helga room day rain
+    with dissolve
+    h "I rush to my phone to check for messages from Arnold but..."
+    stop music fadeout 2.0
+    h "There's nothing..."
+    h "Nothing from him anyway..."
+    h "Instead what I find is a voice mail from Phoebe..."
+    play music "17 that's wack.mp3"
+    h "As I go to my inbox to listen to my messages, I'm already feeling nervous."
+    h "And Pheebs' heavy sigh on the other end of the phone does nothing to calm me down..."
+    h "Nope, not at all..."
+    h "In fact, she only makes it worse."
+    pslow "Hello Helga this is Phoebe..."
+    h "...Is she serious right now?"
+    pslow "I have some rather troubling news I just heard from Gerald that I thought I should tell you..."
+    pslow "It seems....well, it seems that if the rain doesn't stop by at least this afternoon..."
+    pslow "The festival will be cancelled..."
+    pslow "Oh Helga, I'm so sorry!"
+    h "Why is she apologizing?"
+    h "It's not her fault..."
+    h "I was the one who had asked, no begged for it to rain today..."
+    h "And the universe finally does as I ask it too..."
+    h "To be honest, I should have seen it coming."
+    h "Just when I finally get a chance to be with Arnold like I wanted..."
+    h "To show him my true colors because I know now he'll accept me as I am...."
+    h "This happens."
+    h "..."
+    h "Well that's it."
+    h "I'm done."
+    h "I'm going back to bed and maybe..."
+    h "Just maybe...."
+    h "I'll wake up some where better than here."
+    scene start 
+    with dissolve
+    h "..."
+    h "......."
+    scene helga room night rain
+    with dissolve
+    h "When I finally wake up, the world seems a darker gray then when I went to sleep..."
+    h "The clock reads close to 6:50 and most of the day has slipped away."
+    h "I didn't care."
+    h "If the world had actually wanted me happy I would have been all dressed up..."
+    h "...Waiting for Arnold to come pick me up for our..."
+    h "I breathe out a rather large, depressed sigh..."
+    h "{i}Date.{/i}"
+    h "I move slowly towards my bedroom mirror and look at my reflection in the glass..."
+    hslow "Helga ol' girl, you look like hell."
+    h "Without thinking much on it, I pull the ties from my pigtails and attempt to brush the nest I like to call hair."
+    h "Best to look at least presentable in case Bob felt like picking me apart tonight."
+    h "And while I much rather just hide out in my room for the remainder of time..."
+    h "My stomach's begging for nourishment...super loudly in fact."
+    $ almost = True
+    scene start 
+    with dissolve 
+    h "So, I make my way down the stairs, counting each step aloud..."
+    hslow "One, two, three..."
+    scene Inside House
+    with dissolve
+    stop music
+    play sound "Arnold Knock.wav"
+    h "And nearly fall flat on my face when I hear a loud pounding on the door..."
+    hslow "We have a bell!"
+    h "But they didn't hear me...and I'm too hungry to care."
+    scene start
+    with dissolve
+    h "Instead I ignore whoever's at the door and head to the kitchen, hoping Miriam picked up something to eat..."
+    h "...."
+    play sound "Arnold Knock.wav"
+    h "And still that person keeps on knockin'."
+    h "I even hear my father screaming for someone to answer..."
+    hslow "And what exactly was stopping you, Dad?"
+    h "Oh, but me he completely ignores."
+    hslow "Fine! Whatever, I'll get it!"
+    scene Inside House
+    with dissolve
+    h "I swing open the front door, ready to tell whoever's been annoying the hell out of me off..."
+    h "But..."
+    h "I've lost the ability to speak."
+    play music "Jim Lang - Helga's True Love.mp3"
+    scene CG25
+    with dissolve
+    aslow "You know, I don't think you're suppose to make your date wait out here in the rain..."
+    hslow "But...Arnold...what..."
+    h "In front of me was Arnold, with his hair pushed back, dressed up kinda fancy... "
+    h "Wearing a rather bashful smile..."
+    h "And above his head was an old, green umbrella..."
+    h "And I stood here in front of him...in my PJ's still..."
+    hslow "Really...Arnold..."
+    h "I was still having trouble speaking..."
+    aslow "Okay, just don't laugh..."
+    hslow "L-laugh?"
+    aslow "At how I look...I was just gonna wear the blazer but when my Grandma found out about our date..."
+    aslow "She grabbed my head and wouldn't let me go until I looked...respectable..."
+    aslow "So..."
+    menu:
+        hslow "You look..."
+        "You look good....":
+            jump PERFECTPATH
+        "You look a little funny...":
+            jump TRUEPATH
+label PERFECTPATH:
+    $ renpy.block_rollback()
+    scene Inside House
+    with dissolve
+    hslow "I..."
+    show arn sad smile blush
+    with dissolve
+    aslow "Yeah....?"
+    hslow "I actually think you look rather handsome, Football Head..."
+    hslow "Getting all snazzy for me..."
+    h "I smile as he blushes a bit at my words..."
+    h "But then I shake my head, trying to clear my thoughts..."
+    show arn simple
+    with dissolve
+    hslow "But Arnold...I thought our..."
+    hslow "Our date...I thought it was cancelled...cause of the rain?"
+    hslow "I mean the Cheese Festival has been called off and..."
+    h "Arnold shrugs his shoulders and takes a step closer to me..."
+    h "I fight the instinct to push him away, like I normally would have..."
+    show arn snark
+    with dissolve
+    aslow "I didn't know a little rain...was enough to stop Helga G. Pataki from having a good time."
+    h "For a minute I'm completely blank..."
+    h "Until I realize..."
+    h "He's right!"
+    h "The only thing that was stopping me from having a good time was... Me..."
+    h "It's always me."
+    hslow "You're right."
+    show arn half smile
+    with dissolve
+    aslow "Yeah?"
+    hslow "Yeah, but don't get too used to hearing it..."
+    show arn half grin
+    with dissolve
+    aslow "Haha...don't worry. I'm starting to learn your rules as we go."
+    hslow "Good, I'm glad."
+    hslow "Now, I'm gonna go change so wait! I won't be long."
+    scene helga room night rain
+    with dissolve
+    h "I nearly fly up the stairs to my room and try to make myself look...more human?"
+    h "I grab my brush and make an attempt at my hair again before I open the closet to peer over my clothes..."
+    h "And while I searched for something to wear...I couldn't help thinking about Arnold..."
+    h "I was freaking ecstatic that he still showed up, even if I was just a little pissed he didn't tell me anything about it."
+    h "I pull clothes out of my closet on to the floor, not knowing what we're doing, what Arnold had planned..."
+    h "But to be honest it didn't matter..."
+    h "Cause he was actually here and waiting for me..."
+    h "Arnold was waiting for me!"
+    h "In the corner of my eye I catch my black leggings..."
+    h "Pulling out a red skirt and nice pink top, I settle on that outfit."
+    h "And after I pull on my boots, I grab for a small pink bow...for...obvious reasons."
+    h "Then after a few glances in the mirror..."
+    h "And a big breath in..."
