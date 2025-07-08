@@ -1,4 +1,4 @@
-# HAHCF
+# Helga's Cheese Festival
 
 Helga's Cheese Festival - A Ren'Py visual novel story game with Helga and Arnold's true love story. 
 
@@ -8,11 +8,35 @@ Maintained by Martin Eesmaa
 
 Development begun: Sun Feb 26 20:48:50 2012 UTC (Unix timestamp: 1330289330)
 
-# Notes
+Development finished was on 24th June 2013 and took 1 year and almost 4 months with breaks/hiatus to develop the game
+
+# Notes of this game
 
 See the [LICENSE](LICENSE) file.
 
 See the [Credits](CREDITS.txt) file.
+
+## Compile the game
+
+To compile the game, you can have two choice to download via green button or just git clone it.
+
+You need:
+
+- Windows, macOS or Linux to use Ren'Py builder.
+- Ren'Py 6.13 or some versions later work (tested [6.13](https://www.renpy.org/release/6.13) & [6.15](https://www.renpy.org/release/6.15)). Original build was used on Ren'Py 6.15.4.320.
+
+Step 1: Follow the instructions on Ren'Py.
+
+Step 2: Once you installed Ren'Py on your computer. Download the source code.
+
+If you haven't heard Git before, Git is cloning tool used commonly by programmers, but you can download the project by pressing Code button and then click Download ZIP.
+
+Step 3: Uncompress ZIP file to drag into renpy folder.
+
+Step 4: Launch Ren'Py on your computer and make sure select downloaded project game folder and then you can launch the project or build distributions.
+
+If you're not sure or understand, you can create an issue on GitHub. I feel free to help you. :)
+
 
 # Disclaimer
 
