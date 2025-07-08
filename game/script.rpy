@@ -71,9 +71,17 @@ image CG7 = "CG7.png"
 image CG8 = "CG8.png"
 image CG9 = "CG9.png"
 image CG10 = "CG10.png"
+image CG11 = "CG11.png"
+image CG12 = "CG12.png"
+image CG13 = "CG13.png"
+image CG14 = "CG14.png"
+image CG15 = "CG15.png"
+image CG23 = "CG23.png"
 image CG39 = "CG39.png"
 image CG40 = "CG40.png"
 image CG41 = "CG41.png"
+image CG42 = "CG42.png"
+image CG45 = "CG45.png"
 
 #Arnold Expressions Go Here
 image arnold simple = "Arnold 1.png"
@@ -1619,3 +1627,623 @@ label GoodGoing6:
     h "With just me there'd be nobody to bother us..."
     h "I tried to ignore the perky, farm girl face that wormed its way into my head."
     h "But seeing Arnold do something bad, even if it was only cutting class, was kind of a turn on."
+    menu:
+        h "So I guess I'm going to..."
+
+        "Go with him to school.":
+        
+            call Walk
+            
+        "Convince him to cut...":
+        
+            jump Breakdarules
+label Breakdarules:
+    $ renpy.block_rollback()
+    window show
+    h "I have to get him to cut class, to hang out and be with me."
+    hslow "You know, we could have a lot of fun..."
+    hslow "If we just decided not to go, Arnoldo."
+    show arnold big blush
+    with dissolve
+    h "He looks a little nervous when I bring this up to him."
+    aslow "Just not show up?"
+    h "I nod my head."
+    show arnold turn unsure
+    with dissolve
+    aslow "I dunno, I haven't had very good experiences with ditching school."
+    h "I think I remember him and Gerald reminiscing on this story once..."
+    h "I decide to bring it up, to prove I pay attention to him."
+    hslow "Trust me, it's not Carnival Day."
+    aslow "Haha, very funny...but still..."
+    show arnold sad smile
+    with dissolve
+    aslow "I only missed the morning classes by mistake."
+    hslow "Arnold..."
+    hslow "Look, the only reason you had such a crappy time was because you weren't with me."
+    show arnold yeah
+    with dissolve
+    aslow "Oh? Is that the reason?" 
+    hslow "Yup! Didn't you know? Common knowledge, just ask Phoebe."
+    hslow "Since you'll be skipping with me, you're bound to have a good time."
+    show arnold laugh
+    with dissolve
+    aslow "Hahaha~"
+    show arnold simple
+    with dissolve
+    aslow "Well, okay...but what are we going to do?"
+    menu:
+        hslow "Well..."
+        "I have no idea.":
+            call Backtoschool
+        "That's the fun!":
+            jump Breakdarules2
+label Breakdarules2:
+    $ Perfect_3 = True
+    $ renpy.block_rollback()
+    window show
+    hslow "That's the fun of doing something wrong, Arnoldo..."
+    hslow "The surprise of what's going to happen next!"
+    show arnold turn simple
+    with dissolve
+    aslow "..."
+    aslow "......"
+    h "He stares out into space for a moment."
+    h "I can tell he's thinking on something."
+    aslow "I have a funny feeling I'm going to regret this..."
+    aslow "But okay..."
+    hslow "Seriously?"
+    h "Holy crap, did I actually do it?"
+    show arnold sad smile
+    with dissolve
+    aslow "Yeah..."
+    show arnold turn unsure
+    with dissolve
+    aslow "Unless you changed your mind?"
+    hslow "No!"
+    show arnold surprise
+    with dissolve
+    h "Relax...relax..."
+    hslow "...."
+    hslow "No, of course not Football Head..."
+    hslow "It was my idea after all..."
+    hslow "Turning you over to the dark side."
+    show arnold yeah
+    with dissolve
+    aslow "Going to taint me?"
+    hslow "Hah."
+    hslow "That sounds dirty..." 
+    show arnold sneaky
+    with dissolve
+    aslow "Jeez, shut up."
+    h "I laugh."
+    hslow "Well, let's get a move on Shortman..."
+    show arnold simple
+    with dissolve
+    hslow "We're burning daylight just standing around here."
+    aslow "Okay Helga, I'm right behind you."
+    stop music fadeout 3.0
+    hide arnold simple
+    with dissolve
+    scene start
+    with dissolve
+    h "We basically end up kind of wandering around Hillwood..."
+    h "Inwardly, I was just happy we were together."
+    h "Despite the semi-awkward small talk about nothing in particular."
+    h "I could tell that neither one of us were having a terrible time..."
+    h "And that means so much to me."
+    h "But when we reached City Park, my brain felt fried"
+    play music "04 groove remote (abner).mp3"
+    h "I couldn't come up with anything other than wandering around!"
+    scene bg city park day
+    with dissolve
+    hslow "Criminy!"
+    hslow "I'm usually more creative than this Arnold, I swear."
+    show arnold simple
+    with dissolve
+    aslow "Oh yeah?"
+    hslow "...Huh?"
+    aslow "Like how?"
+    hslow "Like how what? What are you talking about?"
+    h "He's confusing me..."
+    show arnold turn calm
+    with dissolve
+    aslow "You said you were creative? Were you saying just to say so..."
+    show arnold yeah
+    with dissolve
+    aslow "Or do you actually...create things?"
+    menu:
+        hslow "Umm..."
+        "I was just saying...":
+            jump Bingo
+        "Well, yeah I guess.":
+            call Okay            
+label Bingo:
+    $ renpy.block_rollback()
+    hslow "Heh, I was just talking..." 
+    hslow "It's-it's...it's nothing."
+    show arnold sneaky
+    with dissolve
+    aslow "Well, now I know it's something."
+    hslow "No...no really it's not."
+    show arnold calm
+    with dissolve
+    aslow "Oh come on Helga...you can tell me..."
+    show arnold sad smile
+    with dissolve
+    aslow "Unless it's another secret."
+    hslow "Uh..."
+    hslow "Um, not exactly..."
+    show arnold calm
+    with dissolve
+    aslow "Okay, then what?"
+    hslow "*mumble* *mumble* write *mumble*"
+    show arnold turn unsure
+    with dissolve
+    aslow "What did you say? I didn't get a word of that."
+    hslow "Ugh..."
+    hslow "I said I write."
+    hslow "I am a writer."
+    show arnold surprise
+    with dissolve
+    h "That's the first time I said that aloud to anyone before..."
+    aslow "Wow, really?"
+    hslow "Yes, really...why would I lie about that?"
+    show arnold sad smile
+    with dissolve
+    aslow "Sorry, I'm just a little surprised." 
+    hslow "Why? Don't I look like I can  write?"
+    aslow "That's not it..."
+    show arnold yeah
+    with dissolve
+    aslow "I'm more surprised you actually told me..."
+    hslow "...What?"
+    aslow "It's just..."
+    aslow "I never knew you were so secretive." 
+    hslow "...Yeah, I'm a regular Fort Knox."
+    h "Arnold stares down at his hands for a moment, then quickly looks back up at me."
+    show arnold grin
+    with dissolve
+    aslow "So..."
+    aslow "Are you gonna let me read some?"
+    hslow "What?!"
+    aslow "Come on! You can't tell me you're a writer and then not show me anything."
+    hslow "Yes, actually I can."
+    hslow "In fact, it's what I plan on doing."
+    show arnold turn sad
+    with dissolve
+    aslow "...Seriously?"
+    h "He looks so disappointed."
+    hslow "...."
+    aslow "..."
+    hslow "..."
+    h "Damn it."
+    hslow "...Grrrr...."
+    hslow "Fine, fine one day I'll show you something, okay?"
+    hslow "Now stop looking so pathetic, Football Head, really."
+    scene CG11
+    with dissolve
+    aslow "Another thing I have to wait for, huh?"
+    hslow "Such is what it takes being friends with me..."
+    hslow "Patience."
+    aslow "Well, I've waited a long time to finally be your friend, Helga..."
+    aslow "I don't mind."
+    h "I don't know why...but him saying that makes me so happy..."
+    h "I almost let out a sigh!"
+    scene bg city park day
+    with dissolve
+    show arnold simple
+    with dissolve
+    aslow "So, what now? Lunch?"
+    hslow "Yeah, I could go for some grub."
+    aslow "Great, my treat?"
+    menu:
+        hslow "Well..."
+        "Of course!":
+            jump Decent
+        "Absolutely not!":
+            jump Right
+label Right:
+    $ renpy.block_rollback()
+    hslow "No way, I can't do that..."
+    show arnold turn unsure
+    with dissolve
+    aslow "Why not?"
+    hslow "Well, you gotta save up for that record you wanted so much..."
+    hslow "So...no."
+    show arnold yeah
+    with dissolve
+    aslow "Come on...that record's gonna be there next week..."
+    show arnold sneaky
+    with dissolve
+    aslow "But how many chances does a guy have to treat Helga G. Pataki?"
+    hslow "Good point..."
+    hslow "But that's completely up to you, Arnold."
+    show arnold grin
+    with dissolve
+    aslow "Great."
+    aslow "It's on me then."
+    $ PerfectDay = True
+    aslow "So let's go."
+    hide arnold grin
+    with dissolve
+    jump School
+label Decent:
+   hslow "Sounds good!"
+   show arnold simple
+   with dissolve
+   aslow "Awesome...now the question is where to go..."
+   hslow "Any where with food."
+   show arnold sneaky
+   with dissolve
+   aslow "Well gee, that narrows it down Helga."
+   hslow "Hahaha~"
+   hslow "You're so fun to mess with Arnoldo!"
+   show arnold calm with dissolve
+   aslow "Come on, let's get some burgers."
+   hide arnold calm
+   with dissolve
+label School:
+    stop music fadeout 3.0
+    scene start
+    with dissolve
+    if soup:
+        h "When I arrive home I call Phoebe on her cell."
+        h "I needed to see her, A.S.A.P...."
+    else:    
+        h "When school finally let out, Arnold and I went our separate ways."
+        h "And I got in touch with Phoebe, telling her I needed to see her A.S.A.P"
+    h "Knowing her, I wouldn't have to wait too long."
+    play music "33 kick the can.mp3"
+    scene bg helga house evening
+    with dissolve
+    h "..."
+    show phoebe grin
+    with dissolve
+    pslow "Helga!"
+    hslow "There you are Phoebe..." 
+    hslow "Take a seat...I've got some news."
+    hide phoebe grin
+    with dissolve
+    h "I then proceed to explain everything that had happened the last day and a half..."
+    h "Explain how I was seriously ready to tell Arnold my feelings..."
+    h "So long as he kinda, sorta made the first move."
+    hslow "So how do you think I'm doing Pheebs? Any advice?"
+    if PerfectDay:
+        show phoebe smile
+        with dissolve
+        pslow "I think you should keep doing what you're doing Helga..."
+        show phoebe grin
+        with dissolve
+        pslow "It sounds as if everything is going your way!"
+        hslow "I thought so too..."
+        hslow "But, I spent pretty much the whole day with him..."
+        hslow "And he didn't say a word about that stupid Festival!"
+        hslow "What could I be doing wrong?"
+        show phoebe question
+        with dissolve
+        pslow "Probably nothing...remember he said he didn't have very good luck at the fairs?"
+        hslow "Well yeah, but that's cause I was sabotaging him...heh."
+        pslow "Maybe he thinks something will go bad if he invites you..."
+        hslow "You think?"
+        pslow "It seems like a logical conclusion to make..."
+    else:
+        show phoebe question
+        with dissolve
+        pslow "My only suggestion would be..."
+        pslow "Maybe try to be you more?"
+        pslow "With just a pinch of..."
+        show phoebe unsure
+        with dissolve
+        pslow "Nice?"
+    hslow "Okay..."
+    hslow "Well thanks Pheebs..."
+    hslow "Glad we had this chat."
+    show phoebe smile
+    with dissolve
+    pslow "Did it actually happen? I don't have to forget it?"
+    hslow "Haha, yeah this time it did."
+    pslow "Alright, I'll see you later then!"
+    hide phoebe smile
+    with dissolve
+    if soup:
+        call FIGHT
+    else:    
+        scene start
+        with dissolve
+        scene helga room evening
+        with dissolve
+        h "..."
+        h "I soon find myself in my bedroom, dumping countless old diaries and papers onto the floor."
+        h "Digging through the most recents ones, I try to find something decent to show Arnold."
+        h "The question was... Why was I suddenly so determined to do so...?"
+        h "A part of this excitment to impress him thrills me."
+        h "But the other part though?"
+        h "It scares me to death..."
+        h "But what I find most strange..."
+        stop music fadeout 3.0
+        h "Is that, somehow, even though it's only been a few hours... I miss him."
+        h "And not in the way I normally do...I miss being with him, talking with him."
+        h "This feeling, well, it was...new."
+        play music "39 everywhere montage.mp3"
+        play sound "Paper Tearing.wav"
+        h "But that thought disappears as I find a good one and rip it out."
+        hslow "Heh..."
+        hslow "Not quite as romantic as some of my other ones..."
+        hslow "But we don't want to hit him with the crazy all at once."
+        h "Talking aloud to myself again...gotta try to stop doing that."
+        h "So with poem in hand I head out the door."
+        hslow "Just one more quick stop, and it's off to Arnold's..."
+        scene start
+        with dissolve
+        scene bg arnold house
+        with dissolve
+        play sound "Helga Knocking.wav"
+        h "The second I get to the Boarding House I knock hard on the door."
+        hslow "I can't believe I'm doing this..."
+        aslow "Yeah?"
+        h "I hear his voice call out, but I don't answer, I'm too nervous."
+        h "And he looks surprised when he opens the door to see me."
+        show arnold surprise
+        with dissolve
+        aslow "Oh, hey..."
+        show arnold calm
+        with dissolve
+        aslow "Long time no see."
+        h "He lets out a rather cute, if not awkward laugh."
+        hslow "Yeah, yeah I know Arnoldo. You're probably getting sick of me...aren't you?"
+        h "To be quite honest..."
+        h "I really wanted to know..."
+        show arnold yeah 
+        with dissolve
+        aslow "Heh - No, not really."
+        h "I wasn't expecting that."
+        h "But, I try to shake off the shock as I fiddle with his gift behind my back."
+        hslow "Here!"
+        h "I hold my present out to him, almost dramatically so."
+        hslow "I got ya this...as...as thanks for the food this afternoon."
+        show arnold simple 
+        with dissolve
+        aslow "Yeah?...What is..."
+        h "He takes the shopping bag from my hands and peers inside."
+        aslow "Woah! Helga, you didn't need to get me the al..."
+        show arnold surprise
+        with dissolve
+        h "Suddenly, he stops short as he reaches inside and pull out my other, less extravagant, gift."
+        aslow "Wait...what's this?"
+        h "He quickly looks over the piece of paper, then back up at me."
+        show arnold turn unsure
+        with dissolve
+        aslow "This is yours isn't it? Your work?"
+        show arnold small blush
+        with dissolve
+        aslow "You're letting me read it?"
+        hslow "Yeah...well, you know, you looked so pathetic asking for it this afternoon..."
+        hslow "I just couldn't leave you hanging...waiting for me."
+        hslow "So...read it or don't...whatever...stupid Football Head."
+        h "I take a few steps away from him, as if that would somehow calm me down."
+        h "Then suddenly, he gives me a questioning smile."
+        show arnold sad smile
+        with dissolve
+        aslow "Heh, why are you nervous?"
+        hslow "Nervous? Shut up! I'm not nervous!"
+        h "God, that was such a lie."
+        show arnold calm
+        with dissolve
+        aslow "Huh..."
+        h "Even he could tell I was lying."
+        aslow "Okay...if you say so..."
+        aslow "But I'm gunna read it now..."
+        h "He said it slowly, as if I had forgotten what I had just given him."
+        hslow "Fine..."
+        h "The word comes out bitterly as my heart races faster."
+        hslow "That's why I gave it to you."
+        hslow "Doi..."
+        show arnold turn calm
+        with dissolve
+        aslow "Okay here it goes...\"My...\""
+        hslow "You're gonna read it aloud?!"
+        show arnold sneaky
+        with dissolve
+        aslow "I thought you didn't care either way?"
+        stop music fadeout 3.0
+        hslow "I...I don't!"
+        aslow "Then be quiet and let me read..."
+        hslow "Hey Ar..."
+        show arnold pissed 2
+        with dissolve
+        h "He gives me a subtle glare, a nice way of asking me to shut up, I suppose."
+        aslow "..."
+        scene CG12
+        with dissolve
+        aslow "Okay..."
+        play music "41 nowhere montage.mp3"
+        aslow "{i}My life just swims in darkness, with you my only light.{/i}"
+        aslow "{i}And though you're not aware of this, it matters not...stay in my sight.{/i}"
+        aslow "{i}Because I am...{/i} Invisible...? Unheard and uncared for...?"
+        scene CG13
+        with dissolve        
+        h "He might have been looking at me...but I couldn't even face his direction."
+        scene CG14
+        with dissolve
+        aslow "{i}I'll pretend that you do notice me, my love, it's what I wake for...{/i}"
+        h "That's it...he finished it."
+        aslow "~exhale~ Wow..."
+        hslow "Okay! Okay! Give it to me straight!"
+        hslow "...You think it's weird, don't you?"
+        aslow "No."
+        hslow "No...?"
+        scene CG15
+        with dissolve
+        aslow "It's beautiful Helga...honestly."
+        aslow "I can't believe you wrote this."
+        aslow "I'm really impressed."
+        h "I felt as if all the air in my lungs had been sucked out."
+        hslow "You..."
+        hslow "You really like it Arnold?"
+        h "How much I wanted to tell him it was for him...about him."
+        aslow "Yeah... I do."
+        stop music fadeout 2.0
+        scene CG23
+        with dissolve
+        aslow "C'mere..." 
+        h "He takes hold of my hand and I feel frozen in his touch."
+        scene bg arnold room
+        with dissolve
+        play music "Jim Lang - Operation Ruthless End.mp3"
+        h "And he leads me up to his bedroom." 
+        h "I can barely stand as I take in my surroundings."
+        h "One could not even count how many emotions filled me!"
+        h "The fact I was standing here in his room..."
+        h "Actually being brought in here...I didn't have to sneak in...like I normally did."
+        h "..."
+        h "I watch as he places the record on his bed and walks towards his desk."
+        h "He rummages through the draw and fishes out a push pin."
+        h "And places my poem on his bedroom wall."
+        show arnold grin
+        with dissolve
+        aslow "There!"
+        h "He sounds so accomplished, like he did something incredibly worthwhile.."
+        aslow "Now whenever I need to see something beautiful...I'll know where to look."
+        hslow "Arnold I..."
+        show arnold calm
+        with dissolve
+        aslow "Yeah?"
+        hslow "I..."
+        h "All the happiness...everything good I feel..."
+        h "It all boils in the pit in my stomach and churns into paranoia."
+        hslow "I....I can't believe you're gonna put that on your wall..."
+        hslow "It's just a bunch of words on paper! It doesn't mean anything!"
+        h "I try to stop myself from running over to his wall and ripping the damn thing to shreds."
+        h "Why am I doing?"
+        h "What is wrong with me?"
+        show arnold frown
+        with dissolve
+        aslow "Helga...why are you doing this?"
+        h "He just...he doesn't understand."
+        hslow "Doing what?"
+        h "He doesn't understand that I can't help it...I'm scared...we're getting close and I'm scared."
+        h "I can feel that it's getting harder and harder to breathe..."
+        h "Was this an anxiety attack?"
+        show arnold turn sad
+        with dissolve
+        h "..."
+        h "Arnold's hand flies to the bridge of his nose, like he was fighting an on coming headache."
+        aslow "You just shared a really big part of yourself..."
+        h "His eyes find me again, this time, his glare physically hurts."
+        aslow "You can NOT put up that wall like nothing happened!"
+        aslow "You have nothing to be ashamed of, to be...!"
+        h "I stop him before he can utter another word."
+        hslow "You just don't get it..."
+        h "I feel my hands twist into fists as my voice grows in volume."
+        hslow "I can't help it!"
+        show arnold frown
+        with dissolve
+        aslow "What?"
+        hslow "That-that part of me..."
+        hslow "It's not something I show people!"
+        aslow "Why not? You created something beautiful, don't you get that I feel honored?"
+        h "I was being ridiculous but my brain just couldn't help that fear of showing someone any part of the real me."
+        h "The me that lives off the love of this boy."
+        hslow "I feel like a part of my soul goes into my poems."
+        hslow "And what if someone laughed at me..."
+        hslow "What if you laughed at me?"
+        h "I couldn't even imagine the humiliation...I don't think I could live with it"
+        show arnold pissed
+        with dissolve
+        aslow "...But I didn't."
+        hslow "I know...and..."
+        hslow "And I appreciate that..."
+        hslow "But you don't understand how hard that was for me Arnold!"
+        show arnold frown
+        with dissolve
+        aslow "Helga..."
+        h "His voice grows soft, like he was pitying me, pitying my fear."
+        hslow "No one can run away from you if they were never close in the first place..."
+        h "That was why I was the way I was...if I kept people at a distance they could never grow disgusted with me..."
+        h "They could never ignore me..."
+        h "They could never overlook me..."
+        hslow "And being mean...it's how I stay..."
+        hslow "It's how I stay safe..."
+        h "He stares at me like I'm some type of puzzle or something..."
+        h "Warm green eyes looking for what?..."
+        h "An answer?"
+        h "Do I have an answer?"
+        h "Suddenly, his eyes narrow and he steps closer..."
+        show arnold pissed 2
+        with dissolve
+        aslow "That's just an excuse!"
+        hslow "What?"
+        aslow "Closing yourself off, even from people who want to know you?"
+        aslow "You're scared!"
+        show arnold turn angry
+        with dissolve
+        aslow "You're not saving yourself from any pain, you're only making it worse."
+        hslow "Stop it..."
+        h "I can barely even speak...."
+        show arnold pissed
+        with dissolve
+        aslow "You wrote this, Helga! You!"
+        h "He points towards that damn piece of paper as if I have no idea what it is."
+        h "His voice plays with both amazment and curiousity..."
+        show arnold frown
+        with dissolve
+        aslow "How could I laugh?"
+        hslow "..."
+        h "Because..."
+        h "What was I thinking..."
+        h "I don't have any answer at all."
+        h "..."
+        h "The room was starting to spin; my breathing was getting faster and faster..."
+        hslow "God..."
+        show arnold turn sad
+        with dissolve
+        aslow "What are you...?"
+        hslow "Why are you always so freakin' nice all the time?"
+        aslow "I'm not trying to be nice...I'm being honest."
+        hslow "Same difference..."
+        show arnold turn angry 
+        with dissolve
+        aslow "No, it's not."
+        show arnold pissed 2
+        with dissolve
+        aslow "Helga for once in your life can't you just see..."
+        aslow "I want to know you!"
+        h "His words spiral to my core."
+        h "...I was wrong."
+        h "I'm not ready at all."
+        h "I can't do this."
+        hslow "Look..."
+        h "I need to get out of here."
+        h "I need to escape."
+        hslow "Uh, enjoy the record."
+        hslow "I gotta go..."
+        show arnold surprise
+        with dissolve
+        aslow "What? No, wait!"
+        hide arnold surprise
+        with dissolve
+        h "I turn and nearly sprint out of the house..."
+        scene start
+        with dissolve
+        h "There was no way I could stand being in that room anymore."
+        h "I felt like my walls were breaking a part...and I didn't like it."
+        h "Though I wanted him to care about me..."
+        h "I didn't think I was going to be this afraid of the outcome."
+        h "..."
+        h "Of the closeness."
+        $ poem = True
+label BLOCK:    
+    scene helga room night
+    with dissolve
+    h "When I get home I lock myself in my room and pull out one of my pink books."
+    h "It was my normal routine...I was trying to fall back into some normalcy but..."
+    h "...But..."
+    h "I can't think of anything to write!"
+    h "Where did this writer's block come from?"
+    h "I hold my pen to my paper and wait...but nothing."
+    h "What is wrong with me?"
+    h "..."
+    h "......"
+    h "I doubt I'm going to sleep very well tonight..."
+    window hide dissolve
+    stop music fadeout 1.0

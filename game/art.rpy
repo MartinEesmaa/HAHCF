@@ -52,6 +52,15 @@ label gallery:
         g.unlock_image("CG10")
         g.button("thumb_CG6.png")
         g.unlock_image("CG8")
+        g.button("thumb_CG8.png")
+        g.unlock_image("CG11")
+        g.button("thumb_CG9.png")
+        g.unlock_image("CG12")
+        g.unlock_image("CG13")
+        g.unlock_image("CG14")
+        g.unlock_image("CG15")
+        g.button("thumb_CG13.png")
+        g.unlock_image("CG23")
         #
         # These show images, if they have been unlocked. The image name must
         # have been defined using an image statement.
