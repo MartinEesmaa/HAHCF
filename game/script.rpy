@@ -176,12 +176,12 @@ init:
     $ hslow = Character("Helga",
                         color="#F9B7FF",
                         what_slow_cps=30,
-                        font="RONDALO_.TTF")
+                        font="ARNORG__.ttf", size= 29)
                         
-    $ pslow = Character('Phoebe', color="#F9B7FF", what_slow_cps=24, font="RONDALO_.TTF", size= 29)
-    $ aslow = Character('Arnold', color="#F9B7FF", what_slow_cps=24, font="RONDALO_.TTF", size= 29)
-    $ gslow = Character('Gerald', color="#F9B7FF", what_slow_cps=24, font="RONDALO_.TTF", size= 29)
-    $ lslow = Character('Lila', color="#F9B7FF", what_slow_cps=24, font="RONDALO_.TTF", size= 29)
+    $ pslow = Character('Phoebe', color="#F9B7FF", what_slow_cps=24, font="ARNORG__.ttf", size= 29)
+    $ aslow = Character('Arnold', color="#F9B7FF", what_slow_cps=24, font="ARNORG__.ttf", size= 29)
+    $ gslow = Character('Gerald', color="#F9B7FF", what_slow_cps=24, font="ARNORG__.ttf", size= 29)
+    $ lslow = Character('Lila', color="#F9B7FF", what_slow_cps=24, font="ARNORG__.ttf", size= 29)
     $ h = Character(None, what_slow_cps=24)
 # The game starts here.
 label splashscreen:
