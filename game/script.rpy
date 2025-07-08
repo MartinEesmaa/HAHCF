@@ -53,6 +53,8 @@ image splash two = "second image.png"
 image opening pic = "splashscreen.png"
 image main = "menu.jpg"
 image maintwo = "menu2.jpg"
+image mainthree = "menu3.jpg"
+image renpy = "RENPY.png"
 image last1 = "lastday1.png"
 image last2 = "lastday2.png"
 
@@ -69,6 +71,7 @@ image SPLASH:
     pause 4.0
     "start.png" with fade
     pause 2.0
+    
 
 #CGs
 image CG1 = "CG1.png"
@@ -123,6 +126,7 @@ image CG49 = "CG49.png"
 image CG50 = "CG50.png"
 image CG51 = "CG51.png"
 image CG52 = "CG52.png"
+
 
 #Arnold Expressions Go Here
 image arnold simple = "Arnold 1.png"
@@ -281,6 +285,7 @@ label splashscreen:
    
     show opening pic
     with dissolve
+    play sound "OPENINGSONG.wav"
     $ renpy.pause(5.0, hard=True)
     
     scene black
@@ -303,6 +308,14 @@ label start:
      scene black 
      with fade
      $ renpy.pause(0.5, hard=True)
+    
+     show renpy
+     with dissolve
+     $ renpy.pause(2.0, hard=True)
+    
+     scene black 
+     with fade
+     $ renpy.pause(0.5, hard=True)
      
      show splash two
      with dissolve
@@ -314,7 +327,7 @@ label start:
      scene start
      with fade
      window show
-     with dissolve 
+     with dissolve  
     
      $ GeraldSpills = False
      $ Festival = False
