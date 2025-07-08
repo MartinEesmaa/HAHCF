@@ -11,12 +11,14 @@ project.json
 *.mxc2
 launcherinfo.py
 log.txt
-
+errors.txt
+traceback.txt
 
 # Temporary folders
 [t]mp
 game/saves
 game/cache
+*-*-dists
 
 # Compressed files of build distributions
 *.zip
