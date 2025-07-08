@@ -199,6 +199,7 @@ screen main_menu2:
         hover 'button2.jpg'
         
         hotspot (608, 243, 99, 39) action Start()
+        hotspot (589, 284, 139, 33) action Start('HAPPYENDING')
         hotspot (617, 322, 80, 34) action ShowMenu('load')
         hotspot (559, 360, 197, 34) action ShowMenu('preferences')
         hotspot (590, 399, 134, 35) action ShowMenu("gallery")

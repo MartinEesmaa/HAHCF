@@ -3,7 +3,10 @@
 # Declare images below this line, using the image statement.
 #END CARDS
 
+image epi op 1 = "ending1.png"
+image epi op 2 = "ending2.png"
 image perfect end = "perfectend.png"
+image endend = "theend.png"
 image true end = "trueending.png"
 image GBACK = "GBACK.jpg"
 
@@ -114,7 +117,12 @@ image CG43 = "CG43.png"
 image CG44 = "CG44.png"
 image CG45 = "CG45.png"
 image CG46 = "CG46.png"
+image CG47 = "CG47.png"
+image CG48 = "CG48.png"
+image CG49 = "CG49.png"
+image CG50 = "CG50.png"
 image CG51 = "CG51.png"
+image CG52 = "CG52.png"
 
 #Arnold Expressions Go Here
 image arnold simple = "Arnold 1.png"
@@ -180,6 +188,27 @@ image arn laugh blush = "Arnold 56.png"
 image arn sad smile blush = "Arnold 57.png"
 image arn simple blush = "Arnold 58.png"
 image arn okay = "Arnold 76.png"
+#OLD ARNOLD IS OLD GOES HERE HAHA
+image old a simple = "Arnold 59.png"
+image old a sad = "Arnold 60.png"
+image old a sad smile = "Arnold 61.png"
+image old a snark = "Arnold 62.png"
+image old a surprise = "Arnold 63.png"
+image old a grin = "Arnold 64.png"
+image old a laugh = "Arnold 65.png"
+image old a bored = "Arnold 66.png"
+image old a half smile = "Arnold 67.png"
+image old a half blush = "Arnold 68.png"
+image old a big blush = "Arnold 69.png"
+image old a cute blush = "Arnold 70.png"
+image old a big grin = "Arnold 71.png"
+image old a shock = "Arnold 72.png"
+image old a okay = "Arnold 75.png"
+image old a half grin = "Arnold 77.png"
+image old a shy = "Arnold 78.png"
+image old a uh = "Arnold 79.png"
+image old a works = "Arnold 80.png"
+image old a cute = "Arnold 81.png"
 
 #Phoebe Expressions
 image phoebe grin = "Phoebe 1.png"
@@ -195,6 +224,13 @@ image phoebe blush = "Phoebe 10.png"
 image phoebe big grin = "Phoebe 11.png"
 image phoebe unsure = "Phoebe 12.png"
 image phoebe surprise = "Phoebe 13.png"
+# OLD PHOEBE 
+image old p grin = "Phoebe 14.png"
+image old p question = "Phoebe 15.png"
+image old p big smile = "Phoebe 16.png"
+image old p smile = "Phoebe 17.png"
+image old p laugh = "Phoebe 18.png"
+image old p small blush = "Phoebe 19.png"
 
 #Gerald Expressions
 image gerald wtf = "Gerald 1.png"
