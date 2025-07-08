@@ -453,7 +453,7 @@ label OuchWrong5:
     scene CG39
     with dissolve
     hslow "Some things never change..."
-    h "After I finished up my...business..."
+    h "After I finished up that...usual...business..."
     scene start
     with dissolve
     h "I quickly regained my composure."
