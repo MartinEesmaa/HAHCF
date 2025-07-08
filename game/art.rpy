@@ -32,7 +32,7 @@ label gallery:
         g.grid_layout((3, 4), (10, 12), (160, 124))
 
         # Show the background page.
-        g.page("Special Events")
+        g.page("Special Events One")
        
 
         # Our first button is a picture of the beach.
@@ -61,6 +61,15 @@ label gallery:
         g.unlock_image("CG15")
         g.button("thumb_CG13.png")
         g.unlock_image("CG23")
+        g.button("thumb_CG10.png")
+        g.unlock_image("CG16")
+        g.unlock_image("CG17")
+        g.unlock_image("CG18")
+        g.unlock_image("CG19")
+        g.button("thumb_CG11.png")
+        g.unlock_image("CG20")
+        g.button("thumb_CG14.png")
+        g.unlock_image("CG24")
         #
         # These show images, if they have been unlocked. The image name must
         # have been defined using an image statement.
