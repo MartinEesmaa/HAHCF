@@ -673,7 +673,11 @@ label FIRSTDAY:
     stop music fadeout 1.0
     scene start 
     with fade
+label movie:    
+    $ renpy.movie_cutscene("CheeseFestival.ogv")
 label FIRSTTITLE:    
+    scene start
+    with fade
     scene black 
     $ renpy.pause(0.5, hard=True)
     with fade
