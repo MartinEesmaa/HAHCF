@@ -484,7 +484,11 @@ label HAPPYENDING:
     $ renpy.pause(5.0, hard=True)
     scene start
     with fade
-    return    
+label endmovie:
+    $ renpy.movie_cutscene("Ending.ogv")
+    scene start with fade
+    $ renpy.pause(1.0, hard=True)
+return    
     
     
    
