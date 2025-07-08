@@ -171,7 +171,7 @@ init:
     $ aslow = Character('Arnold', color="#F9B7FF", what_slow_cps=24, font="RONDALO_.TTF", size= 29)
     $ gslow = Character('Gerald', color="#F9B7FF", what_slow_cps=24, font="RONDALO_.TTF", size= 29)
     $ lslow = Character('Lila', color="#F9B7FF", what_slow_cps=24, font="RONDALO_.TTF", size= 29)
-    $ h = Character(None, what_slow_cps=24, what_italic=True)
+    $ h = Character(None, what_slow_cps=24)
 # The game starts here.
 label splashscreen:
     scene black
