@@ -115,6 +115,16 @@ label gallery:
         g.unlock_image("CG46")
         g.button("thumb_CG33.png")
         g.unlock_image("CG51")
+        g.button("thumb_CG30.png")
+        g.unlock_image("CG47")
+        g.button("thumb_CG32.png")
+        g.unlock_image("CG49")
+        g.unlock_image("CG50")
+        g.button("thumb_CG34.png")
+        g.unlock_image("CG52")
+        g.button("thumb_CG31.png")
+        g.unlock_image("CG48")
+        
 
 
         # Now, show the gallery.
