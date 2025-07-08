@@ -88,6 +88,7 @@ image CG17 = "CG17.png"
 image CG18 = "CG18.png"
 image CG19 = "CG19.png"
 image CG20 = "CG20.png"
+image CG21 = "CG21.png"
 image CG23 = "CG23.png"
 image CG24 = "CG24.png"
 image CG25 = "CG25.png"
@@ -2942,7 +2943,13 @@ label words:
     show arnold turn fluster
     with dissolve
     aslow "...Oh...um..."
+    hide arnold turn fluster
+    with dissolve
+    scene CG21 
+    with dissolve
     h "He suddenly coughs, trying to recapture his composure."
+    scene CG20
+    with dissolve
     show arnold yeah blush
     with dissolve
     aslow "Uh, that's great..."
