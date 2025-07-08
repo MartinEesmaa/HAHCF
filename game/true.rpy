@@ -647,7 +647,7 @@ label picture:
     aslow "I knew it was good."
     hslow "I-I-I...."
     show arnold sneaky with dissolve
-    aslow "If you would have shared that wouldn't have happened."
+    aslow "If you would've shared that wouldn't have happened."
     hslow "That was in my mouth!"
     show arnold bored with dissolve
     aslow "We've chewed the same piece of gum before and that's much worse."
