@@ -349,7 +349,8 @@ label Nope:
     hide arnold grin with dissolve
     h "I watched him go and tried not to breath out a heavy sigh..."
     hslow "~~~sigh~~~"
-    h "I guess I would have to try harder tomorrow..."                                   
+    h "I guess I would have to try harder tomorrow..."
+    call DayTwo                                    
     
 label Saved:
     window show
@@ -371,4 +372,194 @@ label Saved:
     h "I watched him go and my heart swelled just a bit..."
     h "Maybe I can do this after all..."
     $ Good = True
+    call DayTwo
+    
+label OuchWrong5:
+    window show
+    stop music fadeout 3.0
+    h "Yeah, going to school seems like the best choice."
+    h "It's not like sleeping in is going to get me any closer to Arnold."  
+    h "And I can kick my butt into gear if I think about him."
+    scene start
+    with dissolve
+    h "..."
+    h "......."
+    play music "04 groove remote (abner).mp3" 
+    h "It turned out I was running late, even Phoebe had gone on ahead of me."
+    scene classroom
+    with dissolve
+    h "When I slid into my desk for my first class, I watched the door, waiting for Arnold."
+    h "I was going to put my all into it today but..."
+    h "He never freaking showed up!"
+    scene start 
+    with dissolve
+    h "..."
+    h "......."
+    scene cafeteria
+    with dissolve
+    h "When lunch finally came I sat  down, feeling pretty defeated."
+    h "I really was nuts...missing him like this...ugh."
+    h "I'm pathetic..."
+    show phoebe sad with dissolve
+    pslow "Helga...you aren't eating today?"
+    hslow "No money..."
+    show phoebe sad at right with dissolve
+    show gerald unsure at left with dissolve
+    gslow "Uh, I think I can spot you..."
+    hslow "No, it's fine...but, uh...you could answer a question."           
+    hide phoebe sad with dissolve
+    show gerald wtf at center with dissolve                                                          
+    gslow "...Okay?"
+    hslow "Where's the Football Head today, I uh...I didn't see him."      
+    show gerald calm with dissolve
+    gslow "I dunno, I texted him this morning, he said he had a cold."
+    hslow "A cold?"                
+    gslow "Yeah, it means he's sick."
+    hslow "I know what it means...!"      
+    show gerald wtf with dissolve 
+    gslow "Okay, okay I was just kidding, no need to snap."
+    hslow "Ugh...sorry, sorry."
+    pslow "..."                 
+    show gerald calm with dissolve
+    gslow "Seriously?"                                       
+    hslow "Seriously what?"
+    gslow "You're apologizing?"
+    hslow "What? I've done it before..."    
+    show gerald wtf at left with dissolve
+    show phoebe question at right with dissolve
+    pslow "She has..."
+    gslow "A guy can't make a joke anymore, huh?"
+    hslow "Ugh, never mind..."
+    scene start
+    with dissolve
+    h "..."
+    h "......."
+    h "The rest of the school day seemed kind of a blur..."
+    h "Teachers talk about things I don't care about...students rambling amongst themselves."
+    h "And of course I thought about Arnold...this whole day felt like such a waste because he hasn't here..."
+    scene school
+    with dissolve 
+    h "That afternoon I left the school grounds alone, needing to think."
+    hslow "Arnold, my love..."
+    h "I said aloud after making sure the coast was clear..."
+    hslow "How I miss your peaceful face when you're astray..."
+    hslow "How you calm and force my heart to beat away..."
+    hslow "Oh damn, I am on fire..."
+    h "I pull out my pink book and write that line down before I forgot it..."
+    hslow "How....I...miss..."
+    hslow "..."
+    hslow "....."
+    play sound "Right Cross-SoundBible.com-1721311663.wav"
+    scene CG39
+    with dissolve
+    hslow "Some things never change..."
+    h "After I finished up my...business..."
+    scene start
+    with dissolve
+    h "I quickly regained my composure."
+    h "And made my way home..."
+    scene bg city day
+    with dissolve
+    h "..."
+    h "......"
+    hslow "I don't like not seeing him, despite the inspiration boost..."
+    hslow "...Ah?"
+    hslow "What is this?"
+    h "I had walked past some neighborhood deli with a two soup specials today..."
+    h "And an idea suddenly struck..."
+    hslow "Gerald did say he was sick today, didn't he?"
+    h "This could be part of the new, nicer me..."
+    h "Well, a step in the right direction at least."
+    h "I rush right in a grabbed both...cause I didn't know which he'd like better..."
+    h "And ran right over to the boarding house."
+    scene bg arnold house
+    with dissolve
+    h "..."
+    h "......."
+    hslow "Okay Helga, just be honest...just-be-nice!"
+    play sound "Helga Knocking.wav"
+    h "With everything I had I started knocking on the door."
+    h "It wouldn't be too bad since he probably wouldn't answer anyway..."
+    aslow "Coming!"
+    h "Wait...what?"
+    h "And he opened the door suddenly, leaving me no time to prepare!"
+    show arnold surprise with dissolve
+    aslow "Helga?! What are you doing here?"
+    hslow "I...uh...well...you...uh...."
+    show arnold sad smile with dissolve
+    aslow "...Huh?"
+    hslow "Aren't you supposed to be sick or something?!?!"
+    h "A part of me felt like pushing the hot soup into his hands and running far, far away."
+    show arnold turn okay with dissolve
+    aslow "Sick?"
+    aslow "..."
+    show arnold grin with dissolve
+    aslow "Oh! Heh, yeah I did tell Gerald that this morning didn't I?"
+    hslow "Yes....yes you did."
+    show arnold simple with dissolve
+    aslow "So...did you bring me something?"
+    h "He motioned towards the paper bag in my hands."
+    hslow "...Um...yeah?"
+    hslow "But it's kind of shot to hell now that..."
+    show arnold turn simple with dissolve
+    h "He didn't let me finish and grabbed the bag and peered inside."
+    aslow "Soup?"
+    show arnold yeah with dissolve
+    h "He grinned at me like...like..."
+    h "Oh! I don't even know what!"
+    aslow "You brought me soup?"
+    hslow "Shut up! I was trying to be nice! It's your fault for not actually being sick!"
+    show arnold calm with dissolve
+    aslow "I'm not accusing you of anything..."
+    h "He let that trail off as if he knew it was coming."
+    show arnold sad smile with dissolve
+    aslow "But why two?"
+    hslow "*mumble* *mumble* didn't know *mumble mumble*"
+    show arnold turn unsure with dissolve
+    aslow "...What did you just say?"
+    hslow "Ugh! I said I didn't know which one you liked so I got both!"
+    show arnold surprise with dissolve
+    aslow "Oh!"
+    aslow "..."
+    show arnold turn unsure with dissolve
+    aslow "This is kinda weird..."
+    hslow "You're telling me..."
+    show arnold calm with dissolve
+    aslow "But not in a bad way..."
+    hslow "Not...in a...?"
+    show arnold grin with dissolve
+    aslow "You want one?"
+    hslow "Huh?"
+    show arnold simple with dissolve
+    aslow "Well there are two so, one for me and one for you?"
+    hslow "I uh...I guess but isn't there just one spoon?"
+    show arnold yeah with dissolve
+    aslow "Not a problem."
+    h "He reached inside the bag and pulled out the white plastic utensil..."
+    scene CG41
+    with dissolve
+    h "And with a flick it suddenly became two."
+    hslow "Heh, very nice."
+    h" I gave him a deliberately slow clap."
+    aslow "I am a magician, after all..."
+    aslow "I made you disappear once..."
+    hslow "Hah! Very funny...gimme that!"
+    scene bg arnold house
+    with dissolve
+    show arnold simple with dissolve
+    h "I reached for one of the spoons and the tips of my fingers brushed against his..."
+    h "It was like a shot of electricity went through my entire arm."
+    h "And I slowly pulled away, feeling the heat rise to my cheeks."
+    show arnold turn simple with dissolve
+    aslow "So which one do want?"
+    h "It was like he didn't even notice."
+    hslow "Huh? Oh you pick, they're yours anyway."
+    show arnold turn calm with dissolve
+    aslow "Okay...I'll try this one."
+    h "He picked one up out of the bag and set it aside then handed me the other one."
+    show arnold grin with dissolve
+    aslow "Enjoy!"
+    hslow "Um, yeah same to you."
+    h "I popped open the top and grinned."
+    hslow "Oh, broccoli and cheddar!"
     

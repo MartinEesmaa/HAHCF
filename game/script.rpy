@@ -71,6 +71,9 @@ image CG7 = "CG7.png"
 image CG8 = "CG8.png"
 image CG9 = "CG9.png"
 image CG10 = "CG10.png"
+image CG39 = "CG39.png"
+image CG40 = "CG40.png"
+image CG41 = "CG41.png"
 
 #Arnold Expressions Go Here
 image arnold simple = "Arnold 1.png"
@@ -145,6 +148,9 @@ image lila pissed = "Lila 8.png"
 image day one = "dayone1.png"
 image day one2 = "dayone2.png"
 image day one3 = "dayone3.png"
+image day two = "daytwo1.png"
+image day two2 = "daytwo2.png"
+image day two3 = "daytwo3.png"
 init:
 # Declare characters used by this game.
 # Slow text.
@@ -1441,3 +1447,175 @@ label Home:
                 call Nope
             "I dunno yet.":
                 call Saved
+label  DayTwo:
+    window hide dissolve
+    stop music fadeout 1.0
+    scene start
+    with fade
+    scene black 
+    $ renpy.pause(0.5, hard=True)
+    with fade
+
+    show day two
+    with dissolve
+    $ renpy.pause(1.0, hard=True)
+    show day two2
+    with dissolve 
+    $ renpy.pause(3.0, hard=True)
+    
+    scene black 
+    with dissolve
+    $ renpy.pause(0.2, hard=True)
+    scene helga room day
+    with fade
+    window show
+    play music "Dangerous Lumber.wav"
+    h "..."
+    h "......"
+    h "I woke up earlier than I had wanted to this morning..."
+    if Good:
+        h "But it was weird, I was actually feeling pretty good."
+        h "Okay, that was only half true."
+        h "While my brain was all warm and fuzzy inside..."
+        h "My body didn't want to move..."
+        h "I know if I fall back to sleep I'm going to be late for class..."
+        menu:
+            hslow "So I should probably..."
+
+            "Just sleep in...":
+        
+                jump GoodGoing6
+            
+            "Get up and go!":
+        
+                call OuchWrong5
+    else: 
+        h "And I felt terrible."
+        h "I was tired and drained from my efforts the day before."
+        h "I knew I couldn't give up though..."
+        h "My future love life was at stake here..."
+        h "Thing was, I barely wanted to move, let alone get up for school..."
+        menu:
+            h "I should probably..."
+
+            "Just sleep in...":
+        
+                jump GoodGoing6
+            
+            "Get up and go....":
+        
+                call OuchWrong5
+label GoodGoing6:
+    $ renpy.block_rollback()
+    window show
+    with dissolve
+    scene start
+    with dissolve
+    h "..."
+    h "......"
+    scene bg city day
+    with dissolve
+    h "Damn..." 
+    h "I ended up sleeping a lot later than I planned."
+    h "It's past noon already..."
+    h "Not to mention I'm starving to death..."
+    hslow "Will Miriam ever remember that not everyone lives on her special smoothies?"
+    h "I mumble this to myself as I rush towards the high school."
+    h "Her fruit juice and ice mixed with those special ingredients she thinks I don't know she sneaks in..."
+    h "..."
+    h "Forget her, I had better things to worry about."
+    h "The real bummer was that I missed the chance at having another lunch with Arnold."
+    h "For some reason sleeping in was starting to feel like a mistake."
+    h "..."
+    h "......"
+    h "But..."
+    h "When I turn the corner I catch the sight of a new store that just opened up..."
+    scene record shack
+    with dissolve
+    hslow "Big Rick Black's Record Shack? When did this..."
+    h "...?"
+    h "Is that...?"
+    hslow "No way..."
+    h "That person looks awfully familiar..."
+    h "I need to double check this."
+    h "Without another thought I walk right up to the glass and peer inside the window."
+    window show
+    show arnold surprise
+    with dissolve
+    window show
+    hide arnold surprise
+    with dissolve
+    aslow "Ah!"
+    h "I can hear is somewhat muffled exclaimation from outside the store."
+    h "Opps, I guess I surprised him..."
+    show arnold turn surprise
+    with dissolve
+    h "He places the record he was holding back in its place and comes outside to meet me."
+    aslow "Helga? What are you doing here?"
+    hslow "I could ask the same of you, couldn't I Football Head?"
+    show arnold turn unsure
+    with dissolve
+    aslow "Uh...well, yeah but I do have a reason."
+    hslow "Oh, I didn't know someone needed a reason to skip school..."
+    h "I give him a somewhat devilish smile to acompany my teasing."
+    show arnold turn shy
+    with dissolve
+    aslow "Heh...no, you see...Record Store Day was last week..."
+    show arnold simple blush
+    with dissolve
+    aslow "And a favorite artist of mine came out with a re-release of one of his albums."
+    h "He glances back in the store, as if it would clarify his story for him."
+    aslow "So when I saw Big Rick's on my way to school I stopped and looked in..."
+    show arnold turn angry
+    with dissolve
+    aslow "They have it, but I didn't have enough cash for it..."
+    show arnold turn simple
+    with dissolve
+    aslow "So, I ended up kind of browsing around..."
+    aslow "Lost track of the time..."
+    show arnold turn shy
+    with dissolve
+    aslow "And, uh, well, here we are."
+    hslow "Wow...cool story."
+    h "I give him a deliberately slow clap."
+    hslow "Could you tell me again? Maybe make it longer?"
+    show arnold turn fluster
+    with dissolve
+    aslow "Well, I know..."
+    aslow "But it's the truth so..."
+    hslow "The truth? Why yes, yes it was. Interesting? That it was not."
+    show arnold bored
+    with dissolve
+    h "He doesn't seem too interested in me now..."
+    h "I have to change that."
+    hslow "But no, no, really Arnold, I had no idea you were such a delinquent."
+    hslow "Losing track of the time, skipping school..."
+    hslow "Gonna start slumming it with the bad kids?"
+    hslow "Wanna a cigarette?! I think I brought a pack with me..."
+    h "I pat my pockets in my feign attempt to get him to laugh."
+    show arnold calm
+    with dissolve
+    aslow "Oh yeah, totally..."
+    h "He rolls his eyes at me."
+    aslow "So what's your excuse?"
+    hslow "I'm lazy."
+    h "Simple, easy, to the point. And truthful."
+    h "My love, that is how it is done."
+    show arnold bored
+    with dissolve
+    aslow "..."
+    aslow "..............~sigh~"
+    aslow "Right...so, you heading to school?"
+    h "He pulls his phone out of his pocket to check the time."
+    aslow "If we leave now we could probably make the last three periods or so."
+    h "I look past him, towards the direction where the school sat waiting for us."
+    hslow "Hmm...I'm not sure yet."
+    show arnold surprise
+    with dissolve
+    aslow "Huh?"
+    h "I know if I go to school with Arnold now we'd be doing the \"right thing\"... "
+    h "And I know he's all about the \"right thing\"."
+    h "But a part of me wanted keep him out here...alone..."
+    h "With just me there'd be nobody to bother us..."
+    h "I tried to ignore the perky, farm girl face that wormed its way into my head."
+    h "But seeing Arnold do something bad, even if it was only cutting class, was kind of a turn on."
