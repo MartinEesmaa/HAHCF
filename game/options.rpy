@@ -145,7 +145,7 @@ init -1 python hide:
 
     ## The file containing the default font.
 
-    style.default.font = "Maian.TTF"
+    style.default.font = "All Things Pink.ttf"
 
     ## The default size of text.
 
