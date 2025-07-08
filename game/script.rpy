@@ -1568,7 +1568,7 @@ label GoodGoing6:
     aslow "So when I saw Big Rick's on my way to school I stopped and looked in..."
     show arnold turn angry
     with dissolve
-    aslow "They have it, but I didn't have enough cash for it..."
+    aslow "They do have it, but I didn't have enough cash for it."
     show arnold turn simple
     with dissolve
     aslow "So, I ended up kind of browsing around..."
