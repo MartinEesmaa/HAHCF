@@ -2917,3 +2917,35 @@ label words:
     h "And he actually seems excited about it!"
     scene start 
     with dissolve
+label HOMEAGAIN:    
+    h "..."
+    h "......"
+    scene helga room night
+    with dissolve
+    if fight:
+        h "As I finally head home after that long...strange day..."
+        h "I realize it's the first time in a long time I actually felt..."
+        h "Well...pretty happy."
+    else: 
+        h "As I head home I'm nearly dancing in the streets, floating in the clouds."
+        h "I was so happy!"
+        h "Some how this all turned out so perfectly..."
+        h "Such is the mysteries of love and life I suppose..."
+    h "..."
+    h "When I reach my room I take my phone out of my bag and call Phoebe."
+    if fight:
+        hslow "So it looks like it's gonna be a double date at the festival..."
+        pslow "Really Helga? That's great; I'm so excited for you!"
+        hslow "Haha! Thanks Phoebe, I'm excited too!"
+    else:    
+        hslow "He asked me!"
+        h "I don't even have to say anything else, I know she'll get it."
+        pslow "Really Helga? I'm so happy for you!"
+        hslow "Thanks Pheebs...I'm happy too..."
+        h "And for once I really, really was..."
+    h "..."
+    h "......"
+    h "By the time midnight rolls around, hours closer to the Festival..."
+    h "I finally find my muse again..."
+    hslow "Arnold my love, it may finally be...could you too feel the same for me?"
+    h "I write and write, filled with inspiration...until I drift off to sleep."
