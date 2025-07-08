@@ -191,7 +191,19 @@ screen main_menu1:
         hotspot (355, 293, 91, 39) action ShowMenu('load')
         hotspot (287, 340, 231, 36) action ShowMenu('preferences')
         hotspot (325, 385, 152, 38) action ShowMenu("gallery")
-        hotspot (359, 430, 87, 40) action Quit(confirm=False)      
+        hotspot (359, 430, 87, 40) action Quit(confirm=False)
+screen main_menu2:
+    tag menu
+    imagemap:
+        ground 'menu3.jpg'
+        hover 'button2.jpg'
+        
+        hotspot (608, 243, 99, 39) action Start()
+        hotspot (617, 322, 80, 34) action ShowMenu('load')
+        hotspot (559, 360, 197, 34) action ShowMenu('preferences')
+        hotspot (590, 399, 134, 35) action ShowMenu("gallery")
+        hotspot (620, 438, 78, 37) action Quit(confirm=False)
+        
 
 ##############################################################################
 # Navigation

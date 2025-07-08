@@ -2123,3 +2123,147 @@ label TRUEPATHEND_1:
     h "I feel a steady heat rise to my cheeks before I snatch the damn thing away."
     h "I hold it tightly to my chest and turn away from all the people smiling at me..."
     h "I couldn't take it."
+    scene festival night
+    with dissolve
+    h "So I point towards the rides, hoping the topsy-turvy feelings of a fast ride would get off my mind..."
+    h "Just how amazing Arnold is."
+    h "..."
+    h "......"
+    h "After riding some of the bigger, faster rides with Nibbles in tow..."
+    h "Yes...I named the stupid thing..."
+    h "Without telling anybody of course..."
+    h "Arnold suggested..."
+    show arnold simple with dissolve
+    aslow "I say we end the night on the Ferris Wheel."
+    h "He points up to the Festival's biggest attraction, and from way down here..."
+    h "It looked like the giant wheel almost touched the moon."
+    hide arnold simple with dissolve
+    show gerald happy at left with dissolve
+    show phoebe smile at right with dissolve
+    gslow "Sounds good to me."
+    pslow "Very romantic."
+    h "To be honest I was glad it wasn't the Tunnel of Love..."
+    h "That might have been a bit too much to take."
+    h "So the two love birds, so used to one another by now head for the line."
+    hide gerald happy with dissolve
+    hide phoebe smile with dissolve
+    h "Leaving Arnold and myself alone..."
+    show arnold yeah with dissolve
+    aslow "Come on."
+    hslow "Right."
+    h "He moves towards the ride and I follow behind, finding my legs hard to move."
+    hide arnold yeah with dissolve
+    h "This was going to be the {i}alone time{/i} wasn't it?"
+    h "Could I handle this?"
+    h "..."
+    scene Ferris Wheel
+    with dissolve
+    h "When we reach the car, Arnold enters first, and I follow..."
+    h "Except..."                  
+    with hpunch
+    h "My stupid shoe gets caught in the door and I nearly fall in."
+    h "So apparently, I can't handle this."
+    h "But Arnold grabs my arms before I fall face first between the Ferris Wheel seats."
+    show arnold yeah with dissolve      
+    aslow "It's okay I got you."              
+    hslow "Yeah, thanks."
+    h "I slowly move out of his grasp and take the seat across from him, my heart racing in my chest."
+    h "The door closes behind us and then the car makes a quick move, rising off the ground."
+    h "For a moment we're both silence, looking out the window to the city below..."
+    h "It could have been magic if I believed in things like that..."
+    h "..."    
+    show arnold turn unsure with dissolve
+    aslow "So..."
+    h "Suddenly Arnold speaks, breaking me from my thoughts."
+    hslow "Huh? Uh, yeah? What's up?"
+    aslow "I was going to ask if you were having a good time but..."
+    hslow "No, No I am...it's just..."
+    hslow "Uh..."
+    show arnold sad smile with dissolve
+    aslow "..."
+    hslow "You make me kinda nervous, all right?"
+    show arnold calm with dissolve
+    aslow "Really? Why?" 
+    h "{i}Why?{/i} Is he for real right now?"
+    hslow "Because I..."
+    h "I said it so quietly, he didn't even hear me."
+    show arnold simple with dissolve
+    aslow "You've been pretty okay with me over the last few days..."
+    if fight:                                                                               
+        aslow "Even if we did fight..."
+        hslow "Yeah, don't remind me..."
+    aslow "That's why I asked you out in the first place."
+    hslow "B-but this isn't us just hanging out."
+    show arnold turn simple with dissolve
+    aslow "It's not?"
+    hslow "It's a date...right?"
+    h "Arnold slowly nods his head, then gives me a small smirk."
+    show arnold calm with dissolve
+    aslow "I don't mind taking you out more."
+    aslow "If only to help you get more comfortable with me."
+    h "I roll my eyes."
+    hslow "That isn't funny."
+    hslow "I'm trying to be serious, so don't joke with me."
+    show arnold yeah with dissolve
+    aslow "Who's joking?"
+    aslow "I'm being completely serious too, Helga."
+    h "I stare him down but he doesn't falter."
+    h "So I give him a quick shrug of my shoulders."
+    hslow "I dunno, I think you like to tease me almost as much as I like to tease you."
+    stop music fadeout 3.0
+    show arnold sneaky with dissolve
+    aslow "Well that's true..."
+    hslow "Hmph!"
+    show arnold calm with dissolve 
+    play music "Jim Lang - The Kids Finally Get It.mp3"               
+    aslow "But I'm being honest."       
+    h "He suddenly grabs my hand, his touch...so warm."
+    show arnold yeah blush with dissolve
+    aslow "I...really like you, Helga."
+    aslow "I think we should be together."
+    h "..."
+    h "......"
+    h "I blink a few times, making sure I heard him right..."
+    hslow "Are you seri..."
+    scene start
+    with dissolve
+    h "But before I can finish, Arnold leans in for a quick kiss."
+    h "It must have only been a few seconds but..."
+    h "This time I did believe in magic."
+    h "..."
+    scene CG51
+    with dissolve
+    h "As he pulls away I let out a quiet thank you, with out meaning too..."
+    h "To which he replies an equally quiet..."
+    aslow "You're welcome."                        
+    h "For a moment there is nothing but the silence..."
+    h "The far away sounds of the city and the Festival below..."
+    h "And then..."
+    h "Without a reason why..."
+    h "We start to laugh..."
+    hslow "..."
+    aslow "..."
+    aslow "Happy Cheese Festival, Helga..."
+    hslow "Happy Cheese Festival, Arnold..."
+    call end_true  
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+       

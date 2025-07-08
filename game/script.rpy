@@ -1,6 +1,11 @@
 ﻿# You can place the script of your game in this file.
 
 # Declare images below this line, using the image statement.
+#END CARDS
+
+image perfect end = "perfectend.png"
+image true end = "trueending.png"
+image GBACK = "GBACK.jpg"
 
 # BACKGROUNDS
 image bg city park evening = "BG Park Evening.png"
@@ -87,6 +92,17 @@ image CG23 = "CG23.png"
 image CG24 = "CG24.png"
 image CG25 = "CG25.png"
 image CG26 = "CG26.png"
+image CG27 = "CG27.png"
+image CG28 = "CG28.png"
+image CG29 = "CG29.png"
+image CG31 = "CG31.png"
+image CG32 = "CG32.png"
+image CG33 = "CG33.png"
+image CG34 = "CG34.png"
+image CG35 = "CG35.png"
+image CG36 = "CG36.png"
+image CG37 = "CG37.png"
+image CG38 = "CG38.png"
 image CG39 = "CG39.png"
 image CG40 = "CG40.png"
 image CG41 = "CG41.png"
@@ -95,6 +111,7 @@ image CG43 = "CG43.png"
 image CG44 = "CG44.png"
 image CG45 = "CG45.png"
 image CG46 = "CG46.png"
+image CG51 = "CG51.png"
 
 #Arnold Expressions Go Here
 image arnold simple = "Arnold 1.png"
@@ -3210,3 +3227,590 @@ label PERFECTPATH:
     h "And after I pull on my boots, I grab for a small pink bow...for...obvious reasons."
     h "Then after a few glances in the mirror..."
     h "And a big breath in..."
+    scene Inside House
+    with dissolve
+    h "I finally make my way down the stairs...to Arnold."
+    h "God I was so nervous...and my heart was beating way too fast."
+    hslow "Sorry to...uh, make you wait."
+    show arn half grin
+    with dissolve
+    aslow "I didn't mind...I guess I took you by surprise huh?"
+    show arn snark
+    with dissolve
+    aslow "But...I did say seven..."
+    hslow "Hey! I spent most of the day thinking this was called off so..."
+    h "Well that was kind of true...I actually spent most of the day sleeping."
+    h "But Arnold just smiles at me and turns to open my front door..."
+    h "And frowns as he looks up at the dark, rainy sky."
+    show arn sad
+    with dissolve
+    aslow "Hasn't even lightened up a little bit..."
+    h "I hear him mumble to himself, and can't help but smile."
+    h "I watch as he opens up his umbrella and stands beneath it..."
+    show arn grin
+    with dissolve
+    aslow "There..."
+    h "And then he turns around and holds his hand out for me to take."
+    hslow "Oh yeah?"
+    h "He nods."
+    h "Slowly, I put my hand in his, and he gently pulls me to him, out into the rain."
+    h "And the funny thing was..."
+    h "He doesn't let go."
+    scene bg helga house night rain
+    with dissolve
+    show arn grin
+    with dissolve
+    aslow "So, I have uh...quite the night planned."
+    hslow "Sounds great Football Head..."
+    h "My voice comes out harsher than I mean it too..."
+    h "Force of habit I guess."
+    h "But it doesn't matter."
+    h "Arnold keeps holding onto my hand anyway."
+    aslow "And by the way..."
+    show arn half grin
+    with dissolve
+    aslow "You look good Helga."
+    aslow "I really like your bow."
+    scene start
+    with dissolve
+    h "..."
+    h "......."
+    h "We stand side by side under the umbrella as we make our way to our destination."
+    h "I have no idea where he's taking me, but I kinda didn't care..."
+    h "This whole thing felt like a dream, a rainy dream, but still a dream."
+    scene Resturant Rain
+    with dissolve
+    show arn grin
+    with dissolve
+    aslow "So, here we are!"
+    h "He points to Chez Paris and I start to slow down and fall behind him..."
+    h "I almost let go of his hand too..."
+    hslow "Uh, you are aware that a few years ago we didn't pay the bill here..."
+    hslow "And had to wash dishes...right?"
+    show arn laugh
+    with dissolve
+    aslow "Hahaha~"
+    h "And he laughs at me..."
+    show arn simple
+    with dissolve
+    aslow "Don't worry, I've got enough money for a nice dinner..."
+    aslow "No dish washing tonight."
+    hslow "I think you're missing my..."
+    show arn half smile
+    with dissolve
+    aslow "Come on..."
+    scene start
+    with dissolve
+    h "With a laugh and a shrug of my shoulders I follow him inside."
+    h "It was funny..."
+    h "This was the same restaurant we had our Valentine's Day dinner at too..."
+    h "Not that Arnold would know that."
+    h "He thought I was someone else."
+    stop music fadeout 3.0
+    h "..."
+    h "......"
+    scene chez paris inside
+    with dissolve
+    play music "jim_lang_-_sid___stink.mp3"
+    show arn half smile
+    with dissolve
+    h "After we make our orders and hand our menus to the waiter..."
+    h "Arnold clears his throat."
+    hslow "Hmm? What's up?"
+    show arn turn shy
+    with dissolve
+    aslow "Uh, haha...well..."
+    aslow "I have something for you."
+    hslow "Wha-what? For me?"
+    show arn half smile
+    with dissolve
+    h "I point to myself as if there is anyone else at the table."
+    h "He nods his head and pulls something out of his blazer pocket."
+    hslow "A shoe?"
+    h "I take a closer look at it and reach for it, smiling."
+    hslow "As weird as your little present is Arnold, it's actually kinda funny..."
+    hslow "I used to have a pair of shoes just like this..."
+    hslow "But I lost one of them somewhere."
+    show arn half grin
+    with dissolve
+    aslow "I know."
+    hslow "Huh?"
+    show arn turn shy
+    with dissolve
+    aslow "I uh, took it by mistake."
+    aslow "Kinda like Cinderella I guess..."
+    hslow "What? Does that make you Prince Charming?"
+    show arn half grin
+    with dissolve
+    aslow "Maybe..."
+    aslow "Anyway, I picked it up by mistake after our first date."
+    h "I drop the shoe and it falls into the silverware, making it clatter."
+    show arn sad smile
+    with dissolve
+    hslow "D-date?"
+    hslow "What date?"
+    hslow "I would have remembered that happening!"
+    h "I catch myself before I say something I would later most likely regret..."
+    h "But Arnold just smiles at me."
+    show arn half smile
+    with dissolve
+    aslow "It was Valentine's Day..."
+    h "No...way..."
+    aslow "I think we were like nine? Maybe?"
+    show arn grin
+    with dissolve
+    aslow "And you...haha, you pretended to be my pen pal."
+    aslow "And her name was...ah, I can't even remember..."
+    show arn sad smile
+    with dissolve
+    aslow "But that's not important."
+    aslow "What is...is that I always remembered that girl."
+    h "He smiles at the memory then looks up at me."
+    show arn half grin
+    with dissolve
+    aslow "And...after a while..."
+    aslow "I finally figured out it was you."
+    h "I pick up the shoe again and try to look him in the eye..."
+    h "My cheeks feel hot, I must be blushing like mad."
+    hslow "Why...did you uh...keep this?"
+    h "Though I sounded wary, inside I was flying..."
+    h "Terrified, but flying..."
+    show arn simple
+    with dissolve
+    aslow "It's funny...like I said I always remembered her...you, I mean."
+    aslow "Always kind of wondered how I could have such a strong connection with someone that quickly."
+    aslow "I mean, I knew that girl from her letters but...it was different."
+    show arn turn shy
+    with dissolve
+    aslow "Maybe I stole the shoe as a memento or something, I don't know."
+    h "He looks away from me for a moment, as if he's trying to gather his thoughts."
+    show arn close eyes
+    with dissolve
+    aslow "Then finally, I figured out you were her..."
+    aslow "...And I thought to myself..."
+    show arn half grin
+    with dissolve
+    aslow "\"Now it kinda makes sense...but I should probably give Helga her shoe back...\""
+    h "I place the shoe down on the table and stare at it."
+    h "I want to wait for Arnold to say more...."
+    h "But instead, I end up talking first."
+    hslow "How did you figure it out?"
+    h "My voice was quiet, shy."
+    show arn sad smile
+    with dissolve
+    aslow "What?"
+    hslow "I wanted to know...how you figured it out?"
+    hslow "It's been a really long time...so I wanted to know..."
+    hslow "You're not mad...right?"
+    h "It didn't seem like he was, but I had to ask."
+    show arn half smile
+    with dissolve
+    aslow "The way you've been acting lately...the way you've been speaking to me..."
+    aslow "It all kind of made sense, reminded me of that gir..."
+    aslow "Uh, of you."
+    h "He frowns at me though."
+    show arn sad
+    with dissolve
+    aslow "And no, I'm not mad...I just wish you would have told me it was you."
+    h "With that I gruffly sigh and look away, trying to hide my red face."
+    hslow "That would have been a fun conversation wouldn't it?"
+    hslow "Oh Arnold, remember that weird girl who wouldn't tell you who she is..."
+    hslow "But confessed she really liked you? Well, that was me!"
+    hslow "How do you feel about that?!"
+    scene CG28
+    with dissolve
+    aslow "Happy."
+    h "..."
+    h "I think I felt my face grow even hotter...if that was possible."
+    hslow "That's nice F-football Head...but I wasn't really asking..."
+    hslow "It was hypothetical or rhetorical or whatever."
+    h "Arnold nods his head and gives me that familiar knowing, warm smile."
+    aslow "I know, but I thought I'd like to answer anyway."
+    aslow "When I found out I was...well, happy."
+    scene CG27
+    with dissolve
+    h "I watch as he reached across the table and takes my hand in his..."
+    h "And I can't tear my eyes away from it."
+    h "It was much easier than looking at him."
+    aslow "I'm sorry..."
+    h "But that's enough to make me look up."
+    hslow "What for?"
+    scene CG29
+    with dissolve
+    aslow "I'm no good at giving you answers Helga."
+    hslow "..."
+    h "I didn't understand what he meant..."
+    scene start
+    with dissolve
+    h "And before I have the chance to ask him, the waiter comes with our food."
+    h "And Arnold pulls his hand away from mine..."
+    h "It might have been my imagination...or more likely my disappointment..."
+    h "But my hand feels colder."
+    scene chez paris inside
+    with dissolve
+    h "..."
+    h "......"
+    h "As we eat and make polite chit-chat...I'm dying to ask him more questions..."
+    h "To explain what he meant earlier..."
+    h "But I wasn't going to press him."
+    h "Maybe I was maturing or whatever, but I figured he'd tell me when he wanted."
+    h "And if he wanted to talk about it, I wouldn't stop him."
+    stop music fadeout 3.0
+    h "..."
+    h "......."
+    show arn simple
+    with dissolve
+    aslow "Okay, are you ready to go?"
+    h "Arnold gets up from his seat and pulls my chair out."
+    h "I would think I'd be used to him by now but he's still taking me by surprise."
+    hslow "Uh, yeah."
+    scene Resturant
+    with dissolve
+    play music "Jim Lang - Helga's True Love.mp3"
+    h "We make our way outside..."
+    h "{i}After{/i} paying the bill, of course..."
+    h "And it seems, now, it's finally stopped raining."
+    h "And a part of me thinks of the little red shoe in my purse as I watch Arnold take a few steps ahead of me."
+    show arn half smile
+    with dissolve
+    aslow "Well..."
+    h "He turns back around to face me, smiling widely."
+    aslow "Helga, would you still like to go to the Festival with me?"
+    h "What the...?"
+    hslow "Uh, I hate the break this to ya Arnold...but just cause it stopped raining..."
+    hslow "Doesn't mean the Festival's back on...it's still called off."
+    show arn half grin
+    with dissolve
+    aslow "So?"
+    h "Arnold reaches for my hand and pulls me along after him."
+    aslow "That doesn't mean we can't use our imaginations..."
+    hslow "Jeez Arnoldo, when did you become so bossy?"
+    show arn grin
+    with dissolve
+    aslow "I dunno..."
+    show arn half grin
+    aslow "Maybe you're rubbing off on me."
+    h "I didn't argue him on it...I'm too happy he's holding my hand again..."
+    hslow "Siiiigh~"
+    scene start
+    with dissolve
+    h "..."
+    h "......"
+    scene festival pday
+    with dissolve
+    h "The grounds look just as I has imagined them...soaked and muddy..."
+    h "It's kind of dark...but it's quiet...and private."
+    show arn grin
+    with dissolve
+    aslow "So, what would we have done if our date had gone as planned?"
+    h "He's asking me as if I know..."
+    h "All I can think of is to shrug my shoulders."
+    hslow "I dunno, I didn't think that far ahead."
+    show arn turn simple
+    aslow "Okay..."
+    h "He nods his head slowly..."
+    show arn simple
+    with dissolve
+    aslow "Then what should we do first...right now?"
+    hslow "How the heck should I know?"
+    hslow "I'm not that creative..."
+    h "Oh no..."
+    h "He smirks at me and shakes his head."
+    show arn snark
+    with dissolve
+    aslow "Liar."
+    hslow "Ugh..."
+    hslow "I-I-I swear I can't think of anything!"
+    h "My mind's racing with overly romantic thoughts...and those aren't going to work."
+    h "..."
+    h "But there's one thing I can do..."
+    h "Something that has been on my mind since he returned the shoe to me."
+    h "I..."
+    h "I finally feel like I'm ready to tell Arnold my feelings..."
+    h "And now all I have to do is wait for an opening...that perfect moment to let him know."
+    h "..."
+    h "......"
+    show arn sad smile
+    with dissolve
+    h "Arnold suddenly sighs and turns his back to me, looking over the wet fair grounds."
+    h "The action breaks me from my previous thoughts."
+    show arn grin
+    with dissolve
+    aslow "All right then...I guess I'll just have to tell you how I saw the night going..."
+    hslow "Did you seriously have a plan Football Head?"
+    show arn turn shy
+    with dissolve
+    h "He bashfully smiles and rubs at the back of his head."
+    h "My Arnold, how adorable you look!"
+    show arn grin blush
+    with dissolve
+    aslow "Well yeah...I wanted to make sure we had a good time."
+    hslow "..."
+    show arn sad smile
+    with dissolve
+    aslow "Helga?"
+    hslow "..."
+    hslow "...You didn't need to try..."
+    h "I mumble quietly."
+    aslow "What?"
+    hslow "I...uh, well I would of have a nice time...just...uh..."
+    aslow "Just...what?"
+    hslow "Just being with you, okay?!"
+    hslow "Criminy!"
+    hslow "Making me get all mushy...look what you're doing to me!"
+    show arn surprise
+    with dissolve
+    h "For a moment he looks surprised..."
+    show arn half grin
+    with dissolve
+    h "But then he smiles and laughs."
+    aslow "Okay, I'll remember that for next time."
+    h "There's gonna be a next time?! ~swoon~"
+    h "..."
+    h "I must have gotten caught in a daydream because suddenly Arnold grabs my hand."
+    show arn grin
+    with dissolve
+    aslow "Well, come on!"
+    hide arn grin
+    with dissolve
+    h "Arnold pulls me towards where the game booths were set up…"
+    h "No toys lined the shelves though."
+    h "It…was kind of lonely."
+    show arn simple
+    with dissolve
+    aslow "First I would have tried to win you something."
+    hslow "Oh really?"
+    aslow "Yeah, I think it’s like a written rule.."
+    hslow "What is?"
+    show arn half grin
+    with dissolve
+    aslow "Trying to win your date a prize at a carnival."
+    hslow "Hmm…and what would you have gotten me?"
+    aslow "..."
+    show arn half smile
+    with dissolve
+    aslow "Anything you wanted."
+    h "I look away shyly and blow the bangs out of my face."
+    hslow "Okay Romeo…what happens next?"
+    show arn grin
+    with dissolve
+    aslow "Haha~ okay, then we come over here…"
+    h "He pulls me over towards the shut down rides, slicked wet from the rain."
+    h "Some of them weren’t even fully set up yet."
+    show arn simple
+    with dissolve
+    aslow "I would have asked if you wanted to go on some rides."
+    hslow "Oh…well..."
+    h "I look around and point towards the Octopus…"
+    h "It was always one of my favorites."
+    h "And for a minute, I thought Arnold might have squeezed my hand…"
+    show arn simple
+    with dissolve
+    aslow "Really?"
+    hslow "Yup."
+    aslow "I would have picked that one too."
+    hslow "You have good taste."
+    show arn turn simple
+    with dissolve
+    aslow "…"
+    h "He looks like he wants to say something."
+    hslow "Got something on your mind?"
+    aslow "What?"
+    h "It appears like he wasn't expecting me to ask him that, from his reaction anyway."
+    show arn turn shy
+    with dissolve
+    aslow "Oh, it’s  nothing…"
+    aslow "Just thinking something..."
+    hslow "Well, spit it out."
+    hslow "You're always making me confess things, it's your turn."
+    show arn half grin
+    with dissolve
+    aslow "Heh.."
+    aslow "Well, I know I have good taste."
+    hslow "That's it?"
+    hslow "What a big secret...I..."
+    aslow "I'm here with you, aren't I?"
+    h "Did he really just say that to me?"
+    h "I'm dead right?"
+    show arn turn unsure
+    with dissolve
+    aslow "So...um..."
+    h "And I thought I was bad at a quick subject change."
+    show arn half smile
+    with dissolve
+    aslow "Then we'd come over here next…"
+    scene food court night
+    with dissolve
+    h "He points over to the food tables and gives a rather cool shrug."
+    show arn grin
+    with dissolve
+    aslow "Then we'd have an all cheese dinner...as per the rules of the Festival."
+    h "I laugh a bit at his joke."
+    show arn half grin
+    with dissolve
+    aslow "I kinda like that."
+    hslow "Like what?"
+    hslow "Stop being weird, saying random things outta nowhere...jeez..."
+    show arn simple
+    with dissolve
+    aslow "No, I just mean I like it when you laugh with me..."
+    show arn turn unsure
+    with dissolve
+    aslow "Rather than...you know, at me."
+    hslow "Well, yeah, uh, um...I'm sorry about that you know cause...."
+    show arn half grin
+    with dissolve
+    aslow "It's fine Helga...come on, last place."
+    scene Tunnel of Love Night
+    with dissolve
+    h "He finally pulls me over to what would have been the Tunnel of Love and I stare at him questioningly."
+    hslow "Seriously?"
+    show arn grin
+    with dissolve
+    aslow "What?"
+    hslow "Really...the Tunnel of Love?"
+    h "Arnold slowly nods his head and smiles..."
+    show arn half grin
+    with dissolve
+    aslow "It makes some sort of sense I think..."
+    hslow "How?"
+    aslow "Because right as the ride came to an end..."
+    aslow "And also the Festival..."
+    aslow "I would've told you..."
+    show arn turn unsure
+    with dissolve
+    aslow "..."
+    hslow "Told me what?"
+    scene CG32
+    with dissolve
+    aslow "I think I'm in love with you."
+    stop music 
+    hslow "..."
+    hslow "......."
+    h "I shake my head."
+    hslow "No."
+    scene CG31
+    with dissolve
+    aslow "...Oh..."
+    aslow "Helga's I'm sor..."
+    hslow "I wanted to say it first!"
+    scene CG33
+    with dissolve
+    aslow "Huh?"
+    hslow "I had been thinking about it this whole time, stupid Football Head!"
+    hslow "I wanted to confess first!"
+    h "I turn away, facing my back towards him."
+    aslow "..."
+    aslow "......."
+    show arn snark
+    scene CG34
+    with dissolve
+    aslow "Are we really fighting about this right now?"
+    hslow "Nope."
+    play music "Jim Lang - The Kids Finally Get It.mp3"
+    h "I move quickly and without another thought wrap my arms around him in a tight embrace."
+    scene Tunnel of Love Night
+    with dissolve
+    h "..."
+    hslow "You know this is kinda funny..."
+    aslow "I don't think so..."
+    hslow "No, not this...I mean, me hugging you first."
+    aslow "What?"
+    hslow "If I recall correctly you've hugged me many times before."
+    aslow "Well, yeah...that's true."
+    hslow "I know it's true."
+    hslow "But I won't push you away this time around..."
+    hslow "Consider yourself lucky."
+    hslow "Hahaha!"
+    h "Almost on instinct I pull him closer to me."
+    h "I'm happy and nervous and rambling."
+    h "..."
+    h "But then..."
+    hslow "..."
+    hslow "......"
+    hslow "Hey, Arnold...?"
+    aslow "What's wrong..."
+    hslow "...Why?"
+    aslow "Why what?"
+    show arn half grin
+    with dissolve
+    h "He pulls me away just a bit, but doesn't let go..."
+    h "Just far enough so he can look me in the eye."
+    hslow "Why...are you falling..."
+    hslow "For me?"
+    aslow "Well..."
+    show arn half smile
+    with dissolve
+    aslow "I think I've known for awhile now..."
+    aslow "And I wanted to be...with you."
+    show arn turn unsure
+    with dissolve
+    aslow "You just made it hard to get close."
+    hslow "For...awhile?"
+    h "He laughs quietly to himself, amused at my amazement."
+    show arn half grin
+    with dissolve
+    aslow "Yeah..."
+    aslow "But you finally opened up to me and..."
+    hslow "I don't believe this..."
+    hslow "And yet I thought there would never be a chance but..."
+    hslow "Here we are, me and you and we're together now and..."
+    show arn half smile
+    with dissolve
+    aslow "Helga."
+    hslow "Yes?"
+    scene CG35
+    with dissolve
+    aslow "Shut up."
+    scene CG36
+    with dissolve
+    h "Without another word, he silences me with a warm kiss..."
+    h "I like being quieted this way."
+    h "Especially when the lips that move against mine..."
+    h "...Are Arnold's..."
+    h "I close my eyes and fall into his soft kiss..."
+    h "And after a long moment, together, we pull away."
+    scene start 
+    with dissolve
+    h "I refuse to open my eyes, afraid it'll all somehow be a dream."
+    hslow "I always enjoyed kissing you."
+    hslow "And I'm glad you finally did it first."
+    h "He moves in closer, leaning his forehead against mine."
+    h "And he smiles."
+    aslow "You know...some people always told me I'd end up with Helga G. Pataki."
+    hslow "I always thought so."
+    aslow "Me too."
+    scene CG37
+    with dissolve
+    h "He leans me back just a bit and his lips find mine again..."
+    h "The dark, soaked Festival Grounds somehow make the perfect backdrop."
+    h "This was it...it had finally happened."
+    h "This was obviously the greatest Cheese Festival...ever."
+    scene CG38
+    with dissolve
+    h "He pulls away again and takes my hand, lacing his fingers with mine."
+    aslow "So, are you ready to head home?"
+    hslow "Are you kidding Football Head?"
+    hslow "The night's just getting started!"
+    h "I squeeze his hand gently and pull him after me, not sure where I was going but damn sure I wasn't ready to go home."
+    h "And behind me, Arnold just laughs, and I find myself laughing along too..."
+    aslow "Whatever you say Helga..."
+    aslow "Whatever you say."
+    window hide 
+    with dissolve
+    scene perfect end 
+    with dissolve 
+    $ renpy.pause(5.0, hard=True)
+    $ persistent.ending_1 = True
+return    
+label end_true: 
+    window hide
+    with dissolve
+    scene true end 
+    with dissolve 
+    $ renpy.pause(5.0, hard=True)
+    $ persistent.ending_2 = True
+return  
+
+
+
