@@ -7,10 +7,10 @@ project.json
 *.rpyc~
 *.rpymb
 *.rpyb
-game/cache
 *.log
 *.mxc2
 launcherinfo.py
+log.txt
 
 
 # Temporary folders
