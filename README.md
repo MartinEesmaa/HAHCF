@@ -16,7 +16,7 @@ See the [LICENSE](LICENSE) file.
 
 See the [Credits](CREDITS.txt) file.
 
-Reconstruction of beta textbox made by Martin Eesmaa using GIMP in pre-release versions before it was finalized textbox, [link to download](https://github.com/MartinEesmaa/HAHCF/raw/892c342ec0af719817dcfba2b599c1127984249e/game/textbox-beta.xcf).
+Reconstruction of beta textbox made by Martin Eesmaa using GIMP in pre-release versions before it was finalized textbox, [link to download](https://github.com/MartinEesmaa/HAHCF/raw/892c342ec0af719817dcfba2b599c1127984249e/game/textbox-beta.xcf). Licensed on CC-BY 4.0.
 
 ## Download the game
 
