@@ -13,7 +13,7 @@ init -1 python hide:
     ## set to False before the game is released, so the user can't
     ## cheat using developer tools.
  
-    config.developer = True
+    config.developer = False
 
     ## These control the width and height of the screen.
 
@@ -28,7 +28,7 @@ init -1 python hide:
     # These control the name and version of the game, that are reported
     # with tracebacks and other debugging logs.
     config.name = "Helga's Cheese Festival"
-    config.version = "0.0"
+    config.version = "1.0"
     config.windows_icon = "icon1.png"
 
     #########################################
