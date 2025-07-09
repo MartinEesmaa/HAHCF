@@ -12,6 +12,8 @@ Development begun: Sun Feb 26 20:48:50 2012 UTC (Unix timestamp: 1330289330)
 
 Development finished was on 24th June 2013 and took 1 year and almost 4 months with breaks/hiatus to develop the game
 
+Character appearances: Helga, Arnold, Phoebe, Gerald, Lila and Brainy (one time used).
+
 # Notes of this game
 
 See the [LICENSE](LICENSE) file.
@@ -34,7 +36,7 @@ https://github.com/MartinEesmaa/HAHCF/releases
 
 ## Compile the game
 
-To compile the game, you can have two choice to download via green button or just git clone it.
+To compile the game, you can have two choice to download via Code green button or just git clone it.
 
 You need:
 
