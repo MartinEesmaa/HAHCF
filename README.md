@@ -1,8 +1,8 @@
 # Helga's Cheese Festival
 
-Helga's Cheese Festival - A Ren'Py visual novel story game with Helga and Arnold's true love story. 
+Helga's Cheese Festival - A Ren'Py visual novel story fan-made game with Helga and Arnold's true love story based on Hey Arnold.
 
-Please note that the fan-game project was made and done by Nicki Gee for 100%.
+Please note that fan-game project was done by Nicki Gee (Wolfs-Angel17).
 
 Maintained by Martin Eesmaa
 
