@@ -71,7 +71,7 @@ If you loved this fan-made game, you can support her hard work by going to her Y
 
 [Nicki Gee's Patreon](https://www.patreon.com/user?u=2278208)
 
-And also please support to Craig Bartlett for creating Hey Arnold TV series to your childhood and your favorite things related to.
+And also please support to [Craig Bartlett](https://www.craig-bartlett.com/) & Nickelodeon for creating & showing Hey Arnold TV series to your childhood and your favorite things related to, even support [shortakiweek](https://shortakiweek.tumblr.com) and [The Patakis](https://heyarnold.fandom.com/wiki/The_Patakis) too.
 
 Even for me as Martin Eesmaa I worked hard to make history commits to my repo, so you can check out my social medias [there](https://linktr.ee/martineesmaa).
 
