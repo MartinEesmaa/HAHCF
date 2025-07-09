@@ -53,7 +53,6 @@ Step 4: Launch Ren'Py on your computer and make sure select downloaded project g
 
 If you're not sure or understand, you can create an issue on GitHub. I feel free to help you. :)
 
-
 # Disclaimer
 
 This project of the game is a fan-made, non-commercial tribute to "Hey Arnold!" 
@@ -61,5 +60,17 @@ and is not affiliated with or endorsed by Craig Bartlett, Nickelodeon, Viacom, P
 
 All original characters, music, art, videos and trademarks belong to their respective owners. 
 This source code is released under the MIT License, but use of copyrighted material is subject to the rights holders' terms.
+
+# Support
+
+If you loved this fan-made game, you can support her hard work by going to her YouTube channel, Patreon and other her social medias.
+
+[Nicki Gee's YouTube channel](https://www.youtube.com/@Nicki_Gee)
+
+[Nicki Gee's Patreon](https://www.patreon.com/user?u=2278208)
+
+And also please support to Craig Bartlett for creating Hey Arnold TV series to your childhood and your favorite things related to.
+
+Even for me as Martin Eesmaa I worked hard to make history commits to my repo, so you can check out my social medias [there](https://linktr.ee/martineesmaa).
 
 - Martin Eesmaa
