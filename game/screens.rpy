@@ -230,7 +230,6 @@ screen navigation:
         textbutton _("Preferences") action ShowMenu("preferences")
         textbutton _("Save Game") action ShowMenu("save")
         textbutton _("Load Game") action ShowMenu("load")
-        textbutton "Gallery" action ShowMenu("gallery")
         textbutton _("Help") action Help()
         textbutton _("Quit") action Quit()
 
