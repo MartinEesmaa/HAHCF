@@ -1,3 +1,5 @@
+![HAHCFlogo](logo.png)
+
 # Helga's Cheese Festival
 
 Helga's Cheese Festival - A Ren'Py visual novel story fan-made game with Helga and Arnold's true love story based on Hey Arnold.
@@ -17,6 +19,8 @@ See the [LICENSE](LICENSE) file.
 See the [Credits](CREDITS.txt) file.
 
 Reconstruction of beta textbox made by Martin Eesmaa using GIMP in pre-release versions before it was finalized textbox, [link to download](https://github.com/MartinEesmaa/HAHCF/raw/892c342ec0af719817dcfba2b599c1127984249e/game/textbox-beta.xcf). Licensed on CC-BY 4.0.
+
+The logo at the top of this document was created by Martin Eesmaa using Inkscape and is licensed on CC-BY-SA 4.0. The character sprites were made and used by Nicki Gee.
 
 ## Download the game
 
