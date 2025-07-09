@@ -7,7 +7,7 @@ See the all credits used of this game:
 (C) 2010 Rachel Taylor (as the music producer of He is We, used opening song)
 (C) 2012 Nicki Gee (Wolfs-Angel17/paperliliesny) (as the artist, story and programmer)
 (C) 2012 Adam Young (as the music producer of Owl City, used ending song)
-(C) 2025 Martin Eesmaa (as the maintainer)
+(C) 2025 Martin Eesmaa (as the maintainer, programmer, artist)
 
 Art, story and programmer by Nicki Gee
 Based on "Hey Arnold!" by Craig Bartlett
@@ -15,6 +15,9 @@ Music by Jim Lang
 Opening Song: Happily Ever After by He is We
 Ending Song: Beautiful Mystery by Owl City
 Special thanks to Nicki Gee's family, friends, love and all of you.
+
+Original link via DeviantArt:
+https://www.deviantart.com/wolfs-angel17/art/380463895
 
 This project of the game is a fan-made, non-commercial tribute to "Hey Arnold!" 
 and is not affiliated with or endorsed by Craig Bartlett, Nickelodeon, Viacom, Paramount or any other rights holders.

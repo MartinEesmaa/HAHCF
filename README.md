@@ -16,6 +16,16 @@ See the [LICENSE](LICENSE) file.
 
 See the [Credits](CREDITS.txt) file.
 
+## Download the game
+
+To download and play the game, please visit the link via DeviantArt [here](https://www.deviantart.com/wolfs-angel17/art/380463895).
+
+She provided three versions of Windows, Mac, and Linux, which were announced and uploaded to her 4shared account. But source code was released without notices to her account. The account requires a login, if needed, and has a 20-second time limit to download compressed files.
+
+Alternatively, you can get from this page:
+
+https://github.com/MartinEesmaa/HAHCF/releases
+
 ## Compile the game
 
 To compile the game, you can have two choice to download via green button or just git clone it.
