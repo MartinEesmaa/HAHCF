@@ -100,7 +100,7 @@ image CG23 = "CG23.png"
 image CG24 = "CG24.png"
 image CG25 = "CG25.png"
 image CG26 = "CG26.png"
-image CG27 = "CG27.png"
+image CG27= "CG27.png"
 image CG28 = "CG28.png"
 image CG29 = "CG29.png"
 image CG30 = "CG30.png"
@@ -327,7 +327,7 @@ label start:
      scene start
      with fade
      window show
-     with dissolve  
+     with dissolve 
     
      $ GeraldSpills = False
      $ Festival = False
@@ -2702,7 +2702,7 @@ label GOGIRLGO:
     h "This is over."
     h "To be honest I don't know why I ever even tried."
     h "I slip out from my cover and go to my next class, hoping the day will just blur by..."
-    h "And Lucky for me, Arnold isn't in my afternoon classes..."
+    h "And lucky for me, Arnold isn't in my afternoon classes..."
 label FAIRGROUNDS:    
     if Waited:
         stop music fadeout 3.0
@@ -2842,8 +2842,6 @@ label lila:
     hslow "Then why not just {i}ask{/i} me?"
     h "I knew the answer to my own question."
     h "Cause he thought I'd snap at him."
-    scene festival day
-    with dissolve
     show arnold calm
     with dissolve
     aslow "Funny thing is, Lila told me to come to you..."
@@ -2998,13 +2996,7 @@ label words:
     show arnold turn fluster
     with dissolve
     aslow "...Oh...um..."
-    hide arnold turn fluster
-    with dissolve
-    scene CG21 
-    with dissolve
     h "He suddenly coughs, trying to recapture his composure."
-    scene CG20
-    with dissolve
     show arnold yeah blush
     with dissolve
     aslow "Uh, that's great..."
@@ -3637,7 +3629,7 @@ label PERFECTPATH:
     with dissolve
     h "Arnold pulls me towards where the game booths were set up…"
     h "No toys lined the shelves though."
-    h "It…was kind of lonely."
+    h "It was kind of lonely."
     show arn simple
     with dissolve
     aslow "First I would have tried to win you something."
@@ -3647,25 +3639,25 @@ label PERFECTPATH:
     show arn half grin
     with dissolve
     aslow "Trying to win your date a prize at a carnival."
-    hslow "Hmm…and what would you have gotten me?"
+    hslow "Hmm~ and what would you have gotten me?"
     aslow "..."
     show arn half smile
     with dissolve
     aslow "Anything you wanted."
     h "I look away shyly and blow the bangs out of my face."
-    hslow "Okay Romeo…what happens next?"
+    hslow "Okay Romeo, what happens next?"
     show arn grin
     with dissolve
-    aslow "Haha~ okay, then we come over here…"
+    aslow "Haha~ okay, then we come over here."
     h "He pulls me over towards the shut down rides, slicked wet from the rain."
     h "Some of them weren’t even fully set up yet."
     show arn simple
     with dissolve
     aslow "I would have asked if you wanted to go on some rides."
-    hslow "Oh…well..."
-    h "I look around and point towards the Octopus…"
+    hslow "Oh~ well..."
+    h "I look around and point towards the Octopus."
     h "It was always one of my favorites."
-    h "And for a minute, I thought Arnold might have squeezed my hand…"
+    h "And for a minute, I thought Arnold might have squeezed my hand."
     show arn simple
     with dissolve
     aslow "Really?"
@@ -3674,14 +3666,14 @@ label PERFECTPATH:
     hslow "You have good taste."
     show arn turn simple
     with dissolve
-    aslow "…"
+    aslow "..."
     h "He looks like he wants to say something."
     hslow "Got something on your mind?"
     aslow "What?"
     h "It appears like he wasn't expecting me to ask him that, from his reaction anyway."
     show arn turn shy
     with dissolve
-    aslow "Oh, it’s  nothing…"
+    aslow "Oh, it’s  nothing."
     aslow "Just thinking something..."
     hslow "Well, spit it out."
     hslow "You're always making me confess things, it's your turn."
@@ -3700,7 +3692,7 @@ label PERFECTPATH:
     h "And I thought I was bad at a quick subject change."
     show arn half smile
     with dissolve
-    aslow "Then we'd come over here next…"
+    aslow "Then we'd come over here next."
     scene food court night
     with dissolve
     h "He points over to the food tables and gives a rather cool shrug."

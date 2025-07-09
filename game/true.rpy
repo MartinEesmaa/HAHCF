@@ -453,7 +453,7 @@ label OuchWrong5:
     scene CG39
     with dissolve
     hslow "Some things never change..."
-    h "After I finished up that...usual...business..."
+    h "After I finished up my...business..."
     scene start
     with dissolve
     h "I quickly regained my composure."
@@ -647,7 +647,7 @@ label picture:
     aslow "I knew it was good."
     hslow "I-I-I...."
     show arnold sneaky with dissolve
-    aslow "If you would've shared that wouldn't have happened."
+    aslow "If you would have shared that wouldn't have happened."
     hslow "That was in my mouth!"
     show arnold bored with dissolve
     aslow "We've chewed the same piece of gum before and that's much worse."
@@ -1223,7 +1223,6 @@ label DAYTHREE:
     h "I can barely even hear her."
     hide phoebe smile
     with dissolve
-    h "I can barely even hear her."
     h "My eyes scanned the cafeteria, once...twice...but I still couldn't find him."
     h "And it felt like someone was squeezing my heart in their hand."
     h "..."
@@ -1803,7 +1802,7 @@ label callonme:
     h "He mumbles this more to himself than to me..."
     h "So I give no reply."
     show arnold calm with dissolve
-    aslow "Gerald to me to meet him and Phoebe by the food tables when we get there..."
+    aslow "Gerald told me to meet him and Phoebe by the food tables when we get there..."
     h "I silently nod my head, again."
     h "I'm afraid my big mouth is gonna screw this up for me."
     scene start
