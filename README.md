@@ -26,7 +26,7 @@ The logo at the top of this document was created by Martin Eesmaa using Inkscape
 
 To download and play the game, please visit the link via DeviantArt [here](https://www.deviantart.com/wolfs-angel17/art/380463895).
 
-She provided three versions of Windows, Mac, and Linux, which were announced and uploaded to her 4shared account. But source code was released without notices to her account. The account requires a login, if needed, and has a 20-second time limit to download compressed files.
+She provided three versions of Windows, Mac, and Linux, which were announced and uploaded to her 4shared account. But source code was released later without public notice and uploaded to her account. The account requires a login, if needed, and has a 20-second time limit to download compressed files.
 
 Alternatively, you can get from this page:
 
