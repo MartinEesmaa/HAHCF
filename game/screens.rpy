@@ -176,10 +176,8 @@ screen nvl:
 screen main_menu:
     tag menu
     if persistent.ending_1 and persistent.ending_2:
-        $ persistent.true = True
-    if persistent.true:
         use main_menu2
-    else
+    else:
         use main_menu1 
 screen main_menu1:
     tag menu

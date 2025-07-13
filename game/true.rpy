@@ -15,7 +15,6 @@ label IFTHEN:
     $ IMGOING = False
     $ Maybe = False
     $ True_4 = False
-    $ persistent.true = False
     $ persistent.ending_1 = False
     $ persistent.ending_2 = False
     $ soup = False
