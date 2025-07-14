@@ -211,7 +211,7 @@ init -1 python hide:
     config.enter_transition = dissolve
 
     ## Used when exiting the game menu to the game.
-    config.exit_transition = fade
+    config.exit_transition = dissolve
 
     ## Used between screens of the game menu.
     config.intra_transition = dissolve
@@ -223,13 +223,13 @@ init -1 python hide:
     config.game_main_transition = dissolve
 
     ## Used when entering the main menu from the splashscreen.
-    config.end_splash_transition = fade
+    config.end_splash_transition = dissolve
 
     ## Used when entering the main menu after the game has ended.
-    config.end_game_transition = fade
+    config.end_game_transition = dissolve
 
     ## Used when a game is loaded.
-    config.after_load_transition = fade
+    config.after_load_transition = dissolve
 
     ## Used when the window is shown.
     config.window_show_transition = dissolve
