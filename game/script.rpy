@@ -687,7 +687,10 @@ label FIRSTDAY:
     scene start 
     with fade
 label movie:    
-    $ renpy.movie_cutscene("CheeseFestival.ogv")
+    if recodeMovie:
+        $ renpy.movie_cutscene("CheeseFestival.mp4")
+    else:
+        $ renpy.movie_cutscene("CheeseFestival.ogv")
 label FIRSTTITLE:    
     scene start
     with fade
