@@ -680,7 +680,7 @@ label GoodGoing2:
     h "This would have to be handled delicately, any wrong choice could completely botch things up."
     h "Without another thought I turn around and head back towards the school..."
     h "This time I was going to be successful! I was sure of it..."
-    hslow "Helga G. Pataki, Saturday night is gonna be your night ol' girl!" 
+    hslow "Hegla G. Pataki, Saturday night is gonna be your night ol' girl!" 
 label FIRSTDAY:    
     window hide dissolve
     stop music fadeout 1.0
