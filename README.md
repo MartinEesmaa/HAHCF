@@ -40,8 +40,8 @@ To compile the game, you can have two choice to download via Code green button o
 
 You need:
 
-- Windows, macOS or Linux to use Ren'Py builder.
-- Ren'Py 6.13 or some versions later work (tested [6.13](https://www.renpy.org/release/6.13) & [6.15](https://www.renpy.org/release/6.15)). Original build was used on Ren'Py 6.15.4.320.
+- Windows, macOS or Linux to use Ren'Py to build the game.
+- Ren'Py 6.13 or later work (tested [6.13](https://www.renpy.org/release/6.13) & [6.15](https://www.renpy.org/release/6.15)). Original build was used on Ren'Py 6.15.4.320. So I compile legacy builds using Ren'Py 6.13.8.1675 & various versions to work probably.
 
 Step 1: Follow the instructions on Ren'Py.
 
