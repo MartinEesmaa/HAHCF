@@ -21,6 +21,9 @@ Maintainer, programmer, artist and source code archived by Martin Eesmaa
 Original link via DeviantArt:
 https://www.deviantart.com/wolfs-angel17/art/380463895
 
+Source code available on MartinEesmaa's GitHub repository:
+https://github.com/MartinEesmaa/HAHCF
+
 This project of the game is a fan-made, non-commercial tribute to "Hey Arnold!" 
 and is not affiliated with or endorsed by Craig Bartlett, Nickelodeon, Viacom, Paramount or any other rights holders.
 
