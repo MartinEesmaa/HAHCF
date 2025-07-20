@@ -23,3 +23,7 @@ game/cache
 # Compressed files of build distributions
 *.zip
 *.tar.bz2
+
+# Android private key files
+android.keystore
+bundle.keystore
