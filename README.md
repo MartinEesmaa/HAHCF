@@ -14,6 +14,8 @@ Development finished was on 24th June 2013 and took 1 year and almost 4 months w
 
 Character appearances: Helga, Arnold, Phoebe, Gerald, Lila and Brainy (one time used).
 
+Martin Eesmaa is focusing to target legacy & modern builds to support earlier and later operating systems of this game.
+
 # Notes of this game
 
 See the [LICENSE](LICENSE) file.
@@ -33,6 +35,12 @@ She provided three versions of Windows, Mac, and Linux, which were announced and
 Alternatively, you can get from this page:
 
 https://github.com/MartinEesmaa/HAHCF/releases
+
+If you don't want to download the game and want to play in web browser:
+
+You can play web version of the game on the latest web browsers possible:
+
+https://martineesmaa.itch.io/hahcf
 
 ## Compile the game
 
@@ -54,6 +62,8 @@ Step 3: Uncompress ZIP file to drag into renpy folder.
 Step 4: Launch Ren'Py on your computer and make sure select downloaded project game folder and then you can launch the project or build distributions.
 
 If you're not sure or understand, you can create an issue on GitHub. I feel free to help you. :)
+
+For patches to fix platforms, see [there](https://github.com/MartinEesmaa/hahcf-patch).
 
 # Disclaimer
 
