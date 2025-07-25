@@ -11,7 +11,7 @@ init -100 python:
     elif renpy.android:
         recodeMovie = True
     elif renpy.ios:
-        recodeMovie = False
+        recodeMovie = True
     elif renpy.emscripten:
         recodeMovie = True # Modern website supports their codecs.
     else:
