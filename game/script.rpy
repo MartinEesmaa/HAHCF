@@ -689,6 +689,8 @@ label FIRSTDAY:
 label movie:    
     if recodeMovie:
         $ renpy.movie_cutscene("CheeseFestival.mp4")
+    elif compNative:
+        $ renpy.movie_cutscene("CheeseFestival-na.mp4")
     else:
         $ renpy.movie_cutscene("CheeseFestival.ogv")
 label FIRSTTITLE:    

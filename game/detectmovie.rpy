@@ -6,13 +6,15 @@
 
 init -100 python:
     recodeMovie = False  # Default value to play original files.
+    compNative = False  # Default value not to play native files.
     if renpy.windows or renpy.macintosh or renpy.linux:
         recodeMovie = False
     elif renpy.android:
         recodeMovie = True
     elif renpy.ios:
-        recodeMovie = True
+        compNative = True
     elif renpy.emscripten:
-        recodeMovie = True # Modern website supports their codecs.
+        compNative = True # Modern website supports their codecs.
     else:
         recodeMovie = False # Fallback to default behavior.
+        compNative = False # Fallback to default behavior.
