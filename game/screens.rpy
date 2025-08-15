@@ -444,6 +444,13 @@ screen preferences:
                     textbutton "Test":
                         action Play("voice", config.sample_voice)
                         style "soundtest_button"
+            frame:
+                style_group "pref"
+                has vbox
+
+                label _("Language")
+                textbutton _("English") action Language("english")
+                textbutton _("Eesti") action Language("estonian")
 
 init -2 python:
     style.pref_frame.xfill = True
