@@ -1,92 +1,92 @@
 < Return
-> Return
+> Tagasi
 
 < Preferences
-> Preferences
+> Seaded
 
 < Save Game
-> Save Game
+> Salvesta mäng
 
 < Load Game
-> Load Game
+> Laadi mäng
 
 < Help
-> Help
+> Abi
 
 < Quit
-> Quit
+> Välju
 
 < Previous
-> Previous
+> Eelmine
 
 < Auto
 > Auto
 
 < Quick
-> Quick
+> Kiire
 
 < Next
-> Next
+> Järgmine
 
 < Display
-> Display
+> Ekraan
 
 < Window
-> Window
+> Aken
 
 < Fullscreen
-> Fullscreen
+> Täisekraan
 
 < Transitions
-> Transitions
+> Üleminekud
 
 < All
-> All
+> Kõik
 
 < None
-> None
+> Pole
 
 < Text Speed
-> Text Speed
+> Tekstikiirus
 
 < Joystick...
-> Joystick...
+> Mängupult...
 
 < Skip
-> Skip
+> Jäta vahele
 
 < Seen Messages
-> Seen Messages
+> Näinud sõnumid
 
 < All Messages
-> All Messages
+> Kõik sõnumid
 
 < Begin Skipping
-> Begin Skipping
+> Alusta vaheljätmine
 
 < After Choices
-> After Choices
+> Pärast valikud
 
 < Stop Skipping
-> Stop Skipping
+> Lõpeta vaheljätmine
 
 < Keep Skipping
-> Keep Skipping
+> Jäta vaheljätmine
 
 < Auto-Forward Time
-> Auto-Forward Time
+> Auto-Kiire aeg
 
 < Music Volume
-> Music Volume
+> Muusika heli
 
 < Sound Volume
-> Sound Volume
+> SFX heli
 
 < Voice Volume
-> Voice Volume
+> Hääl heli
 
 < Language
-> Language
+> Keel
 
 < English
 > English
@@ -95,64 +95,67 @@
 > Eesti
 
 < Yes
-> Yes
+> Jah
 
 < No
-> No
+> Ei
 
 < Q.Save
-> Q.Save
+> K.Salvesta
 
 < Q.Load
-> Q.Load
+> K.Lae
 
 < Save
-> Save
+> Salvesta
 
 < Prefs
-> Prefs
+> Seaded
 
 <  1. Empty Slot.
->  1. Empty Slot.
+>  1. Tühislait.
 
 <  2. Empty Slot.
->  2. Empty Slot.
+>  2. Tühislait.
 
 <  3. Empty Slot.
->  3. Empty Slot.
+>  3. Tühislait.
 
 <  4. Empty Slot.
->  4. Empty Slot.
+>  4. Tühislait.
 
 <  5. Empty Slot.
->  5. Empty Slot.
+>  5. Tühislait.
 
 <  6. Empty Slot.
->  6. Empty Slot.
+>  6. Tühislait.
 
 <  7. Empty Slot.
->  7. Empty Slot.
+>  7. Tühislait.
 
 <  8. Empty Slot.
->  8. Empty Slot.
+>  8. Tühislait.
 
 <  9. Empty Slot.
->  9. Empty Slot.
+>  9. Tühislait.
+
+< 10. Empty Slot.
+> 10. Tühislait.
 
 < Special Events One
-> Special Events One
+> Erisündmused üks
 
 < Special Events Two
-> Special Events Two
+> Erisündmused kaks
 
 < Special Events Three
-> Special Events Three
+> Erisündmused kolm
 
 < Are you sure you want to quit?
-> Are you sure you want to quit?
+> Oled sa kindel tahad väljuda?
 
 < Joystick Configuration
-> Joystick Configuration
+> Mängupult konfiguratsioon
 
 < Left - Axis 0.0 Negative
 > Left - Axis 0.0 Negative
@@ -215,7 +218,7 @@
 > Joystick Mapping - Menu
 
 < Move the joystick or press a joystick button to create the mapping. Click the mouse to remove the mapping.
-> Move the joystick or press a joystick button to create the mapping. Click the mouse to remove the mapping.
+> Liiguta mängupulti või vajuta mängupult nuppu, et looda kaardistus. Hiire vajutamisel eemaldada kaardistus.
 
 < So, let's just start off by saying Cheese Festivals never, ever worked out in my favor...
 > So, let's just start off by saying Cheese Festivals never, ever worked out in my favor...
