@@ -151,6 +151,12 @@
 < Are you sure you want to quit?
 > Are you sure you want to quit?
 
+< Loading will lose unsaved progress.\nAre you sure you want to do this?
+> Loading will lose unsaved progress.\nAre you sure you want to do this?
+
+< Are you sure you want to overwrite your save?
+> Are you sure you want to overwrite your save?
+
 < Joystick Configuration
 > Joystick Configuration
 
@@ -1192,11 +1198,11 @@
 < I feel...
 > I feel...
 
-< Sorry...It's just a bad case of dÃ©jÃ  vu.
-> Sorry...It's just a bad case of dÃ©jÃ  vu.
+< Sorry...It's just a bad case of déjà vu.
+> Sorry...It's just a bad case of déjà vu.
 
-< Huh? DÃ©jÃ  vu?
-> Huh? DÃ©jÃ  vu?
+< Huh? Déjà vu?
+> Huh? Déjà vu?
 
 < It's-it's nothing, really. I probably just imagined it.
 > It's-it's nothing, really. I probably just imagined it.
