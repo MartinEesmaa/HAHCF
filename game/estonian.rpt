@@ -154,6 +154,12 @@
 < Are you sure you want to quit?
 > Oled sa kindel tahad väljuda?
 
+< Loading will lose unsaved progress.\nAre you sure you want to do this?
+> Laadimine võib kaota salvestamata jäänud.\nOled sa kindel sa tahadki?
+
+< Are you sure you want to overwrite your save?
+> Oled sa kindel tahad üle kirjutada sinu salvestusi?
+
 < Joystick Configuration
 > Mängupult konfiguratsioon
 
