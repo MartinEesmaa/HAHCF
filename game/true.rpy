@@ -129,7 +129,7 @@ label OuchWrong3:
     with dissolve
     aslow "Helga, can you pass me the tapioca?" 
     hslow "Huh? What?"
-    h "Great , he finally talks and I'm not even paying attention."
+    h "Great, he finally talks and I'm not even paying attention."
     show arnold simple
     with dissolve
     aslow "Nothing serious, just wondering if you could pass the pudding?"
