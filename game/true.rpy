@@ -122,7 +122,7 @@ label OuchWrong3:
     scene cafeteria doors
     with dissolve
     $ True_3 = True
-    h "I queitly wait beside him, waiting for him to say something to me."
+    h "I quietly wait beside him, waiting for him to say something to me."
     h "The line slowly moves little by little and the waiting feels like an eternity..."
     h "Though more likely it was probably only a few minutes."
     show arnold bored                

@@ -1553,7 +1553,7 @@ label Home:
         hslow "Haha! I must know you better than you think I do!"
         show arnold yeah with dissolve
         aslow "Seems like it..."
-        h "Ugh, always taking me by surpirse...always!"
+        h "Ugh, always taking me by surprise...always!"
         show arnold sad smile with dissolve
         aslow "It's just, right when I think you're gonna break down that wall for me..."
         aslow "You somehow put it right back up again..."
