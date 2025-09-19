@@ -1914,7 +1914,7 @@ label Bingo:
     show arnold sad smile
     with dissolve
     aslow "Sorry, I'm just a little surprised." 
-    hslow "Why? Don't I look like I can  write?"
+    hslow "Why? Don't I look like I can write?"
     aslow "That's not it..."
     show arnold yeah
     with dissolve
