@@ -2307,7 +2307,7 @@ label School:
         with dissolve
         aslow "You wrote this, Helga! You!"
         h "He points towards that damn piece of paper as if I have no idea what it is."
-        h "His voice plays with both amazment and curiousity..."
+        h "His voice plays with both amazement and curiosity..."
         show arnold frown
         with dissolve
         aslow "How could I laugh?"
