@@ -433,18 +433,6 @@ screen preferences:
                         action Play("sound", config.sample_sound)
                         style "soundtest_button"
 
-            frame:
-                style_group "pref"
-                has vbox
-
-                label _("Voice Volume")
-                bar value Preference("voice volume")
-
-                if config.sample_voice:
-                    textbutton "Test":
-                        action Play("voice", config.sample_voice)
-                        style "soundtest_button"
-
 init -2 python:
     style.pref_frame.xfill = True
     style.pref_frame.xmargin = 5
