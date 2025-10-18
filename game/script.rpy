@@ -894,7 +894,7 @@ label CORRECT:
     with dissolve
     h "..."
     h "......"
-    h "Yet the further away I walk from the cafeteria the more I realize being a bitch to Arnold's friends isn't going to get me on his good side..."
+    h "Yet the further away I walk from the cafeteria the more I realize being mean to Arnold's friends isn't going to get me on his good side..."
     h "I stop for a minute and lean against the wall."
     h "What were my choices here?"
     menu: 

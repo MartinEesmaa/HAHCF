@@ -1028,7 +1028,7 @@ label FIGHT:
     aslow "You are driving me crazy!"
     hslow "So basically, you're mad at me for being nicer to you?"
     hslow "Is that it?"
-    hslow "Cause it's easier being a bitch, let me tell you!"
+    hslow "Cause it's easier being rude, let me tell you!"
     show arnold pissed with dissolve
     aslow "No! Damn it! That isn't what I'm saying at all!"
     h "I let out a small gasp, unused to the way he was speaking to me..."
