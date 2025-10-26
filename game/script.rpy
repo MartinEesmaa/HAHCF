@@ -475,8 +475,6 @@ label start:
      with dissolve
      pslow "Helga..."
      hslow "Ugh, don't pity me Phoebe."
-     show phoebe sad
-     with dissolve
      h "My warning didn't matter, she gives me a pitiful look anyway."
      hslow "I'm used to it now."
      hslow "I know..."
