@@ -16,7 +16,7 @@ label gallery:
         g.locked_button = "locked.png"
 
         # The background of a locked image.
-        g.locked_background = "lockedbg.jpg"
+        g.locked_background = "lockedbg.png"
 
         # Frames added over unlocked buttons, in hover and idle states.
         g.hover_border = "hover.png"
