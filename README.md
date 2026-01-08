@@ -28,19 +28,19 @@ The logo at the top of this document was created by Martin Eesmaa using Inkscape
 
 ## Download the game
 
-To download and play the game, please visit the link via DeviantArt [here](https://www.deviantart.com/wolfs-angel17/art/380463895).
+To download and play the game, please visit the link via DeviantArt [link there](https://www.deviantart.com/wolfs-angel17/art/380463895).
 
 She provided three versions of Windows, Mac, and Linux, which were announced and uploaded to her 4shared account. But source code was released later without public notice and uploaded to her account. The account requires a login, if needed, and has a 20-second time limit to download compressed files.
 
 Alternatively, you can get from this page:
 
-https://github.com/MartinEesmaa/HAHCF/releases
+<https://github.com/MartinEesmaa/HAHCF/releases>
 
 If you don't want to download the game and want to play in web browser:
 
 You can play web version of the game on the latest web browsers possible:
 
-https://martineesmaa.itch.io/hahcf
+<https://martineesmaa.itch.io/hahcf>
 
 ## Compile the game
 
@@ -67,10 +67,10 @@ For patches to fix platforms, see [there](https://github.com/MartinEesmaa/hahcf-
 
 # Disclaimer
 
-This project of the game is a fan-made, non-commercial tribute to "Hey Arnold!" 
-and is not affiliated with or endorsed by Craig Bartlett, Nickelodeon, Viacom, Paramount or any other rights holders. 
+This project of the game is a fan-made, non-commercial tribute to "Hey Arnold!"
+and is not affiliated with or endorsed by Craig Bartlett, Nickelodeon, Viacom, Paramount or any other rights holders.
 
-All original characters, music, art, videos and trademarks belong to their respective owners. 
+All original characters, music, art, videos and trademarks belong to their respective owners.
 This source code is released under the MIT License, but use of copyrighted material is subject to the rights holders' terms.
 
 # Support
