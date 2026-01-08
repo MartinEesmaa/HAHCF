@@ -171,7 +171,7 @@ init -1 python hide:
 
     ## Set this to False if the game does not have voicing.
 
-    config.has_voice = True
+    config.has_voice = False
 
     ## Sounds that are used when button and imagemaps are clicked.
 
@@ -205,7 +205,7 @@ init -1 python hide:
 
 
     #########################################
-  ## Transitions.
+    ## Transitions.
     layout.imagemap_main_menu
     ## Used when entering the game menu from the game.
     config.enter_transition = dissolve
