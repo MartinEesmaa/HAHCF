@@ -1598,7 +1598,7 @@ label  DayTwo:
     scene helga room day
     with fade
     window show
-    play music "Dangerous Lumber.wav"
+    play music "Dangerous Lumber.mp3"
     h "..."
     h "......"
     h "I woke up earlier than I had wanted to this morning..."
