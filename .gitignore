@@ -21,6 +21,10 @@ game/saves
 game/cache
 *-*-dists
 
+# Unused and configuration editors
+.unused
+.vscode
+
 # Compressed files of build distributions
 *.zip
 *.tar.bz2

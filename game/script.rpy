@@ -257,13 +257,10 @@ image lila pissed = "Lila 8.png"
 #Day Images Go Here
 image day one = "dayone1.png"
 image day one2 = "dayone2.png"
-image day one3 = "dayone3.png"
 image day two = "daytwo1.png"
 image day two2 = "daytwo2.png"
-image day two3 = "daytwo3.png"
 image day three = "daythree1.png"
 image day three2 = "daythree2.png"
-image day three3 = "daythree3.png"
 init:
 # Declare characters used by this game.
 # Slow text.
